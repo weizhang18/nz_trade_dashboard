@@ -2,25 +2,25 @@
 rm(list= ls())
 
 ## set up R environment ---------------------------------------------------
-PrefLibPaths <- "P:/R/libraries/3.3.2-20170925"
-source("P:/R/common.Rprofile")
+#PrefLibPaths <- "P:/R/libraries/3.3.2-20170925"
+#source("P:/R/common.Rprofile")
 #source("P:/R/common.Rprofile.dev.R")
 ###########################################################################
 
 ### make sure open in Chrome
 options(browser = "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe")
-.libPaths("P:/R/libraries/3.3.2-20170925")
-Sys.setenv(JAVA_HOME='C:\\Program Files\\Java\\jdk1.8.0_77')
+#.libPaths("P:/R/libraries/3.3.2-20170925")
+Sys.setenv(JAVA_HOME='C:/Program Files/Java/jre1.8.0_361')
 
 ###########################################################################
 ## load R libraries -------------------------------------------------------
-library(plotGoogleMaps)
+#library(plotGoogleMaps)
 #library(plyr)  ## make sure {plyr} is loaded before {dplyr}
 library(reshape2)
 library(RODBC)
-library(mbieDBmisc)
-library(mbie)
-library(mbiedata)
+#library(mbieDBmisc)
+#library(mbie)
+#library(mbiedata)
 library(xlsx)
 library(lubridate)
 library(stringr)
@@ -29,7 +29,7 @@ library(shiny)
 library(utils)
 library(data.table)
 library(proj4)
-library(mbiemaps)
+#library(mbiemaps)
 library(dplyr)
 library(tidyr)
 library(gridExtra)
