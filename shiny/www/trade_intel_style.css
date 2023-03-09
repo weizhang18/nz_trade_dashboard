@@ -1,0 +1,109 @@
+/* the css style file for the entire dashboard*/
+.small-box {height: 65px}
+
+.fa { font-size: 35px; }
+.glyphicon { font-size: 33px; }
+.small-box {height: 65px}
+.fa { font-size: 35px; }
+.glyphicon { font-size: 33px; }  /* use glyphicon package*/
+.fa-dashboard { font-size: 20px; }
+.fa-globe { font-size: 20px; }
+.fa-barcode { font-size: 20px; }
+.tab-content { padding-left: 20px; padding-right: 30px; }
+.fa-wrench { font-size: 15px; }
+.fa-refresh { font-size: 15px; }
+.fa-search { font-size: 15px; }
+.fa-comment { font-size: 20px; }
+.fa-share-alt { font-size: 20px; }
+.fa-envelope { font-size: 20px; }
+.fa-question-circle { font-size: 20px; }
+.fa-chevron-circle-down { font-size: 20px; } /*15px*/
+.fa-bell { font-size: 17px; }
+.fa-check { font-size: 14px; }
+.fa-times { font-size: 14px; }
+
+/* #tags$style(HTML(".fa-twitter { font-size: 10px; color:red;}")),
+      #tags$style(HTML(".fa-facebook { font-size: 10px; color:red;}")),
+      #tags$style(HTML(".fa-google-plus { font-size: 10px; color:red;}")),
+      #tags$style(HTML(".fa-pinterest-p { font-size: 10px; color:red;}")),
+      #tags$style(HTML(".fa-linkedin { font-size: 10px; color:red;}")),
+      #tags$style(HTML(".fa-tumblr { font-size: 10px; color:red;}")), */
+
+/* modify the dashboard's skin color*/
+
+/* logo */
+.skin-blue .main-header .logo {background-color: #006272;}
+
+/* logo when hovered */
+.skin-blue .main-header .logo:hover {background-color: #006272;}
+
+/* navbar (rest of the header) */
+.skin-blue .main-header .navbar {background-color: #006272;}
+
+/* active selected tab in the sidebarmenu */
+.skin-blue .main-sidebar .sidebar .sidebar-menu .active a{background-color: #006272;}
+
+      
+/* modify icon size in the sub side bar menu */
+/* change size of icons in sub-menu items */
+.sidebar .sidebar-menu .treeview-menu>li>a>.fa {font-size: 15px;}
+.sidebar .sidebar-menu .treeview-menu>li>a>.glyphicon {font-size: 13px;}
+
+/* Hide icons in sub-menu items */
+.sidebar .sidebar-menu .treeview>a>.fa-angle-left {display: none;} 
+hr {border-top: 1px solid #000000;}
+      
+/* to not show error message in shiny */
+.shiny-output-error { visibility: hidden; }
+.shiny-output-error:before { visibility: hidden; }
+      
+/* heand dropdown menu size */
+/* #tags$style(HTML('.navbar-custom-menu>.navbar-nav>li>.dropdown-menu { width:100px;}')) */
+.navbar-custom-menu>.navbar-nav>li:last-child>.dropdown-menu { width:10px; font-size:10px; padding:1px; margin:1px;}
+.navbar-custom-menu> .navbar-nav> li:last-child > .dropdown-menu > h4 {width:0px; font-size:0px; padding:0px; margin:0px;}
+.navbar-custom-menu> .navbar-nav> li:last-child > .dropdown-menu > p {width:0px; font-size:0px; padding:0px; margin:0px;}
+      
+/* valubox style */
+.small-box{ border-radius: 10px; box-shadow: 2.5px 2.5px 6px 0 #404040; }
+.small-box:hover{ border-radius: 10px; box-shadow: 5px 5px 12px 0 #404040; }
+      
+/* show more message style */
+#btn_show_more{ padding-top:3px; padding-bottom:3px;padding-left:5px;padding-right:5px;font-size:150%; color: white ;background-color:#FF6900; border:none; border-radius: 5px; box-shadow: 1.5px 1.5px 4px 0 #404040; }
+
+#btn_show_more:hover{ padding-top:3px; padding-bottom:3px;padding-left:5px;padding-right:5px;font-size:150%; color: white !important; background-color:#97D700; border:none; border-radius: 5px; box-shadow: 3px 3px 8px 0 #404040; }
+      
+/* style for text box for the dashboad decomission message */
+.glow {   color: #fff;
+          text-align: center;
+          -webkit-animation: glow 1s ease-in-out infinite alternate;
+           -moz-animation: glow 1s ease-in-out infinite alternate;
+         animation: glow 1s ease-in-out infinite alternate; } 
+                      
+@-webkit-keyframes glow { from {
+                      text-shadow: 0 0 10px #fff, 0 0 20px #f37575, 0 0 30px #f37575, 0 0 40px #f37575, 0 0 50px #f37575, 0 0 60px #f37575, 0 0 70px #f37575;
+                      }
+                      
+                      to {
+                      text-shadow: 0 0 20px #fff, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000;
+                      }
+                      }
+                      
+      
+/* style for text box for the dashboad decomission message */
+.rainbow-text {
+  background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 1s ease infinite;
+  font-weight: bold;
+  }
+                      
+@keyframes rainbow { 
+          0%{background-position:0% 50%}
+          50%{background-position:100% 25%}
+          100%{background-position:0% 50%}
+         }
+                      
+                      
+                      

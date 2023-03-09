@@ -1,0 +1,4081 @@
+TimePeriod,Type,Data,Country,Credit,Debit
+2019Q1,Total services,Actual,United Arab Emirates,138,246
+ , , ,APEC,16684,13399
+ , , ,Australia,5205,5825
+ , , ,Belgium,60,78
+ , , ,Brunei Darussalam,6,1
+ , , ,Brazil,226,25
+ , , ,Canada,447,222
+ , , ,Switzerland,220,571
+ , , ,"China, People's Republic of",3301,785
+ , , ,Cyprus,2,3
+ , , ,Germany,851,926
+ , , ,Denmark,247,515
+ , , ,Algeria,0,0
+ , , ,Estonia,3,1
+ , , ,Egypt,4,8
+ , , ,Spain,85,38
+ , , ,EU,3655,3335
+ , , ,Eurozone,1790,1747
+ , , ,Finland,21,5
+ , , ,Fiji,188,423
+ , , ,France,373,129
+ , , ,United Kingdom,1479,1026
+ , , ,GCC,255,264
+ , , ,Greece,7,19
+ , , ,Hong Kong (SAR),503,290
+ , , ,Indonesia,148,169
+ , , ,Ireland,65,147
+ , , ,India,953,255
+ , , ,Italy,72,90
+ , , ,Japan,1006,235
+ , , ,"Korea, Republic of",582,130
+ , , ,Kuwait,7,1
+ , , ,Sri Lanka,74,22
+ , , ,Luxembourg,5,5
+ , , ,Latvia,2,0
+ , , ,Monaco,5,0
+ , , ,Malta,5,2
+ , , ,Mexico,48,23
+ , , ,Malaysia,315,134
+ , , ,Nigeria,4,1
+ , , ,Netherlands,174,207
+ , , ,OECD,14844,13632
+ , , ,Oman,12,1
+ , , ,French Polynesia,95,31
+ , , ,Papua New Guinea,25,26
+ , , ,Philippines,254,163
+ , , ,Portugal,9,6
+ , , ,Qatar,10,1
+ , , ,Russia,59,15
+ , , ,Saudi Arabia,84,9
+ , , ,Sweden,65,13
+ , , ,Singapore,465,1734
+ , , ,Slovenia,3,30
+ , , ,Slovakia,6,1
+ , , ,Thailand,278,207
+ , , ,Tonga,92,69
+ , , ,Taiwan,261,67
+ , , ,United States of America,3520,3236
+ , , ,Venezuela,1,1
+ , , ,Viet Nam,147,79
+ , , ,Samoa,118,156
+ , , ,ASEAN,1648,2507
+ , , ,Europe,3981,3931
+ , , ,Latin America,613,155
+ , , ,Pacific Island Forum,729,1075
+ , , ,Country unspecified,1868,1443
+ , , ,South Africa,115,51
+ , , ,ASIA,8433,4332
+ ,Maintenance and repair services,Actual,United Arab Emirates,..,..
+ , , ,APEC,147,106
+ , , ,Australia,34,43
+ , , ,Belgium,..,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,..,..
+ , , ,Switzerland,..,..
+ , , ,"China, People's Republic of",12,0
+ , , ,Cyprus,..,..
+ , , ,Germany,..,..
+ , , ,Denmark,..,..
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,..
+ , , ,EU,4,42
+ , , ,Eurozone,..,..
+ , , ,Finland,..,..
+ , , ,Fiji,..,..
+ , , ,France,..,..
+ , , ,United Kingdom,1,3
+ , , ,GCC,..,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),..,..
+ , , ,Indonesia,..,..
+ , , ,Ireland,..,..
+ , , ,India,..,..
+ , , ,Italy,..,..
+ , , ,Japan,..,..
+ , , ,"Korea, Republic of",..,..
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,..,..
+ , , ,Nigeria,..,..
+ , , ,Netherlands,..,..
+ , , ,OECD,134,147
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,..,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,..,..
+ , , ,Sweden,..,..
+ , , ,Singapore,..,1
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,..,..
+ , , ,Tonga,..,..
+ , , ,Taiwan,..,..
+ , , ,United States of America,93,55
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,..,..
+ , , ,ASEAN,..,1
+ , , ,Europe,7,43
+ , , ,Latin America,..,..
+ , , ,Pacific Island Forum,..,..
+ , , ,Country unspecified,181,304
+ , , ,South Africa,..,..
+ , , ,ASIA,20,8
+ ,Transportation services,Actual,United Arab Emirates,66,216
+ , , ,APEC,2419,2685
+ , , ,Australia,913,838
+ , , ,Belgium,..,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,108,50
+ , , ,Switzerland,67,406
+ , , ,"China, People's Republic of",225,242
+ , , ,Cyprus,..,..
+ , , ,Germany,127,695
+ , , ,Denmark,184,494
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,..
+ , , ,EU,508,1236
+ , , ,Eurozone,179,719
+ , , ,Finland,..,..
+ , , ,Fiji,13,74
+ , , ,France,50,18
+ , , ,United Kingdom,144,23
+ , , ,GCC,66,216
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),77,168
+ , , ,Indonesia,1,..
+ , , ,Ireland,..,..
+ , , ,India,15,2
+ , , ,Italy,..,..
+ , , ,Japan,188,31
+ , , ,"Korea, Republic of",44,55
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,21,49
+ , , ,Nigeria,..,..
+ , , ,Netherlands,2,..
+ , , ,OECD,2543,2912
+ , , ,Oman,..,..
+ , , ,French Polynesia,6,10
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,6,28
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,0,..
+ , , ,Saudi Arabia,..,..
+ , , ,Sweden,0,..
+ , , ,Singapore,83,838
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,10,83
+ , , ,Tonga,3,..
+ , , ,Taiwan,28,6
+ , , ,United States of America,705,263
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,3,..
+ , , ,ASEAN,121,998
+ , , ,Europe,575,1641
+ , , ,Latin America,48,45
+ , , ,Pacific Island Forum,32,96
+ , , ,Country unspecified,217,253
+ , , ,South Africa,..,..
+ , , ,ASIA,697,1503
+ ,Travel services,Actual,United Arab Emirates,37,15
+ , , ,APEC,10492,4254
+ , , ,Australia,2633,2304
+ , , ,Belgium,32,3
+ , , ,Brunei Darussalam,6,1
+ , , ,Brazil,211,12
+ , , ,Canada,292,78
+ , , ,Switzerland,117,11
+ , , ,"China, People's Republic of",2895,331
+ , , ,Cyprus,2,1
+ , , ,Germany,666,45
+ , , ,Denmark,52,5
+ , , ,Algeria,0,0
+ , , ,Estonia,3,1
+ , , ,Egypt,3,4
+ , , ,Spain,66,31
+ , , ,EU,2437,798
+ , , ,Eurozone,1314,276
+ , , ,Finland,20,2
+ , , ,Fiji,145,340
+ , , ,France,225,41
+ , , ,United Kingdom,944,484
+ , , ,GCC,143,22
+ , , ,Greece,4,16
+ , , ,Hong Kong (SAR),381,55
+ , , ,Indonesia,136,160
+ , , ,Ireland,47,22
+ , , ,India,902,169
+ , , ,Italy,66,75
+ , , ,Japan,704,114
+ , , ,"Korea, Republic of",517,50
+ , , ,Kuwait,6,1
+ , , ,Sri Lanka,55,22
+ , , ,Luxembourg,3,0
+ , , ,Latvia,2,0
+ , , ,Monaco,1,0
+ , , ,Malta,2,1
+ , , ,Mexico,32,11
+ , , ,Malaysia,272,56
+ , , ,Nigeria,2,1
+ , , ,Netherlands,115,21
+ , , ,OECD,8260,4073
+ , , ,Oman,12,1
+ , , ,French Polynesia,86,20
+ , , ,Papua New Guinea,15,14
+ , , ,Philippines,206,85
+ , , ,Portugal,9,6
+ , , ,Qatar,7,1
+ , , ,Russia,57,9
+ , , ,Saudi Arabia,79,3
+ , , ,Sweden,58,6
+ , , ,Singapore,242,61
+ , , ,Slovenia,3,1
+ , , ,Slovakia,6,1
+ , , ,Thailand,257,112
+ , , ,Tonga,85,64
+ , , ,Taiwan,218,32
+ , , ,United States of America,1408,696
+ , , ,Venezuela,1,0
+ , , ,Viet Nam,130,69
+ , , ,Samoa,101,151
+ , , ,ASEAN,1279,561
+ , , ,Europe,2636,823
+ , , ,Latin America,509,69
+ , , ,Pacific Island Forum,607,921
+ , , ,Country unspecified,313,297
+ , , ,South Africa,96,38
+ , , ,ASIA,7046,1362
+ ,Construction services,Actual,United Arab Emirates,..,..
+ , , ,APEC,12,19
+ , , ,Australia,5,13
+ , , ,Belgium,..,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,..,0
+ , , ,Switzerland,..,..
+ , , ,"China, People's Republic of",..,0
+ , , ,Cyprus,..,..
+ , , ,Germany,..,..
+ , , ,Denmark,..,..
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,..
+ , , ,EU,2,21
+ , , ,Eurozone,..,..
+ , , ,Finland,..,..
+ , , ,Fiji,..,..
+ , , ,France,..,..
+ , , ,United Kingdom,0,1
+ , , ,GCC,..,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),..,..
+ , , ,Indonesia,..,..
+ , , ,Ireland,..,..
+ , , ,India,..,..
+ , , ,Italy,..,..
+ , , ,Japan,..,..
+ , , ,"Korea, Republic of",..,..
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,..,..
+ , , ,Nigeria,..,..
+ , , ,Netherlands,..,..
+ , , ,OECD,11,38
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,..,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,..,..
+ , , ,Sweden,..,..
+ , , ,Singapore,..,0
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,..,..
+ , , ,Tonga,..,..
+ , , ,Taiwan,..,..
+ , , ,United States of America,5,5
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,..,..
+ , , ,ASEAN,..,1
+ , , ,Europe,2,22
+ , , ,Latin America,..,..
+ , , ,Pacific Island Forum,..,..
+ , , ,Country unspecified,1,1
+ , , ,South Africa,..,..
+ , , ,ASIA,..,1
+ ,Insurance and pension services,Actual,United Arab Emirates,..,..
+ , , ,APEC,54,1180
+ , , ,Australia,12,282
+ , , ,Belgium,..,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,2,0
+ , , ,Switzerland,..,65
+ , , ,"China, People's Republic of",7,1
+ , , ,Cyprus,..,..
+ , , ,Germany,0,24
+ , , ,Denmark,5,10
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,1
+ , , ,EU,81,155
+ , , ,Eurozone,66,29
+ , , ,Finland,..,..
+ , , ,Fiji,2,0
+ , , ,France,64,0
+ , , ,United Kingdom,10,115
+ , , ,GCC,..,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),3,2
+ , , ,Indonesia,0,..
+ , , ,Ireland,..,0
+ , , ,India,..,1
+ , , ,Italy,1,1
+ , , ,Japan,6,0
+ , , ,"Korea, Republic of",3,0
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,1
+ , , ,Latvia,..,..
+ , , ,Monaco,..,0
+ , , ,Malta,..,1
+ , , ,Mexico,2,..
+ , , ,Malaysia,0,0
+ , , ,Nigeria,..,..
+ , , ,Netherlands,0,..
+ , , ,OECD,123,1135
+ , , ,Oman,..,..
+ , , ,French Polynesia,0,..
+ , , ,Papua New Guinea,..,0
+ , , ,Philippines,..,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,..,..
+ , , ,Sweden,..,1
+ , , ,Singapore,1,260
+ , , ,Slovenia,..,0
+ , , ,Slovakia,..,..
+ , , ,Thailand,0,0
+ , , ,Tonga,1,..
+ , , ,Taiwan,1,..
+ , , ,United States of America,18,635
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,0,..
+ , , ,ASEAN,2,261
+ , , ,Europe,81,219
+ , , ,Latin America,2,..
+ , , ,Pacific Island Forum,5,0
+ , , ,Country unspecified,13,49
+ , , ,South Africa,..,..
+ , , ,ASIA,21,264
+ ,Financial services,Actual,United Arab Emirates,..,..
+ , , ,APEC,302,240
+ , , ,Australia,151,109
+ , , ,Belgium,..,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,..,..
+ , , ,Switzerland,3,0
+ , , ,"China, People's Republic of",..,29
+ , , ,Cyprus,..,..
+ , , ,Germany,2,0
+ , , ,Denmark,..,..
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,..
+ , , ,EU,30,19
+ , , ,Eurozone,7,5
+ , , ,Finland,..,..
+ , , ,Fiji,0,..
+ , , ,France,..,..
+ , , ,United Kingdom,23,13
+ , , ,GCC,0,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),7,..
+ , , ,Indonesia,..,..
+ , , ,Ireland,3,1
+ , , ,India,..,..
+ , , ,Italy,..,..
+ , , ,Japan,2,0
+ , , ,"Korea, Republic of",..,..
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,2,..
+ , , ,Nigeria,..,..
+ , , ,Netherlands,0,..
+ , , ,OECD,244,212
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,..,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,0,..
+ , , ,Sweden,0,..
+ , , ,Singapore,4,5
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,..,..
+ , , ,Tonga,..,..
+ , , ,Taiwan,..,..
+ , , ,United States of America,46,82
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,..,..
+ , , ,ASEAN,7,6
+ , , ,Europe,34,20
+ , , ,Latin America,..,..
+ , , ,Pacific Island Forum,3,..
+ , , ,Country unspecified,525,270
+ , , ,South Africa,..,..
+ , , ,ASIA,102,48
+ ,Charges for the use of intellectual property,Actual,United Arab Emirates,..,..
+ , , ,APEC,470,805
+ , , ,Australia,192,352
+ , , ,Belgium,..,1
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,10,5
+ , , ,Switzerland,4,50
+ , , ,"China, People's Republic of",20,2
+ , , ,Cyprus,..,..
+ , , ,Germany,3,68
+ , , ,Denmark,..,..
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,1
+ , , ,EU,109,415
+ , , ,Eurozone,54,295
+ , , ,Finland,..,..
+ , , ,Fiji,1,..
+ , , ,France,3,15
+ , , ,United Kingdom,52,114
+ , , ,GCC,..,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),2,..
+ , , ,Indonesia,1,..
+ , , ,Ireland,..,94
+ , , ,India,4,2
+ , , ,Italy,1,..
+ , , ,Japan,2,..
+ , , ,"Korea, Republic of",..,0
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,1,1
+ , , ,Nigeria,..,..
+ , , ,Netherlands,..,115
+ , , ,OECD,546,1185
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,0,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,0,..
+ , , ,Saudi Arabia,..,..
+ , , ,Sweden,0,3
+ , , ,Singapore,9,76
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,1,..
+ , , ,Tonga,..,..
+ , , ,Taiwan,0,..
+ , , ,United States of America,221,356
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,0,..
+ , , ,ASEAN,14,77
+ , , ,Europe,113,467
+ , , ,Latin America,19,..
+ , , ,Pacific Island Forum,2,..
+ , , ,Country unspecified,193,29
+ , , ,South Africa,1,..
+ , , ,ASIA,58,94
+ ,"Telecommunications, computer, and information services",Actual,United Arab Emirates,4,1
+ , , ,APEC,690,1066
+ , , ,Australia,275,542
+ , , ,Belgium,2,10
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,1,0
+ , , ,Canada,10,10
+ , , ,Switzerland,1,3
+ , , ,"China, People's Republic of",14,5
+ , , ,Cyprus,..,..
+ , , ,Germany,19,26
+ , , ,Denmark,0,1
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,0,..
+ , , ,Spain,0,1
+ , , ,EU,122,139
+ , , ,Eurozone,44,88
+ , , ,Finland,0,2
+ , , ,Fiji,4,..
+ , , ,France,3,5
+ , , ,United Kingdom,76,49
+ , , ,GCC,6,1
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),2,11
+ , , ,Indonesia,1,0
+ , , ,Ireland,..,11
+ , , ,India,2,38
+ , , ,Italy,1,3
+ , , ,Japan,26,5
+ , , ,"Korea, Republic of",..,4
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,9,4
+ , , ,Nigeria,..,..
+ , , ,Netherlands,7,14
+ , , ,OECD,772,1130
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,1,..
+ , , ,Philippines,4,14
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,1,..
+ , , ,Sweden,1,..
+ , , ,Singapore,9,41
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,2,1
+ , , ,Tonga,..,..
+ , , ,Taiwan,..,1
+ , , ,United States of America,328,425
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,1,..
+ , , ,Samoa,1,0
+ , , ,ASEAN,28,61
+ , , ,Europe,125,143
+ , , ,Latin America,12,3
+ , , ,Pacific Island Forum,8,4
+ , , ,Country unspecified,267,57
+ , , ,South Africa,3,0
+ , , ,ASIA,73,127
+ ,Other business services,Actual,United Arab Emirates,6,7
+ , , ,APEC,1674,2840
+ , , ,Australia,940,1270
+ , , ,Belgium,3,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,1,5
+ , , ,Canada,13,68
+ , , ,Switzerland,22,31
+ , , ,"China, People's Republic of",26,154
+ , , ,Cyprus,0,..
+ , , ,Germany,26,48
+ , , ,Denmark,2,2
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,2,1
+ , , ,EU,270,459
+ , , ,Eurozone,97,238
+ , , ,Finland,0,1
+ , , ,Fiji,19,3
+ , , ,France,16,40
+ , , ,United Kingdom,165,215
+ , , ,GCC,9,8
+ , , ,Greece,..,1
+ , , ,Hong Kong (SAR),25,35
+ , , ,Indonesia,7,5
+ , , ,Ireland,2,18
+ , , ,India,7,34
+ , , ,Italy,1,5
+ , , ,Japan,70,69
+ , , ,"Korea, Republic of",6,17
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,0
+ , , ,Luxembourg,1,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,1,..
+ , , ,Mexico,2,..
+ , , ,Malaysia,7,18
+ , , ,Nigeria,..,..
+ , , ,Netherlands,41,51
+ , , ,OECD,1752,2598
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,8,..
+ , , ,Philippines,24,33
+ , , ,Portugal,..,0
+ , , ,Qatar,2,..
+ , , ,Russia,0,2
+ , , ,Saudi Arabia,..,..
+ , , ,Sweden,3,1
+ , , ,Singapore,107,444
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,3,7
+ , , ,Tonga,..,..
+ , , ,Taiwan,10,22
+ , , ,United States of America,413,676
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,3
+ , , ,Samoa,6,1
+ , , ,ASEAN,161,511
+ , , ,Europe,306,493
+ , , ,Latin America,9,17
+ , , ,Pacific Island Forum,50,19
+ , , ,Country unspecified,110,177
+ , , ,South Africa,1,4
+ , , ,ASIA,312,847
+ ,"Personal, cultural, and recreational services",Actual,United Arab Emirates,22,..
+ , , ,APEC,309,108
+ , , ,Australia,15,59
+ , , ,Belgium,..,0
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,1,3
+ , , ,Switzerland,..,0
+ , , ,"China, People's Republic of",6,6
+ , , ,Cyprus,..,..
+ , , ,Germany,..,1
+ , , ,Denmark,..,..
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,..
+ , , ,EU,45,9
+ , , ,Eurozone,4,2
+ , , ,Finland,..,..
+ , , ,Fiji,0,..
+ , , ,France,1,1
+ , , ,United Kingdom,40,7
+ , , ,GCC,23,0
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),4,0
+ , , ,Indonesia,..,1
+ , , ,Ireland,..,0
+ , , ,India,5,..
+ , , ,Italy,..,..
+ , , ,Japan,..,0
+ , , ,"Korea, Republic of",..,..
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,..,0
+ , , ,Nigeria,..,..
+ , , ,Netherlands,..,0
+ , , ,OECD,339,106
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,..,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,0,0
+ , , ,Sweden,..,..
+ , , ,Singapore,1,3
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,..,..
+ , , ,Tonga,..,..
+ , , ,Taiwan,..,..
+ , , ,United States of America,273,33
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,0,..
+ , , ,ASEAN,7,4
+ , , ,Europe,52,10
+ , , ,Latin America,..,..
+ , , ,Pacific Island Forum,2,..
+ , , ,Country unspecified,21,7
+ , , ,South Africa,..,..
+ , , ,ASIA,25,14
+ ,Government services,Actual,United Arab Emirates,2,7
+ , , ,APEC,116,96
+ , , ,Australia,35,14
+ , , ,Belgium,0,4
+ , , ,Brunei Darussalam,0,0
+ , , ,Brazil,2,7
+ , , ,Canada,7,7
+ , , ,Switzerland,1,4
+ , , ,"China, People's Republic of",19,14
+ , , ,Cyprus,0,0
+ , , ,Germany,7,7
+ , , ,Denmark,0,0
+ , , ,Algeria,0,0
+ , , ,Estonia,0,0
+ , , ,Egypt,1,4
+ , , ,Spain,1,4
+ , , ,EU,49,43
+ , , ,Eurozone,23,36
+ , , ,Finland,0,0
+ , , ,Fiji,4,4
+ , , ,France,8,7
+ , , ,United Kingdom,24,4
+ , , ,GCC,4,11
+ , , ,Greece,1,0
+ , , ,Hong Kong (SAR),2,0
+ , , ,Indonesia,2,4
+ , , ,Ireland,2,0
+ , , ,India,15,7
+ , , ,Italy,2,7
+ , , ,Japan,7,4
+ , , ,"Korea, Republic of",7,4
+ , , ,Kuwait,0,0
+ , , ,Sri Lanka,2,0
+ , , ,Luxembourg,0,0
+ , , ,Latvia,0,0
+ , , ,Monaco,0,0
+ , , ,Malta,0,0
+ , , ,Mexico,1,4
+ , , ,Malaysia,3,4
+ , , ,Nigeria,0,0
+ , , ,Netherlands,2,4
+ , , ,OECD,120,96
+ , , ,Oman,0,0
+ , , ,French Polynesia,0,0
+ , , ,Papua New Guinea,1,4
+ , , ,Philippines,9,4
+ , , ,Portugal,0,0
+ , , ,Qatar,0,0
+ , , ,Russia,1,4
+ , , ,Saudi Arabia,2,4
+ , , ,Sweden,0,0
+ , , ,Singapore,3,4
+ , , ,Slovenia,0,0
+ , , ,Slovakia,0,0
+ , , ,Thailand,3,4
+ , , ,Tonga,0,4
+ , , ,Taiwan,2,4
+ , , ,United States of America,10,11
+ , , ,Venezuela,0,0
+ , , ,Viet Nam,3,7
+ , , ,Samoa,5,4
+ , , ,ASEAN,22,25
+ , , ,Europe,51,50
+ , , ,Latin America,10,18
+ , , ,Pacific Island Forum,15,32
+ , , ,Country unspecified,27,0
+ , , ,South Africa,12,4
+ , , ,ASIA,77,64
+ ,Business travel services,Actual,United Arab Emirates,4,5
+ , , ,APEC,931,848
+ , , ,Australia,498,585
+ , , ,Belgium,3,1
+ , , ,Brunei Darussalam,0,0
+ , , ,Brazil,3,1
+ , , ,Canada,17,8
+ , , ,Switzerland,6,2
+ , , ,"China, People's Republic of",127,53
+ , , ,Cyprus,0,0
+ , , ,Germany,9,12
+ , , ,Denmark,5,1
+ , , ,Algeria,0,0
+ , , ,Estonia,0,0
+ , , ,Egypt,0,1
+ , , ,Spain,5,3
+ , , ,EU,105,69
+ , , ,Eurozone,62,38
+ , , ,Finland,2,1
+ , , ,Fiji,15,31
+ , , ,France,11,6
+ , , ,United Kingdom,28,25
+ , , ,GCC,5,6
+ , , ,Greece,1,1
+ , , ,Hong Kong (SAR),18,10
+ , , ,Indonesia,8,8
+ , , ,Ireland,5,1
+ , , ,India,21,8
+ , , ,Italy,9,7
+ , , ,Japan,16,17
+ , , ,"Korea, Republic of",8,7
+ , , ,Kuwait,0,0
+ , , ,Sri Lanka,1,1
+ , , ,Luxembourg,0,0
+ , , ,Latvia,0,0
+ , , ,Monaco,0,0
+ , , ,Malta,0,0
+ , , ,Mexico,2,1
+ , , ,Malaysia,13,9
+ , , ,Nigeria,0,0
+ , , ,Netherlands,10,3
+ , , ,OECD,792,781
+ , , ,Oman,0,0
+ , , ,French Polynesia,4,2
+ , , ,Papua New Guinea,3,10
+ , , ,Philippines,8,6
+ , , ,Portugal,1,1
+ , , ,Qatar,1,1
+ , , ,Russia,3,1
+ , , ,Saudi Arabia,1,1
+ , , ,Sweden,4,1
+ , , ,Singapore,42,21
+ , , ,Slovenia,0,0
+ , , ,Slovakia,0,0
+ , , ,Thailand,12,11
+ , , ,Tonga,8,7
+ , , ,Taiwan,11,4
+ , , ,United States of America,138,88
+ , , ,Venezuela,0,0
+ , , ,Viet Nam,6,6
+ , , ,Samoa,8,13
+ , , ,ASEAN,90,63
+ , , ,Europe,115,73
+ , , ,Latin America,11,8
+ , , ,Pacific Island Forum,51,83
+ , , ,Country unspecified,13,9
+ , , ,South Africa,9,3
+ , , ,ASIA,294,166
+ ,Education travel services,Actual,United Arab Emirates,1,0
+ , , ,APEC,2879,129
+ , , ,Australia,0,53
+ , , ,Belgium,5,0
+ , , ,Brunei Darussalam,2,0
+ , , ,Brazil,147,0
+ , , ,Canada,11,2
+ , , ,Switzerland,38,1
+ , , ,"China, People's Republic of",1253,29
+ , , ,Cyprus,0,0
+ , , ,Germany,106,2
+ , , ,Denmark,4,0
+ , , ,Algeria,0,0
+ , , ,Estonia,0,0
+ , , ,Egypt,1,0
+ , , ,Spain,15,1
+ , , ,EU,272,18
+ , , ,Eurozone,237,12
+ , , ,Finland,1,0
+ , , ,Fiji,30,4
+ , , ,France,74,3
+ , , ,United Kingdom,19,6
+ , , ,GCC,82,1
+ , , ,Greece,0,1
+ , , ,Hong Kong (SAR),179,2
+ , , ,Indonesia,42,2
+ , , ,Ireland,2,0
+ , , ,India,658,4
+ , , ,Italy,21,4
+ , , ,Japan,437,10
+ , , ,"Korea, Republic of",264,2
+ , , ,Kuwait,3,0
+ , , ,Sri Lanka,43,0
+ , , ,Luxembourg,0,0
+ , , ,Latvia,0,0
+ , , ,Monaco,0,0
+ , , ,Malta,0,0
+ , , ,Mexico,14,0
+ , , ,Malaysia,77,2
+ , , ,Nigeria,1,0
+ , , ,Netherlands,5,1
+ , , ,OECD,1190,105
+ , , ,Oman,9,0
+ , , ,French Polynesia,0,1
+ , , ,Papua New Guinea,5,0
+ , , ,Philippines,107,1
+ , , ,Portugal,1,0
+ , , ,Qatar,0,0
+ , , ,Russia,34,0
+ , , ,Saudi Arabia,68,0
+ , , ,Sweden,4,0
+ , , ,Singapore,15,2
+ , , ,Slovenia,0,0
+ , , ,Slovakia,1,0
+ , , ,Thailand,148,2
+ , , ,Tonga,9,1
+ , , ,Taiwan,46,1
+ , , ,United States of America,95,18
+ , , ,Venezuela,1,0
+ , , ,Viet Nam,96,2
+ , , ,Samoa,4,3
+ , , ,ASEAN,505,12
+ , , ,Europe,353,19
+ , , ,Latin America,307,3
+ , , ,Pacific Island Forum,57,16
+ , , ,Country unspecified,0,7
+ , , ,South Africa,13,1
+ , , ,ASIA,3453,61
+ ,Other personal travel services,Actual,United Arab Emirates,33,10
+ , , ,APEC,6681,3277
+ , , ,Australia,2136,1666
+ , , ,Belgium,24,2
+ , , ,Brunei Darussalam,4,1
+ , , ,Brazil,62,11
+ , , ,Canada,265,68
+ , , ,Switzerland,73,8
+ , , ,"China, People's Republic of",1515,249
+ , , ,Cyprus,1,1
+ , , ,Germany,551,32
+ , , ,Denmark,44,4
+ , , ,Algeria,0,0
+ , , ,Estonia,3,0
+ , , ,Egypt,1,3
+ , , ,Spain,45,27
+ , , ,EU,2060,711
+ , , ,Eurozone,1014,227
+ , , ,Finland,16,2
+ , , ,Fiji,100,306
+ , , ,France,141,32
+ , , ,United Kingdom,898,453
+ , , ,GCC,56,14
+ , , ,Greece,3,14
+ , , ,Hong Kong (SAR),185,43
+ , , ,Indonesia,85,150
+ , , ,Ireland,40,21
+ , , ,India,223,157
+ , , ,Italy,36,64
+ , , ,Japan,251,87
+ , , ,"Korea, Republic of",244,41
+ , , ,Kuwait,3,0
+ , , ,Sri Lanka,12,21
+ , , ,Luxembourg,3,0
+ , , ,Latvia,2,0
+ , , ,Monaco,1,0
+ , , ,Malta,2,1
+ , , ,Mexico,16,9
+ , , ,Malaysia,182,46
+ , , ,Nigeria,1,0
+ , , ,Netherlands,101,18
+ , , ,OECD,6278,3187
+ , , ,Oman,3,1
+ , , ,French Polynesia,82,16
+ , , ,Papua New Guinea,7,4
+ , , ,Philippines,91,78
+ , , ,Portugal,7,5
+ , , ,Qatar,6,1
+ , , ,Russia,20,8
+ , , ,Saudi Arabia,10,2
+ , , ,Sweden,49,5
+ , , ,Singapore,185,39
+ , , ,Slovenia,3,1
+ , , ,Slovakia,4,1
+ , , ,Thailand,97,98
+ , , ,Tonga,68,55
+ , , ,Taiwan,161,27
+ , , ,United States of America,1176,589
+ , , ,Venezuela,0,0
+ , , ,Viet Nam,29,60
+ , , ,Samoa,89,136
+ , , ,ASEAN,683,486
+ , , ,Europe,2168,731
+ , , ,Latin America,191,58
+ , , ,Pacific Island Forum,499,821
+ , , ,Country unspecified,300,281
+ , , ,South Africa,74,34
+ , , ,ASIA,3299,1135
+2019Q2,Total services,Actual,United Arab Emirates,133,258
+ , , ,APEC,16801,13729
+ , , ,Australia,5211,5883
+ , , ,Belgium,58,83
+ , , ,Brunei Darussalam,6,1
+ , , ,Brazil,218,25
+ , , ,Canada,473,234
+ , , ,Switzerland,231,619
+ , , ,"China, People's Republic of",3328,803
+ , , ,Cyprus,2,3
+ , , ,Germany,873,918
+ , , ,Denmark,242,480
+ , , ,Algeria,0,0
+ , , ,Estonia,3,1
+ , , ,Egypt,4,8
+ , , ,Spain,81,36
+ , , ,EU,3666,3242
+ , , ,Eurozone,1738,1731
+ , , ,Finland,19,4
+ , , ,Fiji,183,420
+ , , ,France,329,123
+ , , ,United Kingdom,1558,986
+ , , ,GCC,250,276
+ , , ,Greece,7,17
+ , , ,Hong Kong (SAR),491,286
+ , , ,Indonesia,143,175
+ , , ,Ireland,67,146
+ , , ,India,933,267
+ , , ,Italy,69,83
+ , , ,Japan,1020,244
+ , , ,"Korea, Republic of",584,131
+ , , ,Kuwait,7,1
+ , , ,Sri Lanka,78,23
+ , , ,Luxembourg,4,3
+ , , ,Latvia,2,0
+ , , ,Monaco,8,0
+ , , ,Malta,5,2
+ , , ,Mexico,45,26
+ , , ,Malaysia,292,135
+ , , ,Nigeria,3,1
+ , , ,Netherlands,157,218
+ , , ,OECD,15002,13679
+ , , ,Oman,12,1
+ , , ,French Polynesia,90,32
+ , , ,Papua New Guinea,29,22
+ , , ,Philippines,249,166
+ , , ,Portugal,10,6
+ , , ,Qatar,8,1
+ , , ,Russia,58,14
+ , , ,Saudi Arabia,84,8
+ , , ,Sweden,61,13
+ , , ,Singapore,466,1928
+ , , ,Slovenia,3,30
+ , , ,Slovakia,6,1
+ , , ,Thailand,270,220
+ , , ,Tonga,86,69
+ , , ,Taiwan,262,77
+ , , ,United States of America,3620,3241
+ , , ,Venezuela,1,1
+ , , ,Viet Nam,146,84
+ , , ,Samoa,111,160
+ , , ,ASEAN,1605,2728
+ , , ,Europe,4002,3881
+ , , ,Latin America,584,162
+ , , ,Pacific Island Forum,696,1077
+ , , ,Country unspecified,1865,1454
+ , , ,South Africa,116,55
+ , , ,ASIA,8405,4601
+ ,Maintenance and repair services,Actual,United Arab Emirates,..,..
+ , , ,APEC,145,102
+ , , ,Australia,34,38
+ , , ,Belgium,..,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,..,..
+ , , ,Switzerland,..,..
+ , , ,"China, People's Republic of",11,0
+ , , ,Cyprus,..,..
+ , , ,Germany,..,..
+ , , ,Denmark,..,..
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,..
+ , , ,EU,4,43
+ , , ,Eurozone,..,39
+ , , ,Finland,..,..
+ , , ,Fiji,..,..
+ , , ,France,..,..
+ , , ,United Kingdom,1,3
+ , , ,GCC,..,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),..,..
+ , , ,Indonesia,..,..
+ , , ,Ireland,..,..
+ , , ,India,..,..
+ , , ,Italy,..,..
+ , , ,Japan,..,..
+ , , ,"Korea, Republic of",..,..
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,..,..
+ , , ,Nigeria,..,..
+ , , ,Netherlands,..,0
+ , , ,OECD,132,143
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,..,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,..,..
+ , , ,Sweden,..,..
+ , , ,Singapore,..,1
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,..,..
+ , , ,Tonga,..,..
+ , , ,Taiwan,..,..
+ , , ,United States of America,91,..
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,..,..
+ , , ,ASEAN,..,1
+ , , ,Europe,9,43
+ , , ,Latin America,..,..
+ , , ,Pacific Island Forum,..,..
+ , , ,Country unspecified,182,299
+ , , ,South Africa,..,..
+ , , ,ASIA,20,8
+ ,Transportation services,Actual,United Arab Emirates,63,221
+ , , ,APEC,2453,2775
+ , , ,Australia,910,854
+ , , ,Belgium,..,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,108,58
+ , , ,Switzerland,80,445
+ , , ,"China, People's Republic of",220,252
+ , , ,Cyprus,..,..
+ , , ,Germany,127,677
+ , , ,Denmark,186,460
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,..
+ , , ,EU,514,1183
+ , , ,Eurozone,181,700
+ , , ,Finland,..,..
+ , , ,Fiji,12,69
+ , , ,France,53,18
+ , , ,United Kingdom,146,23
+ , , ,GCC,63,221
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),77,174
+ , , ,Indonesia,1,..
+ , , ,Ireland,..,..
+ , , ,India,16,2
+ , , ,Italy,..,..
+ , , ,Japan,188,31
+ , , ,"Korea, Republic of",45,56
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,21,48
+ , , ,Nigeria,..,..
+ , , ,Netherlands,1,..
+ , , ,OECD,2574,2936
+ , , ,Oman,..,..
+ , , ,French Polynesia,7,12
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,6,30
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,0,..
+ , , ,Saudi Arabia,..,..
+ , , ,Sweden,0,..
+ , , ,Singapore,99,861
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,10,95
+ , , ,Tonga,3,..
+ , , ,Taiwan,40,6
+ , , ,United States of America,717,274
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,2,..
+ , , ,ASEAN,137,1035
+ , , ,Europe,595,1628
+ , , ,Latin America,48,47
+ , , ,Pacific Island Forum,30,94
+ , , ,Country unspecified,214,235
+ , , ,South Africa,..,..
+ , , ,ASIA,722,1556
+ ,Travel services,Actual,United Arab Emirates,35,16
+ , , ,APEC,10550,4300
+ , , ,Australia,2614,2348
+ , , ,Belgium,30,3
+ , , ,Brunei Darussalam,6,1
+ , , ,Brazil,204,12
+ , , ,Canada,314,75
+ , , ,Switzerland,111,11
+ , , ,"China, People's Republic of",2963,338
+ , , ,Cyprus,2,1
+ , , ,Germany,683,44
+ , , ,Denmark,49,5
+ , , ,Algeria,0,0
+ , , ,Estonia,3,0
+ , , ,Egypt,3,4
+ , , ,Spain,62,29
+ , , ,EU,2454,725
+ , , ,Eurozone,1290,255
+ , , ,Finland,18,2
+ , , ,Fiji,140,341
+ , , ,France,210,35
+ , , ,United Kingdom,998,437
+ , , ,GCC,140,23
+ , , ,Greece,4,14
+ , , ,Hong Kong (SAR),367,56
+ , , ,Indonesia,130,166
+ , , ,Ireland,44,22
+ , , ,India,882,185
+ , , ,Italy,64,67
+ , , ,Japan,716,120
+ , , ,"Korea, Republic of",517,52
+ , , ,Kuwait,6,1
+ , , ,Sri Lanka,54,23
+ , , ,Luxembourg,3,0
+ , , ,Latvia,2,0
+ , , ,Monaco,1,0
+ , , ,Malta,2,1
+ , , ,Mexico,31,11
+ , , ,Malaysia,248,59
+ , , ,Nigeria,2,1
+ , , ,Netherlands,106,19
+ , , ,OECD,8345,4015
+ , , ,Oman,12,1
+ , , ,French Polynesia,80,19
+ , , ,Papua New Guinea,15,13
+ , , ,Philippines,200,90
+ , , ,Portugal,9,6
+ , , ,Qatar,6,1
+ , , ,Russia,56,8
+ , , ,Saudi Arabia,79,3
+ , , ,Sweden,53,5
+ , , ,Singapore,229,66
+ , , ,Slovenia,3,1
+ , , ,Slovakia,6,1
+ , , ,Thailand,249,112
+ , , ,Tonga,79,63
+ , , ,Taiwan,207,36
+ , , ,United States of America,1471,659
+ , , ,Venezuela,1,0
+ , , ,Viet Nam,129,73
+ , , ,Samoa,96,155
+ , , ,ASEAN,1219,585
+ , , ,Europe,2645,748
+ , , ,Latin America,487,72
+ , , ,Pacific Island Forum,574,928
+ , , ,Country unspecified,319,301
+ , , ,South Africa,95,41
+ , , ,ASIA,7020,1423
+ ,Construction services,Actual,United Arab Emirates,..,..
+ , , ,APEC,13,19
+ , , ,Australia,6,12
+ , , ,Belgium,..,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,..,..
+ , , ,Switzerland,..,..
+ , , ,"China, People's Republic of",..,1
+ , , ,Cyprus,..,..
+ , , ,Germany,..,..
+ , , ,Denmark,..,..
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,..
+ , , ,EU,2,15
+ , , ,Eurozone,..,15
+ , , ,Finland,..,..
+ , , ,Fiji,..,..
+ , , ,France,..,..
+ , , ,United Kingdom,0,0
+ , , ,GCC,..,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),..,..
+ , , ,Indonesia,..,..
+ , , ,Ireland,..,..
+ , , ,India,..,..
+ , , ,Italy,..,..
+ , , ,Japan,..,..
+ , , ,"Korea, Republic of",..,..
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,..,..
+ , , ,Nigeria,..,..
+ , , ,Netherlands,..,0
+ , , ,OECD,12,31
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,..,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,..,..
+ , , ,Sweden,..,..
+ , , ,Singapore,..,0
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,..,..
+ , , ,Tonga,..,..
+ , , ,Taiwan,..,..
+ , , ,United States of America,5,5
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,..,..
+ , , ,ASEAN,..,1
+ , , ,Europe,2,15
+ , , ,Latin America,..,..
+ , , ,Pacific Island Forum,..,..
+ , , ,Country unspecified,1,0
+ , , ,South Africa,..,..
+ , , ,ASIA,..,2
+ ,Insurance and pension services,Actual,United Arab Emirates,..,..
+ , , ,APEC,52,1223
+ , , ,Australia,11,310
+ , , ,Belgium,..,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,2,0
+ , , ,Switzerland,..,72
+ , , ,"China, People's Republic of",7,1
+ , , ,Cyprus,..,..
+ , , ,Germany,0,32
+ , , ,Denmark,3,9
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,1
+ , , ,EU,46,166
+ , , ,Eurozone,33,36
+ , , ,Finland,..,..
+ , , ,Fiji,2,0
+ , , ,France,32,0
+ , , ,United Kingdom,11,120
+ , , ,GCC,..,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),3,2
+ , , ,Indonesia,0,..
+ , , ,Ireland,..,0
+ , , ,India,..,1
+ , , ,Italy,1,1
+ , , ,Japan,6,0
+ , , ,"Korea, Republic of",3,0
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,1
+ , , ,Latvia,..,..
+ , , ,Monaco,..,0
+ , , ,Malta,..,1
+ , , ,Mexico,1,..
+ , , ,Malaysia,0,0
+ , , ,Nigeria,..,..
+ , , ,Netherlands,..,..
+ , , ,OECD,86,1191
+ , , ,Oman,..,..
+ , , ,French Polynesia,0,..
+ , , ,Papua New Guinea,..,0
+ , , ,Philippines,..,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,..,..
+ , , ,Sweden,..,1
+ , , ,Singapore,1,266
+ , , ,Slovenia,..,0
+ , , ,Slovakia,..,..
+ , , ,Thailand,0,0
+ , , ,Tonga,1,..
+ , , ,Taiwan,1,..
+ , , ,United States of America,17,644
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,0,..
+ , , ,ASEAN,2,266
+ , , ,Europe,46,238
+ , , ,Latin America,1,..
+ , , ,Pacific Island Forum,5,0
+ , , ,Country unspecified,2,51
+ , , ,South Africa,..,..
+ , , ,ASIA,21,270
+ ,Financial services,Actual,United Arab Emirates,..,..
+ , , ,APEC,306,218
+ , , ,Australia,163,112
+ , , ,Belgium,..,2
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,..,..
+ , , ,Switzerland,3,0
+ , , ,"China, People's Republic of",54,24
+ , , ,Cyprus,..,..
+ , , ,Germany,2,0
+ , , ,Denmark,..,..
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,..
+ , , ,EU,30,20
+ , , ,Eurozone,9,4
+ , , ,Finland,..,..
+ , , ,Fiji,..,..
+ , , ,France,..,0
+ , , ,United Kingdom,21,16
+ , , ,GCC,0,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),9,..
+ , , ,Indonesia,..,..
+ , , ,Ireland,..,0
+ , , ,India,..,..
+ , , ,Italy,..,..
+ , , ,Japan,2,0
+ , , ,"Korea, Republic of",..,..
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,..,..
+ , , ,Nigeria,..,..
+ , , ,Netherlands,0,1
+ , , ,OECD,264,206
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,..,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,0,..
+ , , ,Sweden,..,..
+ , , ,Singapore,4,5
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,..,..
+ , , ,Tonga,..,..
+ , , ,Taiwan,..,..
+ , , ,United States of America,..,..
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,..,..
+ , , ,ASEAN,10,6
+ , , ,Europe,33,21
+ , , ,Latin America,..,..
+ , , ,Pacific Island Forum,..,..
+ , , ,Country unspecified,527,269
+ , , ,South Africa,..,..
+ , , ,ASIA,86,34
+ ,Charges for the use of intellectual property,Actual,United Arab Emirates,1,..
+ , , ,APEC,485,810
+ , , ,Australia,187,358
+ , , ,Belgium,..,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,13,5
+ , , ,Switzerland,5,51
+ , , ,"China, People's Republic of",8,2
+ , , ,Cyprus,..,..
+ , , ,Germany,2,77
+ , , ,Denmark,..,..
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,..
+ , , ,EU,113,425
+ , , ,Eurozone,53,307
+ , , ,Finland,..,..
+ , , ,Fiji,1,..
+ , , ,France,3,15
+ , , ,United Kingdom,58,112
+ , , ,GCC,1,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),1,..
+ , , ,Indonesia,1,0
+ , , ,Ireland,..,88
+ , , ,India,3,1
+ , , ,Italy,1,..
+ , , ,Japan,2,..
+ , , ,"Korea, Republic of",..,0
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,1,..
+ , , ,Nigeria,..,..
+ , , ,Netherlands,..,123
+ , , ,OECD,577,1200
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,0,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,0,..
+ , , ,Saudi Arabia,0,..
+ , , ,Sweden,..,4
+ , , ,Singapore,12,79
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,1,..
+ , , ,Tonga,..,..
+ , , ,Taiwan,0,..
+ , , ,United States of America,251,354
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,0,..
+ , , ,ASEAN,17,79
+ , , ,Europe,118,477
+ , , ,Latin America,17,..
+ , , ,Pacific Island Forum,2,..
+ , , ,Country unspecified,187,31
+ , , ,South Africa,1,..
+ , , ,ASIA,49,94
+ ,"Telecommunications, computer, and information services",Actual,United Arab Emirates,4,..
+ , , ,APEC,714,1045
+ , , ,Australia,281,520
+ , , ,Belgium,2,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,0,0
+ , , ,Canada,10,12
+ , , ,Switzerland,1,3
+ , , ,"China, People's Republic of",14,5
+ , , ,Cyprus,..,..
+ , , ,Germany,19,23
+ , , ,Denmark,..,1
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,0,..
+ , , ,Spain,0,1
+ , , ,EU,134,140
+ , , ,Eurozone,46,90
+ , , ,Finland,0,1
+ , , ,Fiji,6,..
+ , , ,France,3,6
+ , , ,United Kingdom,86,46
+ , , ,GCC,6,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),2,12
+ , , ,Indonesia,1,0
+ , , ,Ireland,..,13
+ , , ,India,2,34
+ , , ,Italy,1,3
+ , , ,Japan,27,5
+ , , ,"Korea, Republic of",0,..
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,6,5
+ , , ,Nigeria,..,..
+ , , ,Netherlands,5,16
+ , , ,OECD,806,1107
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,1,..
+ , , ,Philippines,4,10
+ , , ,Portugal,0,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,1,..
+ , , ,Sweden,1,..
+ , , ,Singapore,12,48
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,0
+ , , ,Thailand,4,1
+ , , ,Tonga,..,..
+ , , ,Taiwan,..,1
+ , , ,United States of America,345,424
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,0,..
+ , , ,Samoa,1,..
+ , , ,ASEAN,29,64
+ , , ,Europe,137,144
+ , , ,Latin America,10,3
+ , , ,Pacific Island Forum,9,..
+ , , ,Country unspecified,262,66
+ , , ,South Africa,3,0
+ , , ,ASIA,81,124
+ ,Other business services,Actual,United Arab Emirates,6,10
+ , , ,APEC,1710,3031
+ , , ,Australia,958,1255
+ , , ,Belgium,4,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,1,5
+ , , ,Canada,12,72
+ , , ,Switzerland,23,32
+ , , ,"China, People's Republic of",25,164
+ , , ,Cyprus,..,..
+ , , ,Germany,31,46
+ , , ,Denmark,2,2
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,1,1
+ , , ,EU,275,470
+ , , ,Eurozone,97,246
+ , , ,Finland,0,0
+ , , ,Fiji,18,3
+ , , ,France,14,41
+ , , ,United Kingdom,173,218
+ , , ,GCC,9,11
+ , , ,Greece,..,1
+ , , ,Hong Kong (SAR),27,34
+ , , ,Indonesia,7,5
+ , , ,Ireland,3,23
+ , , ,India,6,35
+ , , ,Italy,1,5
+ , , ,Japan,71,73
+ , , ,"Korea, Republic of",6,16
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,0
+ , , ,Luxembourg,1,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,1,..
+ , , ,Malaysia,7,17
+ , , ,Nigeria,..,..
+ , , ,Netherlands,36,54
+ , , ,OECD,1798,2639
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,12,..
+ , , ,Philippines,24,32
+ , , ,Portugal,0,0
+ , , ,Qatar,1,..
+ , , ,Russia,0,..
+ , , ,Saudi Arabia,..,0
+ , , ,Sweden,2,1
+ , , ,Singapore,98,596
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,2,7
+ , , ,Tonga,..,..
+ , , ,Taiwan,10,28
+ , , ,United States of America,436,711
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,3
+ , , ,Samoa,6,1
+ , , ,ASEAN,152,660
+ , , ,Europe,312,505
+ , , ,Latin America,8,19
+ , , ,Pacific Island Forum,53,17
+ , , ,Country unspecified,125,194
+ , , ,South Africa,1,5
+ , , ,ASIA,302,1015
+ ,"Personal, cultural, and recreational services",Actual,United Arab Emirates,22,..
+ , , ,APEC,254,109
+ , , ,Australia,14,63
+ , , ,Belgium,..,0
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,..,3
+ , , ,Switzerland,..,0
+ , , ,"China, People's Republic of",5,2
+ , , ,Cyprus,..,..
+ , , ,Germany,..,0
+ , , ,Denmark,..,..
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,..
+ , , ,EU,44,10
+ , , ,Eurozone,..,3
+ , , ,Finland,..,..
+ , , ,Fiji,0,..
+ , , ,France,..,1
+ , , ,United Kingdom,39,8
+ , , ,GCC,23,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),4,0
+ , , ,Indonesia,..,1
+ , , ,Ireland,..,0
+ , , ,India,5,..
+ , , ,Italy,..,..
+ , , ,Japan,..,0
+ , , ,"Korea, Republic of",..,..
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,..,0
+ , , ,Nigeria,..,..
+ , , ,Netherlands,..,1
+ , , ,OECD,286,112
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,..,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,0,..
+ , , ,Sweden,..,..
+ , , ,Singapore,1,3
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,..,..
+ , , ,Tonga,..,..
+ , , ,Taiwan,..,..
+ , , ,United States of America,221,33
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,0,..
+ , , ,ASEAN,7,5
+ , , ,Europe,53,11
+ , , ,Latin America,..,..
+ , , ,Pacific Island Forum,3,..
+ , , ,Country unspecified,19,8
+ , , ,South Africa,..,..
+ , , ,ASIA,24,10
+ ,Government services,Actual,United Arab Emirates,2,7
+ , , ,APEC,119,98
+ , , ,Australia,35,15
+ , , ,Belgium,0,4
+ , , ,Brunei Darussalam,0,0
+ , , ,Brazil,2,7
+ , , ,Canada,7,7
+ , , ,Switzerland,1,4
+ , , ,"China, People's Republic of",19,15
+ , , ,Cyprus,0,0
+ , , ,Germany,8,7
+ , , ,Denmark,0,0
+ , , ,Algeria,0,0
+ , , ,Estonia,0,0
+ , , ,Egypt,1,4
+ , , ,Spain,1,4
+ , , ,EU,51,44
+ , , ,Eurozone,24,36
+ , , ,Finland,0,0
+ , , ,Fiji,4,4
+ , , ,France,8,7
+ , , ,United Kingdom,25,4
+ , , ,GCC,4,11
+ , , ,Greece,1,0
+ , , ,Hong Kong (SAR),2,0
+ , , ,Indonesia,2,4
+ , , ,Ireland,2,0
+ , , ,India,15,7
+ , , ,Italy,2,7
+ , , ,Japan,7,4
+ , , ,"Korea, Republic of",7,4
+ , , ,Kuwait,0,0
+ , , ,Sri Lanka,2,0
+ , , ,Luxembourg,0,0
+ , , ,Latvia,0,0
+ , , ,Monaco,0,0
+ , , ,Malta,0,0
+ , , ,Mexico,1,4
+ , , ,Malaysia,3,4
+ , , ,Nigeria,0,0
+ , , ,Netherlands,2,4
+ , , ,OECD,123,98
+ , , ,Oman,0,0
+ , , ,French Polynesia,0,0
+ , , ,Papua New Guinea,1,4
+ , , ,Philippines,10,4
+ , , ,Portugal,0,0
+ , , ,Qatar,0,0
+ , , ,Russia,1,4
+ , , ,Saudi Arabia,2,4
+ , , ,Sweden,0,0
+ , , ,Singapore,3,4
+ , , ,Slovenia,0,0
+ , , ,Slovakia,0,0
+ , , ,Thailand,3,4
+ , , ,Tonga,0,4
+ , , ,Taiwan,2,4
+ , , ,United States of America,10,11
+ , , ,Venezuela,0,0
+ , , ,Viet Nam,3,7
+ , , ,Samoa,5,4
+ , , ,ASEAN,24,25
+ , , ,Europe,52,51
+ , , ,Latin America,10,18
+ , , ,Pacific Island Forum,15,33
+ , , ,Country unspecified,27,0
+ , , ,South Africa,14,4
+ , , ,ASIA,79,65
+ ,Business travel services,Actual,United Arab Emirates,4,5
+ , , ,APEC,943,876
+ , , ,Australia,475,606
+ , , ,Belgium,4,1
+ , , ,Brunei Darussalam,0,0
+ , , ,Brazil,3,1
+ , , ,Canada,20,8
+ , , ,Switzerland,6,2
+ , , ,"China, People's Republic of",128,58
+ , , ,Cyprus,0,0
+ , , ,Germany,8,12
+ , , ,Denmark,5,1
+ , , ,Algeria,0,0
+ , , ,Estonia,0,0
+ , , ,Egypt,0,1
+ , , ,Spain,6,3
+ , , ,EU,123,68
+ , , ,Eurozone,67,37
+ , , ,Finland,3,1
+ , , ,Fiji,18,34
+ , , ,France,12,5
+ , , ,United Kingdom,41,26
+ , , ,GCC,6,7
+ , , ,Greece,1,1
+ , , ,Hong Kong (SAR),19,11
+ , , ,Indonesia,10,8
+ , , ,Ireland,5,2
+ , , ,India,25,10
+ , , ,Italy,11,6
+ , , ,Japan,16,18
+ , , ,"Korea, Republic of",7,8
+ , , ,Kuwait,0,0
+ , , ,Sri Lanka,1,1
+ , , ,Luxembourg,0,0
+ , , ,Latvia,0,0
+ , , ,Monaco,0,0
+ , , ,Malta,0,0
+ , , ,Mexico,2,1
+ , , ,Malaysia,15,9
+ , , ,Nigeria,0,0
+ , , ,Netherlands,11,3
+ , , ,OECD,811,802
+ , , ,Oman,0,0
+ , , ,French Polynesia,4,3
+ , , ,Papua New Guinea,3,9
+ , , ,Philippines,9,7
+ , , ,Portugal,1,1
+ , , ,Qatar,1,1
+ , , ,Russia,3,1
+ , , ,Saudi Arabia,1,1
+ , , ,Sweden,5,1
+ , , ,Singapore,45,20
+ , , ,Slovenia,0,0
+ , , ,Slovakia,1,0
+ , , ,Thailand,14,11
+ , , ,Tonga,9,6
+ , , ,Taiwan,13,4
+ , , ,United States of America,156,87
+ , , ,Venezuela,0,0
+ , , ,Viet Nam,6,7
+ , , ,Samoa,10,12
+ , , ,ASEAN,99,64
+ , , ,Europe,135,72
+ , , ,Latin America,13,8
+ , , ,Pacific Island Forum,60,85
+ , , ,Country unspecified,16,12
+ , , ,South Africa,10,3
+ , , ,ASIA,310,176
+ ,Education travel services,Actual,United Arab Emirates,1,0
+ , , ,APEC,2917,128
+ , , ,Australia,0,57
+ , , ,Belgium,5,0
+ , , ,Brunei Darussalam,2,0
+ , , ,Brazil,149,0
+ , , ,Canada,11,2
+ , , ,Switzerland,38,0
+ , , ,"China, People's Republic of",1269,26
+ , , ,Cyprus,0,0
+ , , ,Germany,107,2
+ , , ,Denmark,4,0
+ , , ,Algeria,0,0
+ , , ,Estonia,0,0
+ , , ,Egypt,1,0
+ , , ,Spain,16,2
+ , , ,EU,275,18
+ , , ,Eurozone,241,11
+ , , ,Finland,1,0
+ , , ,Fiji,30,5
+ , , ,France,75,2
+ , , ,United Kingdom,19,6
+ , , ,GCC,83,1
+ , , ,Greece,0,0
+ , , ,Hong Kong (SAR),181,2
+ , , ,Indonesia,43,2
+ , , ,Ireland,2,0
+ , , ,India,666,4
+ , , ,Italy,21,3
+ , , ,Japan,443,8
+ , , ,"Korea, Republic of",268,2
+ , , ,Kuwait,3,0
+ , , ,Sri Lanka,44,0
+ , , ,Luxembourg,0,0
+ , , ,Latvia,0,0
+ , , ,Monaco,0,0
+ , , ,Malta,0,0
+ , , ,Mexico,14,0
+ , , ,Malaysia,78,2
+ , , ,Nigeria,1,0
+ , , ,Netherlands,5,1
+ , , ,OECD,1206,106
+ , , ,Oman,9,0
+ , , ,French Polynesia,0,1
+ , , ,Papua New Guinea,5,0
+ , , ,Philippines,108,1
+ , , ,Portugal,1,0
+ , , ,Qatar,0,0
+ , , ,Russia,34,0
+ , , ,Saudi Arabia,68,0
+ , , ,Sweden,4,0
+ , , ,Singapore,15,2
+ , , ,Slovenia,0,0
+ , , ,Slovakia,1,0
+ , , ,Thailand,150,3
+ , , ,Tonga,9,1
+ , , ,Taiwan,47,1
+ , , ,United States of America,96,17
+ , , ,Venezuela,1,0
+ , , ,Viet Nam,97,2
+ , , ,Samoa,4,3
+ , , ,ASEAN,512,13
+ , , ,Europe,358,19
+ , , ,Latin America,311,3
+ , , ,Pacific Island Forum,58,17
+ , , ,Country unspecified,0,8
+ , , ,South Africa,13,1
+ , , ,ASIA,3498,57
+ ,Other personal travel services,Actual,United Arab Emirates,30,11
+ , , ,APEC,6690,3296
+ , , ,Australia,2139,1685
+ , , ,Belgium,22,2
+ , , ,Brunei Darussalam,3,1
+ , , ,Brazil,52,10
+ , , ,Canada,284,65
+ , , ,Switzerland,66,8
+ , , ,"China, People's Republic of",1566,254
+ , , ,Cyprus,1,1
+ , , ,Germany,568,30
+ , , ,Denmark,40,3
+ , , ,Algeria,0,0
+ , , ,Estonia,2,0
+ , , ,Egypt,1,3
+ , , ,Spain,41,24
+ , , ,EU,2055,639
+ , , ,Eurozone,983,207
+ , , ,Finland,15,2
+ , , ,Fiji,92,302
+ , , ,France,124,27
+ , , ,United Kingdom,938,405
+ , , ,GCC,51,15
+ , , ,Greece,3,13
+ , , ,Hong Kong (SAR),167,43
+ , , ,Indonesia,78,156
+ , , ,Ireland,36,20
+ , , ,India,191,171
+ , , ,Italy,32,58
+ , , ,Japan,257,94
+ , , ,"Korea, Republic of",242,42
+ , , ,Kuwait,2,0
+ , , ,Sri Lanka,10,22
+ , , ,Luxembourg,3,0
+ , , ,Latvia,2,0
+ , , ,Monaco,1,0
+ , , ,Malta,2,1
+ , , ,Mexico,15,10
+ , , ,Malaysia,155,48
+ , , ,Nigeria,0,0
+ , , ,Netherlands,91,16
+ , , ,OECD,6328,3108
+ , , ,Oman,2,1
+ , , ,French Polynesia,76,16
+ , , ,Papua New Guinea,7,4
+ , , ,Philippines,82,82
+ , , ,Portugal,7,5
+ , , ,Qatar,5,1
+ , , ,Russia,18,6
+ , , ,Saudi Arabia,10,2
+ , , ,Sweden,44,4
+ , , ,Singapore,170,43
+ , , ,Slovenia,3,1
+ , , ,Slovakia,4,1
+ , , ,Thailand,85,98
+ , , ,Tonga,61,56
+ , , ,Taiwan,147,31
+ , , ,United States of America,1219,555
+ , , ,Venezuela,0,0
+ , , ,Viet Nam,26,65
+ , , ,Samoa,82,141
+ , , ,ASEAN,608,508
+ , , ,Europe,2152,657
+ , , ,Latin America,163,61
+ , , ,Pacific Island Forum,455,826
+ , , ,Country unspecified,304,281
+ , , ,South Africa,71,37
+ , , ,ASIA,3211,1189
+2019Q3,Total services,Actual,United Arab Emirates,149,267
+ , , ,APEC,17106,13998
+ , , ,Australia,5263,5879
+ , , ,Belgium,51,81
+ , , ,Brunei Darussalam,6,1
+ , , ,Brazil,216,24
+ , , ,Canada,484,237
+ , , ,Switzerland,238,626
+ , , ,"China, People's Republic of",3465,786
+ , , ,Cyprus,2,3
+ , , ,Germany,884,928
+ , , ,Denmark,238,474
+ , , ,Algeria,0,0
+ , , ,Estonia,2,1
+ , , ,Egypt,4,8
+ , , ,Spain,79,35
+ , , ,EU,3622,3332
+ , , ,Eurozone,1690,1765
+ , , ,Finland,18,4
+ , , ,Fiji,183,416
+ , , ,France,289,124
+ , , ,United Kingdom,1569,1042
+ , , ,GCC,267,284
+ , , ,Greece,6,18
+ , , ,Hong Kong (SAR),486,291
+ , , ,Indonesia,145,181
+ , , ,Ireland,73,156
+ , , ,India,937,259
+ , , ,Italy,66,81
+ , , ,Japan,1029,243
+ , , ,"Korea, Republic of",565,125
+ , , ,Kuwait,7,2
+ , , ,Sri Lanka,78,23
+ , , ,Luxembourg,4,3
+ , , ,Latvia,2,0
+ , , ,Monaco,12,0
+ , , ,Malta,5,1
+ , , ,Mexico,40,26
+ , , ,Malaysia,271,133
+ , , ,Nigeria,2,1
+ , , ,Netherlands,148,235
+ , , ,OECD,15140,13829
+ , , ,Oman,13,1
+ , , ,French Polynesia,93,29
+ , , ,Papua New Guinea,26,19
+ , , ,Philippines,248,166
+ , , ,Portugal,9,7
+ , , ,Qatar,8,1
+ , , ,Russia,57,16
+ , , ,Saudi Arabia,84,8
+ , , ,Sweden,58,15
+ , , ,Singapore,472,2163
+ , , ,Slovenia,3,23
+ , , ,Slovakia,6,1
+ , , ,Thailand,266,224
+ , , ,Tonga,83,68
+ , , ,Taiwan,280,77
+ , , ,United States of America,3748,3296
+ , , ,Venezuela,1,1
+ , , ,Viet Nam,147,75
+ , , ,Samoa,109,154
+ , , ,ASEAN,1589,2962
+ , , ,Europe,3967,3980
+ , , ,Latin America,577,162
+ , , ,Pacific Island Forum,690,1055
+ , , ,Country unspecified,1840,1479
+ , , ,South Africa,119,55
+ , , ,ASIA,8530,4806
+ ,Maintenance and repair services,Actual,United Arab Emirates,..,..
+ , , ,APEC,167,116
+ , , ,Australia,27,29
+ , , ,Belgium,..,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,..,..
+ , , ,Switzerland,..,..
+ , , ,"China, People's Republic of",..,..
+ , , ,Cyprus,..,..
+ , , ,Germany,..,9
+ , , ,Denmark,..,..
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,..
+ , , ,EU,4,37
+ , , ,Eurozone,..,33
+ , , ,Finland,..,..
+ , , ,Fiji,..,..
+ , , ,France,..,..
+ , , ,United Kingdom,1,4
+ , , ,GCC,..,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),..,..
+ , , ,Indonesia,..,..
+ , , ,Ireland,..,..
+ , , ,India,..,..
+ , , ,Italy,..,..
+ , , ,Japan,..,..
+ , , ,"Korea, Republic of",..,..
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,..,..
+ , , ,Nigeria,..,..
+ , , ,Netherlands,..,0
+ , , ,OECD,158,130
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,..,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,..,..
+ , , ,Sweden,..,..
+ , , ,Singapore,5,20
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,..,..
+ , , ,Tonga,..,..
+ , , ,Taiwan,..,..
+ , , ,United States of America,125,..
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,..,..
+ , , ,ASEAN,7,20
+ , , ,Europe,10,38
+ , , ,Latin America,..,..
+ , , ,Pacific Island Forum,..,..
+ , , ,Country unspecified,..,298
+ , , ,South Africa,..,..
+ , , ,ASIA,16,28
+ ,Transportation services,Actual,United Arab Emirates,60,231
+ , , ,APEC,2457,2807
+ , , ,Australia,897,851
+ , , ,Belgium,..,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,108,58
+ , , ,Switzerland,89,451
+ , , ,"China, People's Republic of",225,253
+ , , ,Cyprus,..,..
+ , , ,Germany,126,684
+ , , ,Denmark,186,454
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,..
+ , , ,EU,513,1186
+ , , ,Eurozone,179,708
+ , , ,Finland,..,..
+ , , ,Fiji,12,72
+ , , ,France,52,18
+ , , ,United Kingdom,148,23
+ , , ,GCC,60,231
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),75,177
+ , , ,Indonesia,0,..
+ , , ,Ireland,..,..
+ , , ,India,18,3
+ , , ,Italy,..,..
+ , , ,Japan,184,31
+ , , ,"Korea, Republic of",39,57
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,19,52
+ , , ,Nigeria,..,..
+ , , ,Netherlands,1,..
+ , , ,OECD,2568,2955
+ , , ,Oman,..,..
+ , , ,French Polynesia,10,11
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,6,31
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,1,..
+ , , ,Saudi Arabia,..,..
+ , , ,Sweden,0,..
+ , , ,Singapore,105,867
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,10,103
+ , , ,Tonga,3,..
+ , , ,Taiwan,50,6
+ , , ,United States of America,725,284
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,2,..
+ , , ,ASEAN,140,1054
+ , , ,Europe,603,1637
+ , , ,Latin America,46,46
+ , , ,Pacific Island Forum,33,95
+ , , ,Country unspecified,217,228
+ , , ,South Africa,..,..
+ , , ,ASIA,732,1580
+ ,Travel services,Actual,United Arab Emirates,33,15
+ , , ,APEC,10767,4242
+ , , ,Australia,2671,2340
+ , , ,Belgium,30,4
+ , , ,Brunei Darussalam,5,1
+ , , ,Brazil,203,12
+ , , ,Canada,320,75
+ , , ,Switzerland,109,11
+ , , ,"China, People's Republic of",3117,318
+ , , ,Cyprus,2,1
+ , , ,Germany,693,45
+ , , ,Denmark,48,5
+ , , ,Algeria,0,0
+ , , ,Estonia,2,1
+ , , ,Egypt,3,4
+ , , ,Spain,61,29
+ , , ,EU,2417,765
+ , , ,Eurozone,1285,264
+ , , ,Finland,17,3
+ , , ,Fiji,137,335
+ , , ,France,206,37
+ , , ,United Kingdom,972,462
+ , , ,GCC,139,22
+ , , ,Greece,4,15
+ , , ,Hong Kong (SAR),359,55
+ , , ,Indonesia,131,173
+ , , ,Ireland,43,23
+ , , ,India,885,176
+ , , ,Italy,61,65
+ , , ,Japan,721,117
+ , , ,"Korea, Republic of",502,49
+ , , ,Kuwait,6,1
+ , , ,Sri Lanka,55,23
+ , , ,Luxembourg,3,0
+ , , ,Latvia,2,0
+ , , ,Monaco,1,0
+ , , ,Malta,2,1
+ , , ,Mexico,31,11
+ , , ,Malaysia,229,55
+ , , ,Nigeria,2,1
+ , , ,Netherlands,103,21
+ , , ,OECD,8399,4026
+ , , ,Oman,12,1
+ , , ,French Polynesia,79,17
+ , , ,Papua New Guinea,14,12
+ , , ,Philippines,198,91
+ , , ,Portugal,9,7
+ , , ,Qatar,6,1
+ , , ,Russia,55,9
+ , , ,Saudi Arabia,79,4
+ , , ,Sweden,52,6
+ , , ,Singapore,223,66
+ , , ,Slovenia,3,1
+ , , ,Slovakia,5,1
+ , , ,Thailand,247,108
+ , , ,Tonga,76,63
+ , , ,Taiwan,215,35
+ , , ,United States of America,1512,646
+ , , ,Venezuela,1,0
+ , , ,Viet Nam,129,64
+ , , ,Samoa,93,149
+ , , ,ASEAN,1191,577
+ , , ,Europe,2606,789
+ , , ,Latin America,484,70
+ , , ,Pacific Island Forum,562,908
+ , , ,Country unspecified,342,315
+ , , ,South Africa,94,40
+ , , ,ASIA,7137,1377
+ ,Construction services,Actual,United Arab Emirates,..,..
+ , , ,APEC,16,25
+ , , ,Australia,6,16
+ , , ,Belgium,..,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,..,..
+ , , ,Switzerland,..,..
+ , , ,"China, People's Republic of",..,..
+ , , ,Cyprus,..,..
+ , , ,Germany,..,..
+ , , ,Denmark,..,..
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,..
+ , , ,EU,1,17
+ , , ,Eurozone,..,17
+ , , ,Finland,..,..
+ , , ,Fiji,..,..
+ , , ,France,..,..
+ , , ,United Kingdom,0,0
+ , , ,GCC,..,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),..,..
+ , , ,Indonesia,..,..
+ , , ,Ireland,..,..
+ , , ,India,..,..
+ , , ,Italy,..,..
+ , , ,Japan,..,..
+ , , ,"Korea, Republic of",..,..
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,..,..
+ , , ,Nigeria,..,..
+ , , ,Netherlands,..,0
+ , , ,OECD,12,38
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,..,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,..,..
+ , , ,Sweden,..,..
+ , , ,Singapore,0,1
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,..,..
+ , , ,Tonga,..,..
+ , , ,Taiwan,..,..
+ , , ,United States of America,5,..
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,..,..
+ , , ,ASEAN,0,1
+ , , ,Europe,1,17
+ , , ,Latin America,..,..
+ , , ,Pacific Island Forum,..,..
+ , , ,Country unspecified,1,1
+ , , ,South Africa,..,..
+ , , ,ASIA,4,3
+ ,Insurance and pension services,Actual,United Arab Emirates,..,..
+ , , ,APEC,50,1233
+ , , ,Australia,9,296
+ , , ,Belgium,..,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,2,0
+ , , ,Switzerland,..,74
+ , , ,"China, People's Republic of",7,2
+ , , ,Cyprus,..,..
+ , , ,Germany,0,30
+ , , ,Denmark,..,9
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,0
+ , , ,EU,12,175
+ , , ,Eurozone,1,34
+ , , ,Finland,..,..
+ , , ,Fiji,2,0
+ , , ,France,0,0
+ , , ,United Kingdom,11,131
+ , , ,GCC,..,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),3,3
+ , , ,Indonesia,0,..
+ , , ,Ireland,..,0
+ , , ,India,..,1
+ , , ,Italy,..,1
+ , , ,Japan,6,..
+ , , ,"Korea, Republic of",3,0
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,2
+ , , ,Latvia,..,..
+ , , ,Monaco,..,0
+ , , ,Malta,..,0
+ , , ,Mexico,..,..
+ , , ,Malaysia,0,0
+ , , ,Nigeria,..,..
+ , , ,Netherlands,..,..
+ , , ,OECD,49,1192
+ , , ,Oman,..,..
+ , , ,French Polynesia,0,..
+ , , ,Papua New Guinea,..,0
+ , , ,Philippines,..,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,..,..
+ , , ,Sweden,..,1
+ , , ,Singapore,1,284
+ , , ,Slovenia,..,0
+ , , ,Slovakia,..,..
+ , , ,Thailand,0,1
+ , , ,Tonga,1,..
+ , , ,Taiwan,1,..
+ , , ,United States of America,18,647
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,0,..
+ , , ,ASEAN,1,285
+ , , ,Europe,12,249
+ , , ,Latin America,0,..
+ , , ,Pacific Island Forum,5,0
+ , , ,Country unspecified,..,45
+ , , ,South Africa,..,..
+ , , ,ASIA,21,291
+ ,Financial services,Actual,United Arab Emirates,..,..
+ , , ,APEC,277,207
+ , , ,Australia,160,113
+ , , ,Belgium,..,2
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,..,2
+ , , ,Switzerland,3,0
+ , , ,"China, People's Republic of",38,24
+ , , ,Cyprus,..,..
+ , , ,Germany,2,0
+ , , ,Denmark,..,..
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,0,..
+ , , ,EU,31,21
+ , , ,Eurozone,8,4
+ , , ,Finland,..,..
+ , , ,Fiji,..,..
+ , , ,France,..,..
+ , , ,United Kingdom,23,16
+ , , ,GCC,0,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),11,..
+ , , ,Indonesia,..,..
+ , , ,Ireland,..,0
+ , , ,India,..,..
+ , , ,Italy,..,..
+ , , ,Japan,2,0
+ , , ,"Korea, Republic of",..,..
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,..,..
+ , , ,Nigeria,..,..
+ , , ,Netherlands,0,1
+ , , ,OECD,249,194
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,..,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,0,..
+ , , ,Sweden,..,..
+ , , ,Singapore,4,6
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,..,..
+ , , ,Tonga,..,..
+ , , ,Taiwan,..,..
+ , , ,United States of America,43,58
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,..,..
+ , , ,ASEAN,11,7
+ , , ,Europe,33,21
+ , , ,Latin America,..,..
+ , , ,Pacific Island Forum,..,..
+ , , ,Country unspecified,520,267
+ , , ,South Africa,..,..
+ , , ,ASIA,71,34
+ ,Charges for the use of intellectual property,Actual,United Arab Emirates,1,..
+ , , ,APEC,485,848
+ , , ,Australia,169,373
+ , , ,Belgium,..,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,16,5
+ , , ,Switzerland,7,49
+ , , ,"China, People's Republic of",..,1
+ , , ,Cyprus,..,..
+ , , ,Germany,2,..
+ , , ,Denmark,..,..
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,..
+ , , ,EU,114,442
+ , , ,Eurozone,47,314
+ , , ,Finland,..,0
+ , , ,Fiji,1,..
+ , , ,France,4,14
+ , , ,United Kingdom,65,121
+ , , ,GCC,1,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),1,..
+ , , ,Indonesia,1,0
+ , , ,Ireland,2,87
+ , , ,India,3,1
+ , , ,Italy,1,..
+ , , ,Japan,2,..
+ , , ,"Korea, Republic of",..,0
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,1,..
+ , , ,Nigeria,..,..
+ , , ,Netherlands,..,127
+ , , ,OECD,580,1247
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,1,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,0,..
+ , , ,Saudi Arabia,..,..
+ , , ,Sweden,..,4
+ , , ,Singapore,11,85
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,1,..
+ , , ,Tonga,..,..
+ , , ,Taiwan,0,..
+ , , ,United States of America,269,372
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,0,..
+ , , ,ASEAN,16,86
+ , , ,Europe,121,492
+ , , ,Latin America,17,..
+ , , ,Pacific Island Forum,1,..
+ , , ,Country unspecified,162,38
+ , , ,South Africa,1,..
+ , , ,ASIA,47,100
+ ,"Telecommunications, computer, and information services",Actual,United Arab Emirates,6,..
+ , , ,APEC,778,1100
+ , , ,Australia,299,544
+ , , ,Belgium,2,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,0,0
+ , , ,Canada,12,16
+ , , ,Switzerland,2,3
+ , , ,"China, People's Republic of",12,4
+ , , ,Cyprus,..,..
+ , , ,Germany,18,23
+ , , ,Denmark,..,1
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,0,..
+ , , ,Spain,0,1
+ , , ,EU,145,167
+ , , ,Eurozone,49,101
+ , , ,Finland,0,1
+ , , ,Fiji,6,..
+ , , ,France,2,7
+ , , ,United Kingdom,94,63
+ , , ,GCC,7,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),2,12
+ , , ,Indonesia,2,0
+ , , ,Ireland,..,13
+ , , ,India,2,34
+ , , ,Italy,1,3
+ , , ,Japan,31,5
+ , , ,"Korea, Republic of",0,..
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,6,6
+ , , ,Nigeria,..,..
+ , , ,Netherlands,4,22
+ , , ,OECD,876,1183
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,1,..
+ , , ,Philippines,4,7
+ , , ,Portugal,0,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,1,..
+ , , ,Sweden,1,..
+ , , ,Singapore,20,59
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,3,1
+ , , ,Tonga,..,..
+ , , ,Taiwan,..,1
+ , , ,United States of America,379,441
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,0,..
+ , , ,Samoa,0,0
+ , , ,ASEAN,37,74
+ , , ,Europe,149,171
+ , , ,Latin America,10,3
+ , , ,Pacific Island Forum,10,2
+ , , ,Country unspecified,235,71
+ , , ,South Africa,4,0
+ , , ,ASIA,90,133
+ ,Other business services,Actual,United Arab Emirates,5,9
+ , , ,APEC,1743,3207
+ , , ,Australia,975,1236
+ , , ,Belgium,4,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,1,4
+ , , ,Canada,13,70
+ , , ,Switzerland,22,32
+ , , ,"China, People's Republic of",24,166
+ , , ,Cyprus,..,..
+ , , ,Germany,34,45
+ , , ,Denmark,2,2
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,1,1
+ , , ,EU,281,466
+ , , ,Eurozone,93,251
+ , , ,Finland,0,..
+ , , ,Fiji,19,3
+ , , ,France,11,38
+ , , ,United Kingdom,183,210
+ , , ,GCC,9,10
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),31,34
+ , , ,Indonesia,8,4
+ , , ,Ireland,4,33
+ , , ,India,5,36
+ , , ,Italy,1,4
+ , , ,Japan,74,76
+ , , ,"Korea, Republic of",6,13
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,0
+ , , ,Luxembourg,1,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,0
+ , , ,Mexico,1,..
+ , , ,Malaysia,6,13
+ , , ,Nigeria,..,..
+ , , ,Netherlands,32,58
+ , , ,OECD,1837,2646
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,8,3
+ , , ,Philippines,23,33
+ , , ,Portugal,..,0
+ , , ,Qatar,..,..
+ , , ,Russia,0,..
+ , , ,Saudi Arabia,..,0
+ , , ,Sweden,2,1
+ , , ,Singapore,98,766
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,0
+ , , ,Thailand,1,7
+ , , ,Tonga,3,..
+ , , ,Taiwan,9,28
+ , , ,United States of America,450,740
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,3
+ , , ,Samoa,6,1
+ , , ,ASEAN,151,827
+ , , ,Europe,317,503
+ , , ,Latin America,7,21
+ , , ,Pacific Island Forum,52,15
+ , , ,Country unspecified,136,208
+ , , ,South Africa,1,6
+ , , ,ASIA,305,1183
+ ,"Personal, cultural, and recreational services",Actual,United Arab Emirates,42,..
+ , , ,APEC,245,113
+ , , ,Australia,14,66
+ , , ,Belgium,..,0
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,1,3
+ , , ,Switzerland,..,0
+ , , ,"China, People's Republic of",4,2
+ , , ,Cyprus,..,..
+ , , ,Germany,..,1
+ , , ,Denmark,..,..
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,0
+ , , ,EU,51,11
+ , , ,Eurozone,..,3
+ , , ,Finland,..,..
+ , , ,Fiji,1,..
+ , , ,France,..,1
+ , , ,United Kingdom,47,8
+ , , ,GCC,44,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),..,0
+ , , ,Indonesia,..,1
+ , , ,Ireland,..,0
+ , , ,India,5,..
+ , , ,Italy,..,..
+ , , ,Japan,..,..
+ , , ,"Korea, Republic of",..,..
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,..,0
+ , , ,Nigeria,..,..
+ , , ,Netherlands,..,1
+ , , ,OECD,284,117
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,..,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,0,..
+ , , ,Sweden,..,..
+ , , ,Singapore,2,4
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,..,..
+ , , ,Tonga,..,..
+ , , ,Taiwan,..,..
+ , , ,United States of America,211,34
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,..,..
+ , , ,ASEAN,8,5
+ , , ,Europe,62,12
+ , , ,Latin America,..,..
+ , , ,Pacific Island Forum,3,..
+ , , ,Country unspecified,17,8
+ , , ,South Africa,..,..
+ , , ,ASIA,24,10
+ ,Government services,Actual,United Arab Emirates,2,7
+ , , ,APEC,122,101
+ , , ,Australia,35,15
+ , , ,Belgium,0,4
+ , , ,Brunei Darussalam,0,0
+ , , ,Brazil,2,7
+ , , ,Canada,8,7
+ , , ,Switzerland,1,4
+ , , ,"China, People's Republic of",20,15
+ , , ,Cyprus,0,0
+ , , ,Germany,8,7
+ , , ,Denmark,0,0
+ , , ,Algeria,0,0
+ , , ,Estonia,0,0
+ , , ,Egypt,1,4
+ , , ,Spain,1,4
+ , , ,EU,52,45
+ , , ,Eurozone,24,37
+ , , ,Finland,0,0
+ , , ,Fiji,4,4
+ , , ,France,9,7
+ , , ,United Kingdom,25,4
+ , , ,GCC,5,11
+ , , ,Greece,1,0
+ , , ,Hong Kong (SAR),2,0
+ , , ,Indonesia,2,4
+ , , ,Ireland,2,0
+ , , ,India,17,7
+ , , ,Italy,2,7
+ , , ,Japan,8,4
+ , , ,"Korea, Republic of",7,4
+ , , ,Kuwait,0,0
+ , , ,Sri Lanka,2,0
+ , , ,Luxembourg,0,0
+ , , ,Latvia,0,0
+ , , ,Monaco,0,0
+ , , ,Malta,0,0
+ , , ,Mexico,1,4
+ , , ,Malaysia,3,4
+ , , ,Nigeria,0,0
+ , , ,Netherlands,2,4
+ , , ,OECD,126,101
+ , , ,Oman,0,0
+ , , ,French Polynesia,0,0
+ , , ,Papua New Guinea,1,4
+ , , ,Philippines,12,4
+ , , ,Portugal,0,0
+ , , ,Qatar,0,0
+ , , ,Russia,1,4
+ , , ,Saudi Arabia,3,4
+ , , ,Sweden,0,0
+ , , ,Singapore,3,4
+ , , ,Slovenia,0,0
+ , , ,Slovakia,0,0
+ , , ,Thailand,3,4
+ , , ,Tonga,1,4
+ , , ,Taiwan,2,4
+ , , ,United States of America,11,11
+ , , ,Venezuela,0,0
+ , , ,Viet Nam,3,7
+ , , ,Samoa,6,4
+ , , ,ASEAN,25,26
+ , , ,Europe,54,52
+ , , ,Latin America,10,19
+ , , ,Pacific Island Forum,17,34
+ , , ,Country unspecified,26,0
+ , , ,South Africa,17,4
+ , , ,ASIA,84,67
+ ,Business travel services,Actual,United Arab Emirates,4,5
+ , , ,APEC,979,900
+ , , ,Australia,524,623
+ , , ,Belgium,3,1
+ , , ,Brunei Darussalam,0,0
+ , , ,Brazil,4,1
+ , , ,Canada,22,9
+ , , ,Switzerland,5,3
+ , , ,"China, People's Republic of",117,61
+ , , ,Cyprus,0,0
+ , , ,Germany,5,12
+ , , ,Denmark,4,1
+ , , ,Algeria,0,0
+ , , ,Estonia,0,0
+ , , ,Egypt,0,1
+ , , ,Spain,5,3
+ , , ,EU,102,75
+ , , ,Eurozone,55,40
+ , , ,Finland,2,1
+ , , ,Fiji,15,36
+ , , ,France,11,6
+ , , ,United Kingdom,34,29
+ , , ,GCC,6,7
+ , , ,Greece,1,1
+ , , ,Hong Kong (SAR),16,12
+ , , ,Indonesia,9,10
+ , , ,Ireland,4,2
+ , , ,India,22,11
+ , , ,Italy,9,6
+ , , ,Japan,23,18
+ , , ,"Korea, Republic of",7,7
+ , , ,Kuwait,0,0
+ , , ,Sri Lanka,1,1
+ , , ,Luxembourg,0,0
+ , , ,Latvia,0,0
+ , , ,Monaco,0,0
+ , , ,Malta,0,0
+ , , ,Mexico,2,1
+ , , ,Malaysia,13,8
+ , , ,Nigeria,0,0
+ , , ,Netherlands,9,4
+ , , ,OECD,855,829
+ , , ,Oman,0,0
+ , , ,French Polynesia,4,3
+ , , ,Papua New Guinea,2,8
+ , , ,Philippines,8,7
+ , , ,Portugal,1,1
+ , , ,Qatar,1,1
+ , , ,Russia,3,1
+ , , ,Saudi Arabia,1,1
+ , , ,Sweden,4,1
+ , , ,Singapore,37,21
+ , , ,Slovenia,0,0
+ , , ,Slovakia,0,0
+ , , ,Thailand,11,12
+ , , ,Tonga,7,6
+ , , ,Taiwan,12,4
+ , , ,United States of America,164,89
+ , , ,Venezuela,0,0
+ , , ,Viet Nam,5,7
+ , , ,Samoa,9,13
+ , , ,ASEAN,85,67
+ , , ,Europe,113,79
+ , , ,Latin America,12,9
+ , , ,Pacific Island Forum,53,90
+ , , ,Country unspecified,15,27
+ , , ,South Africa,9,4
+ , , ,ASIA,286,184
+ ,Education travel services,Actual,United Arab Emirates,1,0
+ , , ,APEC,2961,119
+ , , ,Australia,0,52
+ , , ,Belgium,5,0
+ , , ,Brunei Darussalam,2,0
+ , , ,Brazil,151,0
+ , , ,Canada,11,2
+ , , ,Switzerland,39,0
+ , , ,"China, People's Republic of",1289,27
+ , , ,Cyprus,0,0
+ , , ,Germany,109,2
+ , , ,Denmark,4,0
+ , , ,Algeria,0,0
+ , , ,Estonia,0,0
+ , , ,Egypt,1,0
+ , , ,Spain,16,2
+ , , ,EU,280,17
+ , , ,Eurozone,244,10
+ , , ,Finland,1,0
+ , , ,Fiji,30,6
+ , , ,France,76,2
+ , , ,United Kingdom,19,6
+ , , ,GCC,84,1
+ , , ,Greece,0,0
+ , , ,Hong Kong (SAR),184,1
+ , , ,Indonesia,43,3
+ , , ,Ireland,2,0
+ , , ,India,677,5
+ , , ,Italy,21,2
+ , , ,Japan,449,5
+ , , ,"Korea, Republic of",272,2
+ , , ,Kuwait,3,0
+ , , ,Sri Lanka,44,0
+ , , ,Luxembourg,0,0
+ , , ,Latvia,0,0
+ , , ,Monaco,0,0
+ , , ,Malta,0,0
+ , , ,Mexico,14,0
+ , , ,Malaysia,79,2
+ , , ,Nigeria,1,0
+ , , ,Netherlands,5,1
+ , , ,OECD,1224,94
+ , , ,Oman,10,0
+ , , ,French Polynesia,0,1
+ , , ,Papua New Guinea,5,0
+ , , ,Philippines,110,1
+ , , ,Portugal,1,0
+ , , ,Qatar,0,0
+ , , ,Russia,35,0
+ , , ,Saudi Arabia,70,0
+ , , ,Sweden,4,0
+ , , ,Singapore,15,2
+ , , ,Slovenia,0,0
+ , , ,Slovakia,1,0
+ , , ,Thailand,152,3
+ , , ,Tonga,10,2
+ , , ,Taiwan,48,1
+ , , ,United States of America,98,13
+ , , ,Venezuela,1,0
+ , , ,Viet Nam,98,2
+ , , ,Samoa,4,3
+ , , ,ASEAN,520,13
+ , , ,Europe,363,18
+ , , ,Latin America,316,2
+ , , ,Pacific Island Forum,59,17
+ , , ,Country unspecified,0,10
+ , , ,South Africa,13,1
+ , , ,ASIA,3552,56
+ ,Other personal travel services,Actual,United Arab Emirates,29,10
+ , , ,APEC,6826,3223
+ , , ,Australia,2146,1666
+ , , ,Belgium,21,2
+ , , ,Brunei Darussalam,3,1
+ , , ,Brazil,48,10
+ , , ,Canada,287,64
+ , , ,Switzerland,65,8
+ , , ,"China, People's Republic of",1712,230
+ , , ,Cyprus,1,1
+ , , ,Germany,579,32
+ , , ,Denmark,40,4
+ , , ,Algeria,0,0
+ , , ,Estonia,2,0
+ , , ,Egypt,1,3
+ , , ,Spain,40,24
+ , , ,EU,2035,673
+ , , ,Eurozone,985,214
+ , , ,Finland,14,2
+ , , ,Fiji,91,293
+ , , ,France,120,29
+ , , ,United Kingdom,918,427
+ , , ,GCC,49,14
+ , , ,Greece,3,14
+ , , ,Hong Kong (SAR),159,42
+ , , ,Indonesia,78,160
+ , , ,Ireland,36,21
+ , , ,India,186,161
+ , , ,Italy,31,57
+ , , ,Japan,249,93
+ , , ,"Korea, Republic of",222,39
+ , , ,Kuwait,2,0
+ , , ,Sri Lanka,10,21
+ , , ,Luxembourg,3,0
+ , , ,Latvia,1,0
+ , , ,Monaco,0,0
+ , , ,Malta,2,1
+ , , ,Mexico,15,9
+ , , ,Malaysia,137,45
+ , , ,Nigeria,0,0
+ , , ,Netherlands,89,16
+ , , ,OECD,6320,3104
+ , , ,Oman,2,1
+ , , ,French Polynesia,75,14
+ , , ,Papua New Guinea,7,3
+ , , ,Philippines,80,82
+ , , ,Portugal,6,5
+ , , ,Qatar,5,1
+ , , ,Russia,17,7
+ , , ,Saudi Arabia,9,2
+ , , ,Sweden,43,5
+ , , ,Singapore,171,44
+ , , ,Slovenia,3,1
+ , , ,Slovakia,4,1
+ , , ,Thailand,83,93
+ , , ,Tonga,59,56
+ , , ,Taiwan,155,30
+ , , ,United States of America,1251,543
+ , , ,Venezuela,0,0
+ , , ,Viet Nam,25,56
+ , , ,Samoa,80,133
+ , , ,ASEAN,586,497
+ , , ,Europe,2130,692
+ , , ,Latin America,156,59
+ , , ,Pacific Island Forum,449,800
+ , , ,Country unspecified,327,278
+ , , ,South Africa,72,36
+ , , ,ASIA,3299,1137
+2019Q4,Total services,Actual,United Arab Emirates,155,279
+ , , ,APEC,17334,14317
+ , , ,Australia,5338,5979
+ , , ,Belgium,47,81
+ , , ,Brunei Darussalam,6,1
+ , , ,Brazil,219,24
+ , , ,Canada,474,247
+ , , ,Switzerland,238,619
+ , , ,"China, People's Republic of",3378,804
+ , , ,Cyprus,2,3
+ , , ,Germany,876,930
+ , , ,Denmark,244,449
+ , , ,Algeria,0,0
+ , , ,Estonia,3,1
+ , , ,Egypt,4,8
+ , , ,Spain,79,35
+ , , ,EU,3717,3323
+ , , ,Eurozone,1678,1770
+ , , ,Finland,18,3
+ , , ,Fiji,184,405
+ , , ,France,293,118
+ , , ,United Kingdom,1676,1053
+ , , ,GCC,275,295
+ , , ,Greece,6,19
+ , , ,Hong Kong (SAR),484,289
+ , , ,Indonesia,149,193
+ , , ,Ireland,76,162
+ , , ,India,954,271
+ , , ,Italy,66,83
+ , , ,Japan,1040,261
+ , , ,"Korea, Republic of",551,125
+ , , ,Kuwait,7,1
+ , , ,Sri Lanka,80,23
+ , , ,Luxembourg,4,2
+ , , ,Latvia,2,0
+ , , ,Monaco,12,0
+ , , ,Malta,2,1
+ , , ,Mexico,41,26
+ , , ,Malaysia,254,133
+ , , ,Nigeria,3,1
+ , , ,Netherlands,145,236
+ , , ,OECD,15515,13913
+ , , ,Oman,14,2
+ , , ,French Polynesia,103,28
+ , , ,Papua New Guinea,25,18
+ , , ,Philippines,251,171
+ , , ,Portugal,9,7
+ , , ,Qatar,7,2
+ , , ,Russia,58,16
+ , , ,Saudi Arabia,87,8
+ , , ,Sweden,53,15
+ , , ,Singapore,514,2355
+ , , ,Slovenia,3,16
+ , , ,Slovakia,5,1
+ , , ,Thailand,263,224
+ , , ,Tonga,85,69
+ , , ,Taiwan,290,78
+ , , ,United States of America,3961,3263
+ , , ,Venezuela,1,1
+ , , ,Viet Nam,147,74
+ , , ,Samoa,111,154
+ , , ,ASEAN,1616,3170
+ , , ,Europe,4065,3964
+ , , ,Latin America,580,159
+ , , ,Pacific Island Forum,706,1046
+ , , ,Country unspecified,1798,1470
+ , , ,South Africa,126,59
+ , , ,ASIA,8498,5060
+ ,Maintenance and repair services,Actual,United Arab Emirates,..,..
+ , , ,APEC,187,135
+ , , ,Australia,20,30
+ , , ,Belgium,..,1
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,..,..
+ , , ,Switzerland,..,..
+ , , ,"China, People's Republic of",..,0
+ , , ,Cyprus,..,..
+ , , ,Germany,..,11
+ , , ,Denmark,..,..
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,..
+ , , ,EU,2,33
+ , , ,Eurozone,..,27
+ , , ,Finland,..,..
+ , , ,Fiji,..,..
+ , , ,France,..,..
+ , , ,United Kingdom,2,6
+ , , ,GCC,..,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),..,..
+ , , ,Indonesia,..,..
+ , , ,Ireland,..,..
+ , , ,India,..,..
+ , , ,Italy,..,..
+ , , ,Japan,..,..
+ , , ,"Korea, Republic of",..,..
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,..,..
+ , , ,Nigeria,..,..
+ , , ,Netherlands,..,0
+ , , ,OECD,180,126
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,..,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,..,..
+ , , ,Sweden,..,..
+ , , ,Singapore,4,37
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,..,..
+ , , ,Tonga,..,..
+ , , ,Taiwan,..,..
+ , , ,United States of America,156,58
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,..,..
+ , , ,ASEAN,6,37
+ , , ,Europe,8,34
+ , , ,Latin America,..,..
+ , , ,Pacific Island Forum,..,..
+ , , ,Country unspecified,..,300
+ , , ,South Africa,..,..
+ , , ,ASIA,11,47
+ ,Transportation services,Actual,United Arab Emirates,62,239
+ , , ,APEC,2470,2869
+ , , ,Australia,867,808
+ , , ,Belgium,..,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,107,58
+ , , ,Switzerland,86,449
+ , , ,"China, People's Republic of",230,258
+ , , ,Cyprus,..,..
+ , , ,Germany,126,678
+ , , ,Denmark,191,429
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,..
+ , , ,EU,525,1154
+ , , ,Eurozone,183,702
+ , , ,Finland,..,..
+ , , ,Fiji,13,62
+ , , ,France,56,18
+ , , ,United Kingdom,151,23
+ , , ,GCC,62,239
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),71,179
+ , , ,Indonesia,0,..
+ , , ,Ireland,..,..
+ , , ,India,19,3
+ , , ,Italy,..,..
+ , , ,Japan,182,31
+ , , ,"Korea, Republic of",37,56
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,19,54
+ , , ,Nigeria,..,..
+ , , ,Netherlands,1,..
+ , , ,OECD,2551,2886
+ , , ,Oman,..,..
+ , , ,French Polynesia,14,11
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,6,34
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,1,..
+ , , ,Saudi Arabia,..,..
+ , , ,Sweden,0,..
+ , , ,Singapore,137,950
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,9,105
+ , , ,Tonga,3,..
+ , , ,Taiwan,56,6
+ , , ,United States of America,734,294
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,2,..
+ , , ,ASEAN,172,1143
+ , , ,Europe,612,1603
+ , , ,Latin America,47,44
+ , , ,Pacific Island Forum,37,83
+ , , ,Country unspecified,223,227
+ , , ,South Africa,..,..
+ , , ,ASIA,766,1676
+ ,Travel services,Actual,United Arab Emirates,33,15
+ , , ,APEC,10849,4281
+ , , ,Australia,2739,2361
+ , , ,Belgium,30,4
+ , , ,Brunei Darussalam,5,1
+ , , ,Brazil,206,13
+ , , ,Canada,307,77
+ , , ,Switzerland,109,11
+ , , ,"China, People's Republic of",3038,317
+ , , ,Cyprus,2,1
+ , , ,Germany,683,46
+ , , ,Denmark,48,5
+ , , ,Algeria,0,0
+ , , ,Estonia,3,1
+ , , ,Egypt,3,5
+ , , ,Spain,61,29
+ , , ,EU,2492,763
+ , , ,Eurozone,1275,265
+ , , ,Finland,17,3
+ , , ,Fiji,139,334
+ , , ,France,207,36
+ , , ,United Kingdom,1057,459
+ , , ,GCC,139,23
+ , , ,Greece,4,15
+ , , ,Hong Kong (SAR),358,51
+ , , ,Indonesia,133,184
+ , , ,Ireland,42,23
+ , , ,India,900,183
+ , , ,Italy,61,65
+ , , ,Japan,733,138
+ , , ,"Korea, Republic of",489,50
+ , , ,Kuwait,6,1
+ , , ,Sri Lanka,56,23
+ , , ,Luxembourg,3,0
+ , , ,Latvia,2,0
+ , , ,Monaco,1,0
+ , , ,Malta,2,1
+ , , ,Mexico,31,12
+ , , ,Malaysia,214,55
+ , , ,Nigeria,2,1
+ , , ,Netherlands,102,21
+ , , ,OECD,8644,4058
+ , , ,Oman,12,2
+ , , ,French Polynesia,84,17
+ , , ,Papua New Guinea,14,12
+ , , ,Philippines,199,94
+ , , ,Portugal,9,7
+ , , ,Qatar,6,2
+ , , ,Russia,56,9
+ , , ,Saudi Arabia,80,4
+ , , ,Sweden,51,6
+ , , ,Singapore,223,68
+ , , ,Slovenia,3,1
+ , , ,Slovakia,5,1
+ , , ,Thailand,245,107
+ , , ,Tonga,78,64
+ , , ,Taiwan,219,34
+ , , ,United States of America,1627,633
+ , , ,Venezuela,1,0
+ , , ,Viet Nam,129,63
+ , , ,Samoa,96,150
+ , , ,ASEAN,1178,589
+ , , ,Europe,2682,788
+ , , ,Latin America,484,69
+ , , ,Pacific Island Forum,576,913
+ , , ,Country unspecified,319,312
+ , , ,South Africa,98,42
+ , , ,ASIA,7067,1413
+ ,Construction services,Actual,United Arab Emirates,..,..
+ , , ,APEC,22,27
+ , , ,Australia,9,16
+ , , ,Belgium,..,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,..,..
+ , , ,Switzerland,..,..
+ , , ,"China, People's Republic of",..,4
+ , , ,Cyprus,..,..
+ , , ,Germany,..,2
+ , , ,Denmark,..,..
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,..
+ , , ,EU,1,15
+ , , ,Eurozone,..,15
+ , , ,Finland,..,..
+ , , ,Fiji,..,..
+ , , ,France,..,..
+ , , ,United Kingdom,0,0
+ , , ,GCC,..,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),..,..
+ , , ,Indonesia,..,..
+ , , ,Ireland,..,..
+ , , ,India,..,..
+ , , ,Italy,..,..
+ , , ,Japan,..,..
+ , , ,"Korea, Republic of",..,..
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,..,..
+ , , ,Nigeria,..,..
+ , , ,Netherlands,..,0
+ , , ,OECD,16,37
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,..,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,..,..
+ , , ,Sweden,..,..
+ , , ,Singapore,0,1
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,..,..
+ , , ,Tonga,..,..
+ , , ,Taiwan,..,..
+ , , ,United States of America,5,5
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,..,..
+ , , ,ASEAN,0,1
+ , , ,Europe,1,15
+ , , ,Latin America,..,..
+ , , ,Pacific Island Forum,..,..
+ , , ,Country unspecified,1,1
+ , , ,South Africa,..,..
+ , , ,ASIA,6,5
+ ,Insurance and pension services,Actual,United Arab Emirates,..,..
+ , , ,APEC,50,1276
+ , , ,Australia,10,372
+ , , ,Belgium,..,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,2,0
+ , , ,Switzerland,..,73
+ , , ,"China, People's Republic of",7,4
+ , , ,Cyprus,..,..
+ , , ,Germany,0,28
+ , , ,Denmark,..,9
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,0
+ , , ,EU,12,180
+ , , ,Eurozone,1,33
+ , , ,Finland,..,..
+ , , ,Fiji,2,0
+ , , ,France,0,2
+ , , ,United Kingdom,11,137
+ , , ,GCC,..,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),3,4
+ , , ,Indonesia,0,..
+ , , ,Ireland,..,0
+ , , ,India,..,1
+ , , ,Italy,..,2
+ , , ,Japan,5,..
+ , , ,"Korea, Republic of",3,0
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,2
+ , , ,Latvia,..,..
+ , , ,Monaco,..,0
+ , , ,Malta,..,0
+ , , ,Mexico,..,..
+ , , ,Malaysia,0,0
+ , , ,Nigeria,..,..
+ , , ,Netherlands,..,..
+ , , ,OECD,50,1228
+ , , ,Oman,..,..
+ , , ,French Polynesia,0,..
+ , , ,Papua New Guinea,..,0
+ , , ,Philippines,..,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,..,..
+ , , ,Sweden,..,1
+ , , ,Singapore,1,291
+ , , ,Slovenia,..,0
+ , , ,Slovakia,..,..
+ , , ,Thailand,..,1
+ , , ,Tonga,1,..
+ , , ,Taiwan,1,..
+ , , ,United States of America,18,603
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,0,..
+ , , ,ASEAN,1,292
+ , , ,Europe,12,252
+ , , ,Latin America,0,..
+ , , ,Pacific Island Forum,5,0
+ , , ,Country unspecified,..,17
+ , , ,South Africa,..,..
+ , , ,ASIA,20,301
+ ,Financial services,Actual,United Arab Emirates,..,..
+ , , ,APEC,263,201
+ , , ,Australia,156,120
+ , , ,Belgium,..,2
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,..,1
+ , , ,Switzerland,2,0
+ , , ,"China, People's Republic of",27,24
+ , , ,Cyprus,..,..
+ , , ,Germany,2,0
+ , , ,Denmark,..,..
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,0,..
+ , , ,EU,32,23
+ , , ,Eurozone,8,6
+ , , ,Finland,..,..
+ , , ,Fiji,..,..
+ , , ,France,..,..
+ , , ,United Kingdom,24,17
+ , , ,GCC,..,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),11,2
+ , , ,Indonesia,..,..
+ , , ,Ireland,..,0
+ , , ,India,..,..
+ , , ,Italy,..,..
+ , , ,Japan,2,0
+ , , ,"Korea, Republic of",..,..
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,..,..
+ , , ,Nigeria,..,..
+ , , ,Netherlands,0,2
+ , , ,OECD,247,192
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,..,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,..,..
+ , , ,Sweden,..,..
+ , , ,Singapore,4,6
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,..,..
+ , , ,Tonga,..,..
+ , , ,Taiwan,..,..
+ , , ,United States of America,45,47
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,..,..
+ , , ,ASEAN,11,7
+ , , ,Europe,34,24
+ , , ,Latin America,..,..
+ , , ,Pacific Island Forum,..,..
+ , , ,Country unspecified,514,267
+ , , ,South Africa,..,..
+ , , ,ASIA,60,33
+ ,Charges for the use of intellectual property,Actual,United Arab Emirates,1,..
+ , , ,APEC,498,862
+ , , ,Australia,171,377
+ , , ,Belgium,..,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,19,5
+ , , ,Switzerland,..,47
+ , , ,"China, People's Republic of",..,2
+ , , ,Cyprus,..,..
+ , , ,Germany,3,82
+ , , ,Denmark,..,..
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,..
+ , , ,EU,107,441
+ , , ,Eurozone,44,312
+ , , ,Finland,..,0
+ , , ,Fiji,1,..
+ , , ,France,..,14
+ , , ,United Kingdom,61,122
+ , , ,GCC,2,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),..,..
+ , , ,Indonesia,1,0
+ , , ,Ireland,2,86
+ , , ,India,3,3
+ , , ,Italy,1,..
+ , , ,Japan,2,..
+ , , ,"Korea, Republic of",..,0
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,1,..
+ , , ,Nigeria,..,..
+ , , ,Netherlands,..,126
+ , , ,OECD,585,1249
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,2,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,0,..
+ , , ,Saudi Arabia,..,..
+ , , ,Sweden,..,4
+ , , ,Singapore,11,94
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,1,..
+ , , ,Tonga,..,..
+ , , ,Taiwan,1,..
+ , , ,United States of America,274,373
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,..,..
+ , , ,ASEAN,16,94
+ , , ,Europe,116,489
+ , , ,Latin America,20,..
+ , , ,Pacific Island Forum,1,..
+ , , ,Country unspecified,134,43
+ , , ,South Africa,1,..
+ , , ,ASIA,49,110
+ ,"Telecommunications, computer, and information services",Actual,United Arab Emirates,6,..
+ , , ,APEC,831,1151
+ , , ,Australia,320,563
+ , , ,Belgium,2,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,0,..
+ , , ,Canada,12,22
+ , , ,Switzerland,1,3
+ , , ,"China, People's Republic of",11,5
+ , , ,Cyprus,..,..
+ , , ,Germany,19,27
+ , , ,Denmark,..,0
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,0,0
+ , , ,EU,155,182
+ , , ,Eurozone,49,113
+ , , ,Finland,..,..
+ , , ,Fiji,6,..
+ , , ,France,2,6
+ , , ,United Kingdom,104,65
+ , , ,GCC,7,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),2,13
+ , , ,Indonesia,2,..
+ , , ,Ireland,..,14
+ , , ,India,1,38
+ , , ,Italy,..,..
+ , , ,Japan,30,5
+ , , ,"Korea, Republic of",0,..
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,5,8
+ , , ,Nigeria,..,..
+ , , ,Netherlands,3,27
+ , , ,OECD,931,1244
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,1,..
+ , , ,Philippines,5,6
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,1,..
+ , , ,Sweden,0,..
+ , , ,Singapore,28,66
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,3,..
+ , , ,Tonga,..,..
+ , , ,Taiwan,0,1
+ , , ,United States of America,403,459
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,0,..
+ , , ,Samoa,0,0
+ , , ,ASEAN,47,81
+ , , ,Europe,158,185
+ , , ,Latin America,11,..
+ , , ,Pacific Island Forum,10,2
+ , , ,Country unspecified,213,77
+ , , ,South Africa,4,0
+ , , ,ASIA,97,145
+ ,Other business services,Actual,United Arab Emirates,5,12
+ , , ,APEC,1812,3293
+ , , ,Australia,996,1242
+ , , ,Belgium,3,..
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,0,4
+ , , ,Canada,13,72
+ , , ,Switzerland,25,31
+ , , ,"China, People's Republic of",26,175
+ , , ,Cyprus,..,..
+ , , ,Germany,36,49
+ , , ,Denmark,2,2
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,1,1
+ , , ,EU,297,476
+ , , ,Eurozone,92,257
+ , , ,Finland,0,..
+ , , ,Fiji,17,3
+ , , ,France,9,33
+ , , ,United Kingdom,200,212
+ , , ,GCC,12,14
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),32,33
+ , , ,Indonesia,10,4
+ , , ,Ireland,6,38
+ , , ,India,7,34
+ , , ,Italy,1,6
+ , , ,Japan,76,76
+ , , ,"Korea, Republic of",6,13
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,1,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,0,..
+ , , ,Malaysia,5,11
+ , , ,Nigeria,..,..
+ , , ,Netherlands,30,55
+ , , ,OECD,1923,2669
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,7,2
+ , , ,Philippines,..,34
+ , , ,Portugal,0,0
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,..,1
+ , , ,Sweden,1,1
+ , , ,Singapore,99,831
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,0
+ , , ,Thailand,1,7
+ , , ,Tonga,1,..
+ , , ,Taiwan,9,27
+ , , ,United States of America,492,745
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,4
+ , , ,Samoa,7,1
+ , , ,ASEAN,152,893
+ , , ,Europe,336,511
+ , , ,Latin America,5,22
+ , , ,Pacific Island Forum,50,13
+ , , ,Country unspecified,149,219
+ , , ,South Africa,1,9
+ , , ,ASIA,313,1252
+ ,"Personal, cultural, and recreational services",Actual,United Arab Emirates,46,..
+ , , ,APEC,228,124
+ , , ,Australia,13,76
+ , , ,Belgium,..,0
+ , , ,Brunei Darussalam,..,..
+ , , ,Brazil,..,..
+ , , ,Canada,1,3
+ , , ,Switzerland,..,0
+ , , ,"China, People's Republic of",3,1
+ , , ,Cyprus,..,..
+ , , ,Germany,..,1
+ , , ,Denmark,..,..
+ , , ,Algeria,..,..
+ , , ,Estonia,..,..
+ , , ,Egypt,..,..
+ , , ,Spain,..,0
+ , , ,EU,43,11
+ , , ,Eurozone,2,3
+ , , ,Finland,..,..
+ , , ,Fiji,1,..
+ , , ,France,1,1
+ , , ,United Kingdom,41,8
+ , , ,GCC,47,..
+ , , ,Greece,..,..
+ , , ,Hong Kong (SAR),..,0
+ , , ,Indonesia,..,0
+ , , ,Ireland,..,0
+ , , ,India,2,..
+ , , ,Italy,..,..
+ , , ,Japan,..,0
+ , , ,"Korea, Republic of",..,..
+ , , ,Kuwait,..,..
+ , , ,Sri Lanka,..,..
+ , , ,Luxembourg,..,..
+ , , ,Latvia,..,..
+ , , ,Monaco,..,..
+ , , ,Malta,..,..
+ , , ,Mexico,..,..
+ , , ,Malaysia,..,0
+ , , ,Nigeria,..,..
+ , , ,Netherlands,..,1
+ , , ,OECD,263,126
+ , , ,Oman,..,..
+ , , ,French Polynesia,..,..
+ , , ,Papua New Guinea,..,..
+ , , ,Philippines,..,..
+ , , ,Portugal,..,..
+ , , ,Qatar,..,..
+ , , ,Russia,..,..
+ , , ,Saudi Arabia,0,..
+ , , ,Sweden,..,..
+ , , ,Singapore,3,6
+ , , ,Slovenia,..,..
+ , , ,Slovakia,..,..
+ , , ,Thailand,..,..
+ , , ,Tonga,..,..
+ , , ,Taiwan,..,..
+ , , ,United States of America,197,34
+ , , ,Venezuela,..,..
+ , , ,Viet Nam,..,..
+ , , ,Samoa,..,..
+ , , ,ASEAN,8,7
+ , , ,Europe,54,12
+ , , ,Latin America,..,..
+ , , ,Pacific Island Forum,3,..
+ , , ,Country unspecified,18,8
+ , , ,South Africa,..,..
+ , , ,ASIA,21,12
+ ,Government services,Actual,United Arab Emirates,2,7
+ , , ,APEC,123,99
+ , , ,Australia,35,15
+ , , ,Belgium,0,4
+ , , ,Brunei Darussalam,0,0
+ , , ,Brazil,2,7
+ , , ,Canada,7,7
+ , , ,Switzerland,1,4
+ , , ,"China, People's Republic of",20,15
+ , , ,Cyprus,0,0
+ , , ,Germany,7,7
+ , , ,Denmark,0,0
+ , , ,Algeria,0,0
+ , , ,Estonia,0,0
+ , , ,Egypt,1,4
+ , , ,Spain,1,4
+ , , ,EU,51,44
+ , , ,Eurozone,24,36
+ , , ,Finland,0,0
+ , , ,Fiji,4,4
+ , , ,France,8,7
+ , , ,United Kingdom,24,4
+ , , ,GCC,5,11
+ , , ,Greece,1,0
+ , , ,Hong Kong (SAR),2,0
+ , , ,Indonesia,2,4
+ , , ,Ireland,2,0
+ , , ,India,19,7
+ , , ,Italy,2,7
+ , , ,Japan,8,4
+ , , ,"Korea, Republic of",7,4
+ , , ,Kuwait,0,0
+ , , ,Sri Lanka,2,0
+ , , ,Luxembourg,0,0
+ , , ,Latvia,0,0
+ , , ,Monaco,0,0
+ , , ,Malta,0,0
+ , , ,Mexico,1,4
+ , , ,Malaysia,3,4
+ , , ,Nigeria,0,0
+ , , ,Netherlands,2,4
+ , , ,OECD,125,99
+ , , ,Oman,0,0
+ , , ,French Polynesia,0,0
+ , , ,Papua New Guinea,1,4
+ , , ,Philippines,12,4
+ , , ,Portugal,0,0
+ , , ,Qatar,0,0
+ , , ,Russia,1,4
+ , , ,Saudi Arabia,3,4
+ , , ,Sweden,0,0
+ , , ,Singapore,3,4
+ , , ,Slovenia,0,0
+ , , ,Slovakia,0,0
+ , , ,Thailand,3,4
+ , , ,Tonga,1,4
+ , , ,Taiwan,2,4
+ , , ,United States of America,11,11
+ , , ,Venezuela,0,0
+ , , ,Viet Nam,3,7
+ , , ,Samoa,6,4
+ , , ,ASEAN,26,26
+ , , ,Europe,53,51
+ , , ,Latin America,10,18
+ , , ,Pacific Island Forum,17,33
+ , , ,Country unspecified,27,0
+ , , ,South Africa,19,4
+ , , ,ASIA,87,66
+ ,Business travel services,Actual,United Arab Emirates,4,5
+ , , ,APEC,1035,908
+ , , ,Australia,565,628
+ , , ,Belgium,3,1
+ , , ,Brunei Darussalam,0,0
+ , , ,Brazil,3,1
+ , , ,Canada,21,10
+ , , ,Switzerland,6,3
+ , , ,"China, People's Republic of",126,59
+ , , ,Cyprus,0,0
+ , , ,Germany,14,12
+ , , ,Denmark,4,1
+ , , ,Algeria,0,0
+ , , ,Estonia,0,0
+ , , ,Egypt,0,1
+ , , ,Spain,5,4
+ , , ,EU,141,77
+ , , ,Eurozone,63,42
+ , , ,Finland,2,1
+ , , ,Fiji,14,36
+ , , ,France,11,7
+ , , ,United Kingdom,65,29
+ , , ,GCC,6,7
+ , , ,Greece,1,1
+ , , ,Hong Kong (SAR),16,10
+ , , ,Indonesia,8,10
+ , , ,Ireland,4,2
+ , , ,India,22,12
+ , , ,Italy,8,6
+ , , ,Japan,27,20
+ , , ,"Korea, Republic of",8,7
+ , , ,Kuwait,0,0
+ , , ,Sri Lanka,1,1
+ , , ,Luxembourg,0,0
+ , , ,Latvia,0,0
+ , , ,Monaco,0,0
+ , , ,Malta,0,0
+ , , ,Mexico,1,1
+ , , ,Malaysia,12,8
+ , , ,Nigeria,0,0
+ , , ,Netherlands,9,4
+ , , ,OECD,949,839
+ , , ,Oman,0,0
+ , , ,French Polynesia,4,2
+ , , ,Papua New Guinea,2,8
+ , , ,Philippines,8,8
+ , , ,Portugal,1,1
+ , , ,Qatar,1,1
+ , , ,Russia,3,1
+ , , ,Saudi Arabia,1,1
+ , , ,Sweden,4,1
+ , , ,Singapore,34,21
+ , , ,Slovenia,0,0
+ , , ,Slovakia,0,0
+ , , ,Thailand,10,12
+ , , ,Tonga,7,6
+ , , ,Taiwan,11,4
+ , , ,United States of America,176,89
+ , , ,Venezuela,0,0
+ , , ,Viet Nam,4,7
+ , , ,Samoa,9,13
+ , , ,ASEAN,78,68
+ , , ,Europe,151,81
+ , , ,Latin America,11,8
+ , , ,Pacific Island Forum,50,92
+ , , ,Country unspecified,14,29
+ , , ,South Africa,10,4
+ , , ,ASIA,291,186
+ ,Education travel services,Actual,United Arab Emirates,1,0
+ , , ,APEC,3005,112
+ , , ,Australia,0,49
+ , , ,Belgium,5,0
+ , , ,Brunei Darussalam,2,0
+ , , ,Brazil,153,0
+ , , ,Canada,11,2
+ , , ,Switzerland,40,0
+ , , ,"China, People's Republic of",1308,26
+ , , ,Cyprus,0,0
+ , , ,Germany,111,2
+ , , ,Denmark,4,0
+ , , ,Algeria,0,0
+ , , ,Estonia,0,0
+ , , ,Egypt,1,0
+ , , ,Spain,16,1
+ , , ,EU,284,16
+ , , ,Eurozone,248,9
+ , , ,Finland,1,0
+ , , ,Fiji,31,6
+ , , ,France,77,2
+ , , ,United Kingdom,20,6
+ , , ,GCC,85,1
+ , , ,Greece,0,1
+ , , ,Hong Kong (SAR),187,1
+ , , ,Indonesia,44,3
+ , , ,Ireland,2,0
+ , , ,India,687,5
+ , , ,Italy,22,2
+ , , ,Japan,456,4
+ , , ,"Korea, Republic of",276,2
+ , , ,Kuwait,4,0
+ , , ,Sri Lanka,45,0
+ , , ,Luxembourg,0,0
+ , , ,Latvia,0,0
+ , , ,Monaco,0,0
+ , , ,Malta,0,0
+ , , ,Mexico,15,0
+ , , ,Malaysia,81,2
+ , , ,Nigeria,1,0
+ , , ,Netherlands,5,1
+ , , ,OECD,1243,88
+ , , ,Oman,10,0
+ , , ,French Polynesia,0,0
+ , , ,Papua New Guinea,5,0
+ , , ,Philippines,111,2
+ , , ,Portugal,1,0
+ , , ,Qatar,0,0
+ , , ,Russia,35,0
+ , , ,Saudi Arabia,71,0
+ , , ,Sweden,5,0
+ , , ,Singapore,15,2
+ , , ,Slovenia,0,0
+ , , ,Slovakia,1,0
+ , , ,Thailand,154,3
+ , , ,Tonga,10,2
+ , , ,Taiwan,48,1
+ , , ,United States of America,99,12
+ , , ,Venezuela,1,0
+ , , ,Viet Nam,100,2
+ , , ,Samoa,4,3
+ , , ,ASEAN,528,13
+ , , ,Europe,368,17
+ , , ,Latin America,320,2
+ , , ,Pacific Island Forum,60,17
+ , , ,Country unspecified,0,10
+ , , ,South Africa,14,1
+ , , ,ASIA,3605,54
+ ,Other personal travel services,Actual,United Arab Emirates,28,10
+ , , ,APEC,6809,3262
+ , , ,Australia,2175,1683
+ , , ,Belgium,21,3
+ , , ,Brunei Darussalam,3,1
+ , , ,Brazil,49,11
+ , , ,Canada,275,65
+ , , ,Switzerland,64,8
+ , , ,"China, People's Republic of",1604,231
+ , , ,Cyprus,1,1
+ , , ,Germany,559,33
+ , , ,Denmark,40,4
+ , , ,Algeria,0,0
+ , , ,Estonia,2,0
+ , , ,Egypt,1,4
+ , , ,Spain,40,24
+ , , ,EU,2068,671
+ , , ,Eurozone,965,214
+ , , ,Finland,14,2
+ , , ,Fiji,94,292
+ , , ,France,120,28
+ , , ,United Kingdom,972,424
+ , , ,GCC,48,15
+ , , ,Greece,3,14
+ , , ,Hong Kong (SAR),156,39
+ , , ,Indonesia,80,171
+ , , ,Ireland,36,21
+ , , ,India,192,167
+ , , ,Italy,31,57
+ , , ,Japan,250,113
+ , , ,"Korea, Republic of",205,41
+ , , ,Kuwait,2,0
+ , , ,Sri Lanka,11,21
+ , , ,Luxembourg,3,0
+ , , ,Latvia,2,0
+ , , ,Monaco,0,0
+ , , ,Malta,2,1
+ , , ,Mexico,16,10
+ , , ,Malaysia,122,45
+ , , ,Nigeria,0,0
+ , , ,Netherlands,88,16
+ , , ,OECD,6452,3131
+ , , ,Oman,2,1
+ , , ,French Polynesia,80,14
+ , , ,Papua New Guinea,7,4
+ , , ,Philippines,80,84
+ , , ,Portugal,6,6
+ , , ,Qatar,5,1
+ , , ,Russia,18,8
+ , , ,Saudi Arabia,9,3
+ , , ,Sweden,43,5
+ , , ,Singapore,174,45
+ , , ,Slovenia,2,1
+ , , ,Slovakia,4,1
+ , , ,Thailand,81,92
+ , , ,Tonga,61,56
+ , , ,Taiwan,159,29
+ , , ,United States of America,1352,532
+ , , ,Venezuela,0,0
+ , , ,Viet Nam,25,54
+ , , ,Samoa,83,134
+ , , ,ASEAN,573,508
+ , , ,Europe,2162,690
+ , , ,Latin America,153,59
+ , , ,Pacific Island Forum,466,804
+ , , ,Country unspecified,305,273
+ , , ,South Africa,75,37
+ , , ,ASIA,3171,1173

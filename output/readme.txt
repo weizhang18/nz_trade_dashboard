@@ -1,0 +1,1 @@
+should contain, in subfolders if necessary, only outputs that are intended for publication. Typically in both png and pdf format.

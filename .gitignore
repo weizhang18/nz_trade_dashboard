@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+*.png
+!shiny/www/MBIELogo/*.png
+*.pdf
+[Tt]humbs.db
+*[Tt]humbs.db
+
