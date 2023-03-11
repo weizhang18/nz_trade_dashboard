@@ -338,9 +338,9 @@ body <- dashboardBody(
                    ),
                
                ## 0.0 Decommission message ----
-               div( id = 'attention_messsage',
-                    style = 'border: 3px solid rgba(255, 0, 0, .6); border-radius: 15px; padding: 10px;',
-                    attention_message() ),
+               #div( id = 'attention_messsage',
+               #     style = 'border: 3px solid rgba(255, 0, 0, .6); border-radius: 15px; padding: 10px;',
+               #     attention_message() ),
                
                # 1.1 Export/import board ---------------------------
                #div(class = 'scroller_anchor'),

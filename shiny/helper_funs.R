@@ -260,18 +260,18 @@ urgent_updates <- function(){
 
 
 ## attention message for decommision the dashboard --
-attention_message <- function(){
-   div( id = "",
-        tags$h1('Attention: This dashboard will be decommissioned shortly!', style = 'text-align:center', class = 'glow'),
-        tags$br(),
-        tags$h4( tags$a(href= "https://statisticsnz.shinyapps.io/trade_dashboard/", tags$b("The New Zealand Trade Dashboard"), target= '_blank'), 
-                 " will be the replacement. If you have any questions, please contact Stats NZ at ",
-                 tags$a(href= "mailto:info@stats.govt.nz?subject=Concerns and suggestions for decommissioning MBIE's trade intelligence dashboard&cc=wei.zhang@mbie.govt.nz;ben.wallace@mbie.govt.nz", 
-                        tags$b("info@stats.govt.nz"), 
-                        target= '_blank'), "." , style = 'text-align:justify' ),
-        tags$h4("It has been a pleasure providing insights and convenience for your work.", tags$span("GOOD LUCK and BEST WISHES!", class = 'rainbow-text'  ) )
-        )
-}
+# attention_message <- function(){
+#    div( id = "",
+#         tags$h1('Attention: This dashboard will be decommissioned shortly!', style = 'text-align:center', class = 'glow'),
+#         tags$br(),
+#         tags$h4( tags$a(href= "https://statisticsnz.shinyapps.io/trade_dashboard/", tags$b("The New Zealand Trade Dashboard"), target= '_blank'), 
+#                  " will be the replacement. If you have any questions, please contact Stats NZ at ",
+#                  tags$a(href= "mailto:info@stats.govt.nz?subject=Concerns and suggestions for decommissioning MBIE's trade intelligence dashboard&cc=wei.zhang@mbie.govt.nz;ben.wallace@mbie.govt.nz", 
+#                         tags$b("info@stats.govt.nz"), 
+#                         target= '_blank'), "." , style = 'text-align:justify' ),
+#         tags$h4("It has been a pleasure providing insights and convenience for your work.", tags$span("GOOD LUCK and BEST WISHES!", class = 'rainbow-text'  ) )
+#         )
+# }
 
 
 
