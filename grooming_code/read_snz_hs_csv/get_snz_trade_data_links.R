@@ -22,7 +22,8 @@ contents_csv_files <-
    grep( "/assets/Large-datasets/OMT-datasets/*", contents_splited, value = T)
 
 contents_zip_files <- 
-   grep( "https://www3.stats.govt.nz/HS10_by_Country*", contents_splited, value = T)
+   #grep( "https://www3.stats.govt.nz/HS10_by_Country*", contents_splited, value = T)
+   grep( ".zip", contents_splited, value = T)
 
 ## to extract links from them ------
 ### do .csv files first ------

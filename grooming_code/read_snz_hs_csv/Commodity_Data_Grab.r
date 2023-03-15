@@ -5,57 +5,16 @@
 ##                data on their website.  It then checks what data has already been downloaded.  If 
 ##                some data has not been downloaded, the programme downloads it.
 ##
-##    Plan of  :  This programme uses a variation of the screen scraping functionality to identify
-##                all of the zip files Stats have uploaded to the net.  Once all the internet files
-##                are identified, it looks into the Raw_Data directory and checks to see what data has
-##                been downloaded.  If the data has been downloaded, it doesn't download it again.
-##                If the data hasn't been downloaded, it downloads it and stores it in the Raw_Data
-##                directory, ready for the next programme that is going to read it.
-##
-##    Author:     James Hogan, Sector Performance, Ministry of Business, Innovation and Employment
-##                30 August 2014
-##
-   
-   ##
-   ##    Instance a CURL event
-   ##
-      # if(!exists("curl"))
-      # {
-      #    creds <- AskCreds(Title = "User Log In Name and Password", startuid = "", returnValOnCancel = "ID_CANCEL")
-      #    curl <- getCurlHandle()
-      #    curlSetOpt(.opts = list(proxy = 'http://proxybcw.wd.govt.nz:8080',
-      #                            proxyusername = creds$uid,
-      #                            proxypassword = creds$pwd), curl = curl)
-      # }
 
-   #Base_URL <- "http://archive.stats.govt.nz/browse_for_stats/industry_sectors/imports_and_exports/overseas-merchandise-trade/HS10-by-country.aspx?url=/browse_for_stats/industry_sectors/imports_and_exports/overseas-merchandise-trade/HS10-by-country.aspx"
    
-   Base_URL <- "https://www.stats.govt.nz/large-datasets/csv-files-for-download/overseas-merchandise-trade-datasets#datasets-for-imports"
-   ##
-   ##    This function was stolen from the XML help file :)
-   ##
-      getLinks = function() 
-         { 
-             links = character() 
-             list(a = function(node, ...) { 
-                         links <<- c(links, xmlGetAttr(node, "href"))
-                         node 
-                      }, 
-                  links = function()links)
-         }
+load("data_intermediate/links_zip.rda")
 
-   ##
-   ##    Open the URL
-   ##
-      h1 = getLinks()
-      #Trade_Data_Page <- getURL(Base_URL, curl = curl)
-      Trade_Data_Page <- getURL(Base_URL)
-      htmlTreeParse(Trade_Data_Page, handlers = h1)
       
    ##
    ##    Focus on the zip files, and the files where the above name is true
    ##
-      Source_Files <- data.frame(links = as.character(h1$links()))
+      #Source_Files <- data.frame(links = as.character(h1$links()))
+      Source_Files <- data.frame(links = links_zip  )
       Source_Files <- data.frame(Trade_Data = unique(Source_Files[str_detect(Source_Files$links, regex("zip", ignore.case = TRUE)),]))
      
    ##
