@@ -7,10 +7,19 @@
 #######################################################################
 
 ##################################################
-## 0.0 set environment ---------------------------
-
+## 0.0 set environment --------------------------- 
 ## set R, load user defined functions and some global variables
 source("xxx.Rprofile") # it is necessary to run when start from outside Rstudio, and no harm to run it again
+
+
+
+## Change character ---------------------------
+Current_qtr <- "2022 Q4"   
+
+output_folder <- paste0("data/", gsub(" ","_", Current_qtr))
+dir.create( output_folder )
+
+######################################################################
 
 ## membership group --- run this outside .Rprofile because it does not run properly in the file
 concord_country_member <-
@@ -45,7 +54,7 @@ source("grooming_code/read_snz_hs_csv/Commodity_Data_Process.r")
 source("grooming_code/read_snz_hs_csv/Groom_Trade_Data.r")
 source("grooming_code/read_snz_hs_csv/Upload_To_TRED.r")
 ## if run, run from here-----
-detach("package:plyr", unload=TRUE) ## detach packages ----
+#detach("package:plyr", unload=TRUE) ## detach packages ----
 source("grooming_code/read_snz_hs_csv/Put_Service_Good_Data.R")
 
 ## 1. read data, required only when there are new data

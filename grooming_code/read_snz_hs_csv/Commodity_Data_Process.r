@@ -133,7 +133,8 @@
          }  
          close(progress_csv)
          
-         assign(Focus[j], data.frame(do.call(rbind.fill,Commodity_Data))) #rbind.fill
+         #assign(Focus[j], data.frame(do.call(rbind.fill,Commodity_Data))) #rbind.fill
+         assign(Focus[j], data.frame(do.call(dplyr::bind_rows,Commodity_Data))) 
          ##
          ##   Save the list
          ##
@@ -143,3 +144,13 @@
    ##
    ##   Done!
    ##
+    
+    save(Exports_By_Country, file = "data_intermediate/Exports_By_Country.rda")
+    save(Exports_Total, file = "data_intermediate/Exports_Total.rda")
+    save(Imports_By_Country, file = "data_intermediate/Imports_By_Country.rda")
+    save(Imports_Total, file = "data_intermediate/Imports_Total.rda")
+    
+    ############################
+    rm( list = setdiff( ls(), keepers) )
+    gc()
+    ###############

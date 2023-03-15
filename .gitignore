@@ -3,6 +3,7 @@
 .RData
 *.png
 !shiny/www/MBIELogo/*.png
+data_intermediate/*.rda
 *.pdf
 [Tt]humbs.db
 *[Tt]humbs.db

@@ -8,16 +8,14 @@
 ##                10 digit classification.  StatsNZ, miss the leading 0.
 ##                The trick is to keep this classification as a string and pad it with a 
 ##                leading zero if less than 10 characters in length.
-##
-##    Author:     James Hogan, 31 August 2014
-##
+
    ##
    ##    Load the raw data back into memory
    ##
-      #load("data\\Exports_By_Country.rda")
-      #load("data\\Imports_By_Country.rda")
-      #load("data\\Exports_Total.rda")
-      #load("data\\Imports_Total.rda")
+      load("data_intermediate/Exports_By_Country.rda")
+      load("data_intermediate/Imports_By_Country.rda")
+      load("data_intermediate/Exports_Total.rda")
+      load("data_intermediate/Imports_Total.rda")
  
  
    ##
@@ -77,24 +75,28 @@
    ##
    ##    And Save
    ##
-       #save(Exports_By_Country, file = "data/Exports_By_Country.rda")
-       #save(Imports_By_Country, file = "data/Imports_By_Country.rda")
-       save(Exports_Total,      file = "data/Exports_Total.rda")
-       save(Imports_Total,      file = "data/Imports_Total.rda")
+       save(Exports_By_Country, file = "data_intermediate/Exports_By_Country_corrected.rda")
+       save(Imports_By_Country, file = "data_intermediate/Imports_By_Country_corrected.rda")
+       save(Exports_Total,      file = "data_intermediate/Exports_Total_corrected.rda")
+       save(Imports_Total,      file = "data_intermediate/Imports_Total_corrected.rda")
    ##
    ##    Geocode the locations and save the lats and longs
    ##
-      Export_Countries <- 
-         Exports_By_Country %>% 
-         mutate(Country = as.character(Country)) %>% 
-         mutate(Country = ifelse(!is.na(Country), Country, as.character(Country))) %>% 
-         dplyr::select(Country) %>% 
-         distinct() %>%
-         filter( !is.na(Country) )
-         
-      
-      Country_Geocodes <- geocode(Export_Countries$Country)
-      Country_Geocodes <- cbind(Export_Countries, Country_Geocodes) 
-      save(Country_Geocodes, file = "data/Country_Geocodes.rda")
+      # Export_Countries <- 
+      #    Exports_By_Country %>% 
+      #    mutate(Country = as.character(Country)) %>% 
+      #    mutate(Country = ifelse(!is.na(Country), Country, as.character(Country))) %>% 
+      #    dplyr::select(Country) %>% 
+      #    distinct() %>%
+      #    filter( !is.na(Country) )
+      # 
+      # Country_Geocodes <- geocode(Export_Countries$Country)
+      # Country_Geocodes <- cbind(Export_Countries, Country_Geocodes) 
+      # save(Country_Geocodes, file = "data/Country_Geocodes.rda")
+      # 
    
-   
+       
+       ############################
+       rm( list = setdiff( ls(), keepers) )
+       gc()
+       ###############
