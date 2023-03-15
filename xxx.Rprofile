@@ -55,6 +55,7 @@ library(networkD3)
 library(promises)
 #library(future)
 #plan(multiprocess)
+library(readr)
 
 library(RCurl)
 library(plyr)

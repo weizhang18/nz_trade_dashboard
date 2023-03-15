@@ -10,7 +10,7 @@
 ## 0.0 set environment ---------------------------
 
 ## set R, load user defined functions and some global variables
-source(".Rprofile") # it is necessary to run when start from outside Rstudio, and no harm to run it again
+source("xxx.Rprofile") # it is necessary to run when start from outside Rstudio, and no harm to run it again
 
 ## membership group --- run this outside .Rprofile because it does not run properly in the file
 concord_country_member <-
@@ -29,6 +29,7 @@ file_map_goods_services_by_country <- "data_raw/goods-and-services-trade-by-coun
 file_fdi_odi <- "data_raw/fdi_odi.csv" ## only annual data Year ended Mar 2019
 file_ppl_in <- "data_raw/ppl_in.csv"  ## Q1 2020 updated
 file_ppl_out <- "data_raw/ppl_out.csv" ## Q1 2020 updated
+file_stats_nz_trade <- "data_raw/intel_trade_data/international-trade-december-2022-quarter.zip"
    
 ###########################################################################
 ## create list of objects to be reserved when cleaning workspace ----------
@@ -37,6 +38,7 @@ keepers <- ls()
 ###########################################################################
 
 ## 0. Download and format import and export data by country and commodity -------
+source("grooming_code/read_snz_hs_csv/get_snz_trade_data_links.R")
 source("grooming_code/read_snz_hs_csv/Commodity_Data_Grab.r")
 source("grooming_code/read_snz_hs_csv/Commodity_Data_Grab_CSV.r")
 source("grooming_code/read_snz_hs_csv/Commodity_Data_Process.r")
