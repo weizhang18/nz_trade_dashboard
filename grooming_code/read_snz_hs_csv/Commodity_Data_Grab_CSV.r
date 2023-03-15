@@ -12,63 +12,57 @@
 ##                If the data hasn't been downloaded, it downloads it and stores it in the Raw_Data
 ##                directory, ready for the next programme that is going to read it.
 ##
-##    Author:     James Hogan, Sector Performance, Ministry of Business, Innovation and Employment
-##                30 August 2014
-##
+
    
-   ##
-   ##    Instance a CURL event
-   ##
-      # if(!exists("curl"))
-      # {
-      #    creds <- AskCreds(Title = "User Log In Name and Password", startuid = "", returnValOnCancel = "ID_CANCEL")   
-      #    curl <- getCurlHandle()
-      #    curlSetOpt(.opts = list(proxy = 'http://proxybcw.wd.govt.nz:8080',
-      #                            proxyusername = creds$uid, 
-      #                            proxypassword = creds$pwd), curl = curl)   
-      # }
+
    ### get rid of CSv files as there are provisional data
    All_Files <- list.files( "data_raw//snz_country_hs" )
    All_Files_CSV <- All_Files[ grepl('[.]csv', All_Files) ]
    unlink( paste0('data_raw//snz_country_hs//', All_Files_CSV) )
    
+   ## load links for .csv files 
+   load("data_intermediate/links_csv.rda")
    
-   ## download csv files
-   
-   Base_URL <- "http://archive.stats.govt.nz/browse_for_stats/industry_sectors/imports_and_exports/overseas-merchandise-trade/HS10-by-country.aspx?url=/browse_for_stats/industry_sectors/imports_and_exports/overseas-merchandise-trade/HS10-by-country.aspx"
-   ##
-   ##    This function was stolen from the XML help file :)
-   ##
-      getLinks = function() 
-         { 
-             links = character() 
-             list(a = function(node, ...) { 
-                         links <<- c(links, xmlGetAttr(node, "href"))
-                         node 
-                      }, 
-                  links = function()links)
-         }
-
-   ##
-   ##    Open the URL
-   ##
-      h1 = getLinks()
-      Trade_Data_Page <- getURL(Base_URL, curl = curl)
-      htmlTreeParse(Trade_Data_Page, handlers = h1)
+   # ## download csv files
+   # 
+   # Base_URL <- "http://archive.stats.govt.nz/browse_for_stats/industry_sectors/imports_and_exports/overseas-merchandise-trade/HS10-by-country.aspx?url=/browse_for_stats/industry_sectors/imports_and_exports/overseas-merchandise-trade/HS10-by-country.aspx"
+   # ##
+   # ##    This function was stolen from the XML help file :)
+   # ##
+   #    getLinks = function() 
+   #       { 
+   #           links = character() 
+   #           list(a = function(node, ...) { 
+   #                       links <<- c(links, xmlGetAttr(node, "href"))
+   #                       node 
+   #                    }, 
+   #                links = function()links)
+   #       }
+   # 
+   # ##
+   # ##    Open the URL
+   # ##
+   #    h1 = getLinks()
+   #    Trade_Data_Page <- getURL(Base_URL, curl = curl)
+   #    htmlTreeParse(Trade_Data_Page, handlers = h1)
       
       ##
       ## Get all links from webpage, then subset based on whether they are final or not
       ##
       
       #Base URL that all latest year data use
-      Current_Year_Base <- "/~/media/Statistics/browse-categories/industry-sectors/imports-exports/HS10 by Country"
+      # Current_Year_Base <- "/~/media/Statistics/browse-categories/industry-sectors/imports-exports/HS10 by Country"
+      # 
+      # Source_Files <- data.frame(links = as.character(h1$links())) %>%
+      #                      filter(str_detect(links, Current_Year_Base)) %>%
+      #                      filter(#str_detect(links, "Final"), 
+      #                             #!str_detect(links, "prov"), ## modified by Wei to get all data
+      #                             str_detect(links, ".csv")) %>%
+      #                      mutate(links = paste0("http://archive.stats.govt.nz", links))
       
-      Source_Files <- data.frame(links = as.character(h1$links())) %>%
-                           filter(str_detect(links, Current_Year_Base)) %>%
-                           filter(#str_detect(links, "Final"), 
-                                  #!str_detect(links, "prov"), ## modified by Wei to get all data
-                                  str_detect(links, ".csv")) %>%
-                           mutate(links = paste0("http://archive.stats.govt.nz", links))
+      
+      Source_Files <- data.frame(links = links_csv  )
+      
                                   
    ##
    ##    Strip out from the last backslash to identify the filename
@@ -110,5 +104,8 @@
    ##
    ##    ... and stop :)
    ##
-
+      ############################
+      rm( list = setdiff( ls(), keepers) )
+      gc()
+      ###############
       

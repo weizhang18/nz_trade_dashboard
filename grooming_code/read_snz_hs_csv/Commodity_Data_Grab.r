@@ -75,3 +75,9 @@ load("data_intermediate/links_zip.rda")
    ##
    ##    ... and stop :)
    ##
+      
+      
+      ############################
+      rm( list = setdiff( ls(), keepers) )
+      gc()
+      ###############
