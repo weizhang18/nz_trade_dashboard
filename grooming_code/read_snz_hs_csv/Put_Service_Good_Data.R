@@ -92,11 +92,18 @@ dtf_service <-
    ) %>%
    dplyr::select(  Year, Sector = CV3, Dimension1 = CV4, Dimension2 = CV2, Value) %>%
    filter( !Dimension1 %in% marketToDelet ) %>% ## delete the grouped markets
-   mutate( Dimension1 = rename.levels( Dimension1, 
-                                       orig = c("Country unspecified", "Hong Kong (SAR)", "Samoa"),
-                                       new = c("Destination Unknown - EU","Hong Kong (Special Administrative Region)","Samoa, Western")
-   ) 
-   ) %>%
+   # mutate( Dimension1 = rename.levels( Dimension1, 
+   #                                     orig = c("Country unspecified", 
+   #                                              "Hong Kong (SAR)", 
+   #                                              "Samoa"),
+   #                                     new = c("Destination Unknown - EU",
+   #                                             "Hong Kong (Special Administrative Region)",
+   #                                             "Samoa, Western") )  ) %>%
+   mutate( Dimension1 = case_when( Dimension1 == "Country unspecified" ~ "Destination Unknown - EU",
+                                   Dimension1 == "Hong Kong (SAR)" ~ "Hong Kong (Special Administrative Region)",
+                                   Dimension1 == "Samoa" ~ "Samoa, Western",
+                                   TRUE ~ as.character(Dimension1)
+                                   ) ) %>% 
    filter( Sector %in% concord_ExportHSCode$HS_code[concord_ExportHSCode$Type=='Services']) ## This is to align market names with Goods EX/IM data
 
 
@@ -121,7 +128,9 @@ dtf_service_im <-
 ###### -------------------------------------- Exports of Goods ----------------------------------------------
 #dtf_ex_raw <- ImportTS2(TRED, "New Zealand Overseas Merchandise Trade: Exports by Commodity and Country")
 
-load("data/Exports_By_Country_shiny.rda")
+#load("data/Exports_By_Country_shiny.rda")
+load(paste0( output_folder ,"/Exports_By_Country_shiny.rda"))
+
 dtf_ex_raw <- 
    Exports_By_Country %>%
    dplyr::rename( TimePeriod = Date, CV2 = Harmonised_System_Code, CV1 = Country, CV3 = Measure, Value = value )
@@ -199,7 +208,9 @@ dtf_goods_ex <-
 ##### -------------------------------------- Imports of Goods
 #dtf_im_raw <- ImportTS2(TRED, "New Zealand Overseas Merchandise Trade: Imports by Commodity and Country")
 
-load("data/Imports_By_Country_shiny.rda")
+#load("data/Imports_By_Country_shiny.rda")
+load(paste0( output_folder ,"/Imports_By_Country_shiny.rda"))
+
 dtf_im_raw <- 
    Imports_By_Country %>%
    dplyr::rename( TimePeriod = Date, CV2 = Harmonised_System_Code, CV1 = Country, CV3 = Measure, Value = value )
@@ -256,8 +267,8 @@ dtf_im <-
    bind_rows( dtf_service_im )
 
 
-save(dtf_ex_country_yr, file = "data/Exports_shiny.rda")
-save(dtf_im_country_yr, file = "data/Imports_shiny.rda")     
+save(dtf_ex_country_yr, file = paste0(output_folder, "/Exports_shiny.rda") )
+save(dtf_im_country_yr, file = paste0( output_folder, "/Imports_shiny.rda") )     
 
 ###########################################################################
 ## remove unused objects

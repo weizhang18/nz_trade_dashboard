@@ -1,6 +1,8 @@
 ###########################################################################
 rm(list= ls())
 
+Sys.setlocale("LC_TIME", "C")
+
 ## set up R environment ---------------------------------------------------
 #PrefLibPaths <- "P:/R/libraries/3.3.2-20170925"
 #source("P:/R/common.Rprofile")
@@ -170,3 +172,9 @@ concord_ExportHSCode <-
            Commodity = as.character(Commodity) ) %>%
    mutate_all( as.character() )
 
+
+## map between snz service between old and new --
+concord_snz_service <-
+   read_excel('data_raw/concordances/Concordance.xlsx',
+             sheet = 'snz_service_new_old') %>%
+   mutate_all( as.character() )
