@@ -1,3 +1,6 @@
+##
+load( paste0(output_folder_shiny, "/dtf_shiny_country_gs.rda") )
+
 ## build a country list that 
 dtf_country_group <-
    dtf_shiny_country_gs %>%
@@ -53,5 +56,13 @@ for( i_region in 1:length(tmp_region) ){
  
 
 ### save .rda   
-save( dtf_country_group, file = 'shiny/dtf_country_group.rda' ) 
-save( list_country, file = 'shiny/list_country.rda' ) 
+#save( dtf_country_group, file = 'shiny/dtf_country_group.rda' ) 
+save( dtf_country_group, file = paste0(output_folder_shiny, '/dtf_country_group.rda' ) )
+#save( list_country, file = 'shiny/list_country.rda' ) 
+save( list_country, file = paste0( output_folder_shiny, '/list_country.rda' ) )
+
+###########################################################################
+## remove unused objects
+rm(list=setdiff(ls(), keepers))
+gc()
+###########################################################################

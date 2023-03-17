@@ -1,4 +1,6 @@
 ##### groom data to generate a full HS data frame which contains hs2, 4, and 6 levles
+load( paste0(output_folder_shiny, "/dtf_shiny.rda") )
+
 ### Total goods and services
 tmp_dtf_tot_gs <- 
    dtf_shiny %>%
@@ -50,7 +52,14 @@ dtf_shiny_full <-
    bind_rows( tmp_dtf_s ) %>%
    bind_rows( tmp_dtf_commodity_l246  )
 
-save( dtf_shiny_full, file = 'shiny/dtf_shiny_full.rda' ) 
+#save( dtf_shiny_full, file = 'shiny/dtf_shiny_full.rda' ) 
+save( dtf_shiny_full, file = paste0(output_folder_shiny , '/dtf_shiny_full.rda' ) )
+
+###########################################################################
+## remove unused objects
+rm(list=setdiff(ls(), keepers))
+gc()
+###########################################################################
 
 ## get lat and long data
 ## get countries' ISO2

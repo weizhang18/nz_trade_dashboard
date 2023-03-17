@@ -4940,7 +4940,7 @@ TimePeriod,CV2,Value
  ,Directional basis; Foreign direct inv. in NZ; By country; Madeira,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Australia,44544
  ,Directional basis; Foreign direct inv. in NZ; By country; Norfolk Island,0
- ,Directional basis; Foreign direct inv. in NZ; By country; New Caledonia,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; New Caledonia,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Papua New Guinea,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Solomon Islands,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Vanuatu,..
@@ -5410,7 +5410,7 @@ TimePeriod,CV2,Value
  ,Directional basis; Foreign direct inv. in NZ; By country; Madeira,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Australia,50643
  ,Directional basis; Foreign direct inv. in NZ; By country; Norfolk Island,0
- ,Directional basis; Foreign direct inv. in NZ; By country; New Caledonia,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; New Caledonia,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Papua New Guinea,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Solomon Islands,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Vanuatu,..
@@ -5584,7 +5584,7 @@ TimePeriod,CV2,Value
  ,Directional basis; Foreign direct inv. in NZ; By country; St Kitts and Nevis,0
  ,Directional basis; Foreign direct inv. in NZ; By country; St Lucia,0
  ,Directional basis; Foreign direct inv. in NZ; By country; St Vincent and the Grenadines,0
- ,Directional basis; Foreign direct inv. in NZ; By country; Trinidad and Tobago,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Trinidad and Tobago,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Turks and Caicos Islands,0
  ,"Directional basis; Foreign direct inv. in NZ; By country; Virgin Islands, British",2412
  ,"Directional basis; Foreign direct inv. in NZ; By country; Virgin Islands, United States",0
@@ -5880,7 +5880,7 @@ TimePeriod,CV2,Value
  ,Directional basis; Foreign direct inv. in NZ; By country; Madeira,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Australia,51372
  ,Directional basis; Foreign direct inv. in NZ; By country; Norfolk Island,0
- ,Directional basis; Foreign direct inv. in NZ; By country; New Caledonia,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; New Caledonia,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Papua New Guinea,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Solomon Islands,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Vanuatu,..
@@ -6344,13 +6344,13 @@ TimePeriod,CV2,Value
  ,Directional basis; NZ's direct inv. abroad; By country; Uganda,0
  ,Directional basis; NZ's direct inv. abroad; By country; Zambia,0
  ,Directional basis; NZ's direct inv. abroad; By country; Zimbabwe,0
- ,Directional basis; Foreign direct inv. in NZ total,96032
+ ,Directional basis; Foreign direct inv. in NZ total,96028
  ,Directional basis; Foreign direct inv. in NZ; By country; Sum of unlisted countries,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Campione,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Madeira,0
- ,Directional basis; Foreign direct inv. in NZ; By country; Australia,54057
+ ,Directional basis; Foreign direct inv. in NZ; By country; Australia,54053
  ,Directional basis; Foreign direct inv. in NZ; By country; Norfolk Island,0
- ,Directional basis; Foreign direct inv. in NZ; By country; New Caledonia,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; New Caledonia,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Papua New Guinea,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Solomon Islands,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Vanuatu,..
@@ -7163,7 +7163,7 @@ TimePeriod,CV2,Value
  ,Directional basis; NZ's direct inv. abroad; By country; Hong Kong (SAR),2146
  ,Directional basis; NZ's direct inv. abroad; By country; Japan,-92
  ,"Directional basis; NZ's direct inv. abroad; By country; Korea, Democratic People's Republic of",0
- ,"Directional basis; NZ's direct inv. abroad; By country; Korea, Republic of",46
+ ,"Directional basis; NZ's direct inv. abroad; By country; Korea, Republic of",..
  ,Directional basis; NZ's direct inv. abroad; By country; Macau (SAR),0
  ,Directional basis; NZ's direct inv. abroad; By country; Mongolia,0
  ,Directional basis; NZ's direct inv. abroad; By country; Taiwan,1
@@ -7284,7 +7284,7 @@ TimePeriod,CV2,Value
  ,Directional basis; NZ's direct inv. abroad; By country; Uganda,0
  ,Directional basis; NZ's direct inv. abroad; By country; Zambia,0
  ,Directional basis; NZ's direct inv. abroad; By country; Zimbabwe,0
- ,Directional basis; Foreign direct inv. in NZ total,98476
+ ,Directional basis; Foreign direct inv. in NZ total,98583
  ,Directional basis; Foreign direct inv. in NZ; By country; Sum of unlisted countries,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Campione,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Madeira,0
@@ -7421,11 +7421,11 @@ TimePeriod,CV2,Value
  ,Directional basis; Foreign direct inv. in NZ; By country; Bermuda,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Canada,4043
  ,Directional basis; Foreign direct inv. in NZ; By country; St Pierre and Miquelon,0
- ,Directional basis; Foreign direct inv. in NZ; By country; United States of America,7844
+ ,Directional basis; Foreign direct inv. in NZ; By country; United States of America,7950
  ,Directional basis; Foreign direct inv. in NZ; By country; Argentina,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Bolivia,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Brazil,..
- ,Directional basis; Foreign direct inv. in NZ; By country; Chile,-2
+ ,Directional basis; Foreign direct inv. in NZ; By country; Chile,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Colombia,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Ecuador,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Falkland Islands,0
@@ -7464,7 +7464,7 @@ TimePeriod,CV2,Value
  ,Directional basis; Foreign direct inv. in NZ; By country; St Kitts and Nevis,0
  ,Directional basis; Foreign direct inv. in NZ; By country; St Lucia,0
  ,Directional basis; Foreign direct inv. in NZ; By country; St Vincent and the Grenadines,0
- ,Directional basis; Foreign direct inv. in NZ; By country; Trinidad and Tobago,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Trinidad and Tobago,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Turks and Caicos Islands,0
  ,"Directional basis; Foreign direct inv. in NZ; By country; Virgin Islands, British",3009
  ,"Directional basis; Foreign direct inv. in NZ; By country; Virgin Islands, United States",0
@@ -7550,9 +7550,9 @@ TimePeriod,CV2,Value
  ,Directional basis; NZ's direct inv. abroad; By country; United Kingdom,1234
  ,Directional basis; NZ's direct inv. abroad; By country; Channel Islands,0
  ,Directional basis; NZ's direct inv. abroad; By country; Isle of Man,0
- ,Directional basis; NZ's direct inv. abroad; By country; Ireland,75
+ ,Directional basis; NZ's direct inv. abroad; By country; Ireland,..
  ,Directional basis; NZ's direct inv. abroad; By country; Austria,0
- ,Directional basis; NZ's direct inv. abroad; By country; Belgium,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Belgium,-9
  ,Directional basis; NZ's direct inv. abroad; By country; France,75
  ,Directional basis; NZ's direct inv. abroad; By country; Germany,56
  ,Directional basis; NZ's direct inv. abroad; By country; Liechtenstein,0
@@ -7667,7 +7667,7 @@ TimePeriod,CV2,Value
  ,Directional basis; NZ's direct inv. abroad; By country; French Guiana,0
  ,Directional basis; NZ's direct inv. abroad; By country; Guyana,0
  ,Directional basis; NZ's direct inv. abroad; By country; Paraguay,0
- ,Directional basis; NZ's direct inv. abroad; By country; Peru,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Peru,10
  ,Directional basis; NZ's direct inv. abroad; By country; Suriname,0
  ,Directional basis; NZ's direct inv. abroad; By country; Uruguay,..
  ,Directional basis; NZ's direct inv. abroad; By country; Venezuela,-2
@@ -7754,7 +7754,7 @@ TimePeriod,CV2,Value
  ,Directional basis; NZ's direct inv. abroad; By country; Uganda,0
  ,Directional basis; NZ's direct inv. abroad; By country; Zambia,0
  ,Directional basis; NZ's direct inv. abroad; By country; Zimbabwe,0
- ,Directional basis; Foreign direct inv. in NZ total,100654
+ ,Directional basis; Foreign direct inv. in NZ total,101057
  ,Directional basis; Foreign direct inv. in NZ; By country; Sum of unlisted countries,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Campione,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Madeira,0
@@ -7891,7 +7891,7 @@ TimePeriod,CV2,Value
  ,Directional basis; Foreign direct inv. in NZ; By country; Bermuda,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Canada,2701
  ,Directional basis; Foreign direct inv. in NZ; By country; St Pierre and Miquelon,0
- ,Directional basis; Foreign direct inv. in NZ; By country; United States of America,7740
+ ,Directional basis; Foreign direct inv. in NZ; By country; United States of America,8143
  ,Directional basis; Foreign direct inv. in NZ; By country; Argentina,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Bolivia,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Brazil,0
@@ -8020,7 +8020,7 @@ TimePeriod,CV2,Value
  ,Directional basis; NZ's direct inv. abroad; By country; United Kingdom,1370
  ,Directional basis; NZ's direct inv. abroad; By country; Channel Islands,0
  ,Directional basis; NZ's direct inv. abroad; By country; Isle of Man,0
- ,Directional basis; NZ's direct inv. abroad; By country; Ireland,83
+ ,Directional basis; NZ's direct inv. abroad; By country; Ireland,..
  ,Directional basis; NZ's direct inv. abroad; By country; Austria,0
  ,Directional basis; NZ's direct inv. abroad; By country; Belgium,..
  ,Directional basis; NZ's direct inv. abroad; By country; France,81
@@ -8224,11 +8224,11 @@ TimePeriod,CV2,Value
  ,Directional basis; NZ's direct inv. abroad; By country; Uganda,0
  ,Directional basis; NZ's direct inv. abroad; By country; Zambia,0
  ,Directional basis; NZ's direct inv. abroad; By country; Zimbabwe,0
- ,Directional basis; Foreign direct inv. in NZ total,107628
+ ,Directional basis; Foreign direct inv. in NZ total,108223
  ,Directional basis; Foreign direct inv. in NZ; By country; Sum of unlisted countries,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Campione,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Madeira,0
- ,Directional basis; Foreign direct inv. in NZ; By country; Australia,56608
+ ,Directional basis; Foreign direct inv. in NZ; By country; Australia,56822
  ,Directional basis; Foreign direct inv. in NZ; By country; Norfolk Island,0
  ,Directional basis; Foreign direct inv. in NZ; By country; New Caledonia,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Papua New Guinea,..
@@ -8326,7 +8326,7 @@ TimePeriod,CV2,Value
  ,Directional basis; Foreign direct inv. in NZ; By country; Burma (Myanmar),0
  ,Directional basis; Foreign direct inv. in NZ; By country; Cambodia,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Laos,0
- ,Directional basis; Foreign direct inv. in NZ; By country; Thailand,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Thailand,69
  ,Directional basis; Foreign direct inv. in NZ; By country; Viet Nam,1
  ,Directional basis; Foreign direct inv. in NZ; By country; Brunei Darussalam,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Indonesia,..
@@ -8336,7 +8336,7 @@ TimePeriod,CV2,Value
  ,Directional basis; Foreign direct inv. in NZ; By country; Timor-Leste,0
  ,"Directional basis; Foreign direct inv. in NZ; By country; China, People's Republic of",1261
  ,Directional basis; Foreign direct inv. in NZ; By country; Hong Kong (SAR),9367
- ,Directional basis; Foreign direct inv. in NZ; By country; Japan,5553
+ ,Directional basis; Foreign direct inv. in NZ; By country; Japan,5491
  ,"Directional basis; Foreign direct inv. in NZ; By country; Korea, Democratic People's Republic of",0
  ,"Directional basis; Foreign direct inv. in NZ; By country; Korea, Republic of",..
  ,Directional basis; Foreign direct inv. in NZ; By country; Macau (SAR),0
@@ -8361,7 +8361,7 @@ TimePeriod,CV2,Value
  ,Directional basis; Foreign direct inv. in NZ; By country; Bermuda,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Canada,3643
  ,Directional basis; Foreign direct inv. in NZ; By country; St Pierre and Miquelon,0
- ,Directional basis; Foreign direct inv. in NZ; By country; United States of America,7816
+ ,Directional basis; Foreign direct inv. in NZ; By country; United States of America,8259
  ,Directional basis; Foreign direct inv. in NZ; By country; Argentina,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Bolivia,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Brazil,..
@@ -8459,7 +8459,7 @@ TimePeriod,CV2,Value
  ,Directional basis; Foreign direct inv. in NZ; By country; Uganda,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Zambia,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Zimbabwe,0
-2019,Directional basis; NZ's direct inv. abroad total,26515
+2019,Directional basis; NZ's direct inv. abroad total,26390
  ,Directional basis; NZ's direct inv. abroad; By country; Sum of unlisted countries,..
  ,Directional basis; NZ's direct inv. abroad; By country; Campione,0
  ,Directional basis; NZ's direct inv. abroad; By country; Madeira,0
@@ -8594,9 +8594,9 @@ TimePeriod,CV2,Value
  ,Directional basis; NZ's direct inv. abroad; By country; Turkmenistan,0
  ,Directional basis; NZ's direct inv. abroad; By country; Uzbekistan,0
  ,Directional basis; NZ's direct inv. abroad; By country; Bermuda,313
- ,Directional basis; NZ's direct inv. abroad; By country; Canada,160
+ ,Directional basis; NZ's direct inv. abroad; By country; Canada,158
  ,Directional basis; NZ's direct inv. abroad; By country; St Pierre and Miquelon,0
- ,Directional basis; NZ's direct inv. abroad; By country; United States of America,3432
+ ,Directional basis; NZ's direct inv. abroad; By country; United States of America,3433
  ,Directional basis; NZ's direct inv. abroad; By country; Argentina,..
  ,Directional basis; NZ's direct inv. abroad; By country; Bolivia,..
  ,Directional basis; NZ's direct inv. abroad; By country; Brazil,28
@@ -8694,11 +8694,11 @@ TimePeriod,CV2,Value
  ,Directional basis; NZ's direct inv. abroad; By country; Uganda,0
  ,Directional basis; NZ's direct inv. abroad; By country; Zambia,0
  ,Directional basis; NZ's direct inv. abroad; By country; Zimbabwe,0
- ,Directional basis; Foreign direct inv. in NZ total,112997
+ ,Directional basis; Foreign direct inv. in NZ total,114926
  ,Directional basis; Foreign direct inv. in NZ; By country; Sum of unlisted countries,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Campione,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Madeira,0
- ,Directional basis; Foreign direct inv. in NZ; By country; Australia,56935
+ ,Directional basis; Foreign direct inv. in NZ; By country; Australia,55710
  ,Directional basis; Foreign direct inv. in NZ; By country; Norfolk Island,0
  ,Directional basis; Foreign direct inv. in NZ; By country; New Caledonia,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Papua New Guinea,-2
@@ -8722,19 +8722,19 @@ TimePeriod,CV2,Value
  ,Directional basis; Foreign direct inv. in NZ; By country; Wallis and Futuna,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Pitcairn Island,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Antarctica,0
- ,Directional basis; Foreign direct inv. in NZ; By country; United Kingdom,5334
+ ,Directional basis; Foreign direct inv. in NZ; By country; United Kingdom,5361
  ,Directional basis; Foreign direct inv. in NZ; By country; Channel Islands,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Isle of Man,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Ireland,-87
  ,Directional basis; Foreign direct inv. in NZ; By country; Austria,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Belgium,52
- ,Directional basis; Foreign direct inv. in NZ; By country; France,169
- ,Directional basis; Foreign direct inv. in NZ; By country; Germany,696
+ ,Directional basis; Foreign direct inv. in NZ; By country; France,175
+ ,Directional basis; Foreign direct inv. in NZ; By country; Germany,642
  ,Directional basis; Foreign direct inv. in NZ; By country; Liechtenstein,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Luxembourg,721
  ,Directional basis; Foreign direct inv. in NZ; By country; Monaco,0
- ,Directional basis; Foreign direct inv. in NZ; By country; Netherlands,4297
- ,Directional basis; Foreign direct inv. in NZ; By country; Switzerland,790
+ ,Directional basis; Foreign direct inv. in NZ; By country; Netherlands,4191
+ ,Directional basis; Foreign direct inv. in NZ; By country; Switzerland,1832
  ,Directional basis; Foreign direct inv. in NZ; By country; Denmark,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Faeroe Islands,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Finland,..
@@ -8802,11 +8802,11 @@ TimePeriod,CV2,Value
  ,Directional basis; Foreign direct inv. in NZ; By country; Indonesia,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Malaysia,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Philippines,..
- ,Directional basis; Foreign direct inv. in NZ; By country; Singapore,4754
+ ,Directional basis; Foreign direct inv. in NZ; By country; Singapore,4924
  ,Directional basis; Foreign direct inv. in NZ; By country; Timor-Leste,0
- ,"Directional basis; Foreign direct inv. in NZ; By country; China, People's Republic of",1442
- ,Directional basis; Foreign direct inv. in NZ; By country; Hong Kong (SAR),9599
- ,Directional basis; Foreign direct inv. in NZ; By country; Japan,5616
+ ,"Directional basis; Foreign direct inv. in NZ; By country; China, People's Republic of",1488
+ ,Directional basis; Foreign direct inv. in NZ; By country; Hong Kong (SAR),9557
+ ,Directional basis; Foreign direct inv. in NZ; By country; Japan,5726
  ,"Directional basis; Foreign direct inv. in NZ; By country; Korea, Democratic People's Republic of",0
  ,"Directional basis; Foreign direct inv. in NZ; By country; Korea, Republic of",..
  ,Directional basis; Foreign direct inv. in NZ; By country; Macau (SAR),0
@@ -8829,9 +8829,9 @@ TimePeriod,CV2,Value
  ,Directional basis; Foreign direct inv. in NZ; By country; Turkmenistan,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Uzbekistan,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Bermuda,..
- ,Directional basis; Foreign direct inv. in NZ; By country; Canada,4428
+ ,Directional basis; Foreign direct inv. in NZ; By country; Canada,5052
  ,Directional basis; Foreign direct inv. in NZ; By country; St Pierre and Miquelon,0
- ,Directional basis; Foreign direct inv. in NZ; By country; United States of America,7397
+ ,Directional basis; Foreign direct inv. in NZ; By country; United States of America,7872
  ,Directional basis; Foreign direct inv. in NZ; By country; Argentina,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Bolivia,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Brazil,..
@@ -8926,6 +8926,1416 @@ TimePeriod,CV2,Value
  ,Directional basis; Foreign direct inv. in NZ; By country; South Africa,..
  ,Directional basis; Foreign direct inv. in NZ; By country; Swaziland,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Tanzania,-1
+ ,Directional basis; Foreign direct inv. in NZ; By country; Uganda,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Zambia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Zimbabwe,0
+2020,Directional basis; NZ's direct inv. abroad total,27602
+ ,Directional basis; NZ's direct inv. abroad; By country; Sum of unlisted countries,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Campione,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Madeira,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Australia,14283
+ ,Directional basis; NZ's direct inv. abroad; By country; Norfolk Island,0
+ ,Directional basis; NZ's direct inv. abroad; By country; New Caledonia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Papua New Guinea,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Solomon Islands,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Vanuatu,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Guam,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Kiribati,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Marshall Islands,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Nauru,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Northern Mariana Islands,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Palau,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Cook Islands,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Fiji,29
+ ,Directional basis; NZ's direct inv. abroad; By country; French Polynesia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Niue,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Samoa,..
+ ,"Directional basis; NZ's direct inv. abroad; By country; Samoa, American",..
+ ,Directional basis; NZ's direct inv. abroad; By country; Tokelau,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Tonga,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Tuvalu,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Wallis and Futuna,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Pitcairn Island,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Antarctica,0
+ ,Directional basis; NZ's direct inv. abroad; By country; United Kingdom,1059
+ ,Directional basis; NZ's direct inv. abroad; By country; Channel Islands,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Isle of Man,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Ireland,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Austria,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Belgium,..
+ ,Directional basis; NZ's direct inv. abroad; By country; France,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Germany,31
+ ,Directional basis; NZ's direct inv. abroad; By country; Liechtenstein,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Luxembourg,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Monaco,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Netherlands,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Switzerland,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Denmark,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Faeroe Islands,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Finland,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Greenland,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Iceland,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Norway,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Sweden,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Andorra,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Gibraltar,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Vatican City State,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Italy,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Malta,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Portugal,0
+ ,Directional basis; NZ's direct inv. abroad; By country; San Marino,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Spain,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Albania,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Bosnia and Herzegovina,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Bulgaria,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Croatia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Cyprus,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Greece,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Moldova,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Romania,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Slovenia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Montenegro,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Serbia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Kosovo,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Belarus,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Czech Republic,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Estonia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Hungary,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Latvia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Lithuania,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Poland,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Russia,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Slovakia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Ukraine,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Algeria,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Egypt,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Libya,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Morocco,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Sudan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Tunisia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; South Sudan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Bahrain,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Iran,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Iraq,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Israel,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Jordan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Kuwait,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Lebanon,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Oman,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Qatar,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Saudi Arabia,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Syria,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Turkey,..
+ ,Directional basis; NZ's direct inv. abroad; By country; United Arab Emirates,10
+ ,Directional basis; NZ's direct inv. abroad; By country; Yemen,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Burma (Myanmar),0
+ ,Directional basis; NZ's direct inv. abroad; By country; Cambodia,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Laos,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Thailand,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Viet Nam,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Brunei Darussalam,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Indonesia,43
+ ,Directional basis; NZ's direct inv. abroad; By country; Malaysia,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Philippines,72
+ ,Directional basis; NZ's direct inv. abroad; By country; Singapore,457
+ ,Directional basis; NZ's direct inv. abroad; By country; Timor-Leste,0
+ ,"Directional basis; NZ's direct inv. abroad; By country; China, People's Republic of",119
+ ,Directional basis; NZ's direct inv. abroad; By country; Hong Kong (SAR),1892
+ ,Directional basis; NZ's direct inv. abroad; By country; Japan,86
+ ,"Directional basis; NZ's direct inv. abroad; By country; Korea, Democratic People's Republic of",0
+ ,"Directional basis; NZ's direct inv. abroad; By country; Korea, Republic of",..
+ ,Directional basis; NZ's direct inv. abroad; By country; Macau (SAR),0
+ ,Directional basis; NZ's direct inv. abroad; By country; Mongolia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Taiwan,42
+ ,Directional basis; NZ's direct inv. abroad; By country; Bangladesh,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Bhutan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; India,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Maldives,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Nepal,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Pakistan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Sri Lanka,108
+ ,Directional basis; NZ's direct inv. abroad; By country; Afghanistan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Armenia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Azerbaijan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Georgia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Kazakhstan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Kyrgyzstan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Tajikistan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Turkmenistan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Uzbekistan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Bermuda,999
+ ,Directional basis; NZ's direct inv. abroad; By country; Canada,292
+ ,Directional basis; NZ's direct inv. abroad; By country; St Pierre and Miquelon,0
+ ,Directional basis; NZ's direct inv. abroad; By country; United States of America,5394
+ ,Directional basis; NZ's direct inv. abroad; By country; Argentina,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Bolivia,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Brazil,31
+ ,Directional basis; NZ's direct inv. abroad; By country; Chile,19
+ ,Directional basis; NZ's direct inv. abroad; By country; Colombia,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Ecuador,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Falkland Islands,0
+ ,Directional basis; NZ's direct inv. abroad; By country; French Guiana,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Guyana,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Paraguay,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Peru,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Suriname,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Uruguay,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Venezuela,-1
+ ,Directional basis; NZ's direct inv. abroad; By country; Belize,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Costa Rica,0
+ ,Directional basis; NZ's direct inv. abroad; By country; El Salvador,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Guatemala,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Honduras,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Mexico,140
+ ,Directional basis; NZ's direct inv. abroad; By country; Nicaragua,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Panama,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Anguilla,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Antigua and Barbuda,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Aruba,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Bahamas,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Barbados,-4
+ ,Directional basis; NZ's direct inv. abroad; By country; Cayman Islands,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Cuba,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Dominica,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Dominican Republic,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Grenada,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Guadeloupe,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Haiti,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Jamaica,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Martinique,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Montserrat,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Netherlands Antilles,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Puerto Rico,0
+ ,Directional basis; NZ's direct inv. abroad; By country; St Kitts and Nevis,0
+ ,Directional basis; NZ's direct inv. abroad; By country; St Lucia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; St Vincent and the Grenadines,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Trinidad and Tobago,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Turks and Caicos Islands,0
+ ,"Directional basis; NZ's direct inv. abroad; By country; Virgin Islands, British",..
+ ,"Directional basis; NZ's direct inv. abroad; By country; Virgin Islands, United States",0
+ ,Directional basis; NZ's direct inv. abroad; By country; Curacao,0
+ ,Directional basis; NZ's direct inv. abroad; By country; St Maarten (Dutch Part),0
+ ,Directional basis; NZ's direct inv. abroad; By country; Benin,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Burkina Faso,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Cameroon,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Cabo Verde (Cape Verde),0
+ ,Directional basis; NZ's direct inv. abroad; By country; Chad,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Congo,0
+ ,"Directional basis; NZ's direct inv. abroad; By country; Congo, the Democratic Republic of the",0
+ ,Directional basis; NZ's direct inv. abroad; By country; Cï¿½te d'Ivoire,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Equatorial Guinea,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Gabon,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Gambia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Ghana,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Guinea,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Guinea-Bissau,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Liberia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Mali,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Mauritania,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Niger,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Nigeria,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Sao Tome and Principe,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Senegal,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Sierra Leone,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Togo,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Angola,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Botswana,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Burundi,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Comoros,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Djibouti,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Eritrea,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Ethiopia,2
+ ,Directional basis; NZ's direct inv. abroad; By country; Kenya,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Lesotho,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Madagascar,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Malawi,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Mauritius,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Mayotte,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Mozambique,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Namibia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Reunion,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Rwanda,0
+ ,Directional basis; NZ's direct inv. abroad; By country; St Helena,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Seychelles,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Somalia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; South Africa,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Swaziland,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Tanzania,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Uganda,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Zambia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Zimbabwe,0
+ ,Directional basis; Foreign direct inv. in NZ total,121173
+ ,Directional basis; Foreign direct inv. in NZ; By country; Sum of unlisted countries,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Campione,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Madeira,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Australia,59548
+ ,Directional basis; Foreign direct inv. in NZ; By country; Norfolk Island,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; New Caledonia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Papua New Guinea,-2
+ ,Directional basis; Foreign direct inv. in NZ; By country; Solomon Islands,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Vanuatu,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Guam,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Kiribati,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Marshall Islands,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Nauru,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Northern Mariana Islands,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Palau,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cook Islands,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Fiji,-11
+ ,Directional basis; Foreign direct inv. in NZ; By country; French Polynesia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Niue,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Samoa,0
+ ,"Directional basis; Foreign direct inv. in NZ; By country; Samoa, American",0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Tokelau,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Tonga,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Tuvalu,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Wallis and Futuna,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Pitcairn Island,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Antarctica,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; United Kingdom,5569
+ ,Directional basis; Foreign direct inv. in NZ; By country; Channel Islands,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Isle of Man,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Ireland,-74
+ ,Directional basis; Foreign direct inv. in NZ; By country; Austria,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Belgium,26
+ ,Directional basis; Foreign direct inv. in NZ; By country; France,298
+ ,Directional basis; Foreign direct inv. in NZ; By country; Germany,648
+ ,Directional basis; Foreign direct inv. in NZ; By country; Liechtenstein,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Luxembourg,657
+ ,Directional basis; Foreign direct inv. in NZ; By country; Monaco,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Netherlands,3984
+ ,Directional basis; Foreign direct inv. in NZ; By country; Switzerland,1888
+ ,Directional basis; Foreign direct inv. in NZ; By country; Denmark,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Faeroe Islands,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Finland,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Greenland,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Iceland,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Norway,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Sweden,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Andorra,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Gibraltar,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Vatican City State,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Italy,2
+ ,Directional basis; Foreign direct inv. in NZ; By country; Malta,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Portugal,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; San Marino,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Spain,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Albania,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bosnia and Herzegovina,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bulgaria,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Croatia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cyprus,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Greece,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Moldova,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Romania,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Slovenia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Montenegro,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Serbia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Kosovo,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Belarus,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Czech Republic,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Estonia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Hungary,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Latvia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Lithuania,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Poland,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Russia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Slovakia,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Ukraine,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Algeria,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Egypt,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Libya,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Morocco,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Sudan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Tunisia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; South Sudan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bahrain,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Iran,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Iraq,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Israel,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Jordan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Kuwait,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Lebanon,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Oman,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Qatar,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Saudi Arabia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Syria,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Turkey,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; United Arab Emirates,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Yemen,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Burma (Myanmar),0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cambodia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Laos,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Thailand,60
+ ,Directional basis; Foreign direct inv. in NZ; By country; Viet Nam,2
+ ,Directional basis; Foreign direct inv. in NZ; By country; Brunei Darussalam,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Indonesia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Malaysia,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Philippines,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Singapore,5907
+ ,Directional basis; Foreign direct inv. in NZ; By country; Timor-Leste,0
+ ,"Directional basis; Foreign direct inv. in NZ; By country; China, People's Republic of",1588
+ ,Directional basis; Foreign direct inv. in NZ; By country; Hong Kong (SAR),9637
+ ,Directional basis; Foreign direct inv. in NZ; By country; Japan,5723
+ ,"Directional basis; Foreign direct inv. in NZ; By country; Korea, Democratic People's Republic of",0
+ ,"Directional basis; Foreign direct inv. in NZ; By country; Korea, Republic of",..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Macau (SAR),0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Mongolia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Taiwan,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bangladesh,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bhutan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; India,170
+ ,Directional basis; Foreign direct inv. in NZ; By country; Maldives,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Nepal,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Pakistan,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Sri Lanka,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Afghanistan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Armenia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Azerbaijan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Georgia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Kazakhstan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Kyrgyzstan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Tajikistan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Turkmenistan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Uzbekistan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bermuda,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Canada,5143
+ ,Directional basis; Foreign direct inv. in NZ; By country; St Pierre and Miquelon,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; United States of America,8002
+ ,Directional basis; Foreign direct inv. in NZ; By country; Argentina,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bolivia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Brazil,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Chile,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Colombia,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Ecuador,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Falkland Islands,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; French Guiana,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Guyana,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Paraguay,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Peru,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Suriname,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Uruguay,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Venezuela,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Belize,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Costa Rica,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; El Salvador,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Guatemala,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Honduras,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Mexico,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Nicaragua,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Panama,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Anguilla,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Antigua and Barbuda,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Aruba,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bahamas,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Barbados,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cayman Islands,2292
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cuba,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Dominica,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Dominican Republic,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Grenada,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Guadeloupe,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Haiti,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Jamaica,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Martinique,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Montserrat,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Netherlands Antilles,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Puerto Rico,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; St Kitts and Nevis,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; St Lucia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; St Vincent and the Grenadines,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Trinidad and Tobago,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Turks and Caicos Islands,0
+ ,"Directional basis; Foreign direct inv. in NZ; By country; Virgin Islands, British",1579
+ ,"Directional basis; Foreign direct inv. in NZ; By country; Virgin Islands, United States",0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Curacao,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; St Maarten (Dutch Part),0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Benin,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Burkina Faso,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cameroon,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cabo Verde (Cape Verde),0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Chad,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Congo,0
+ ,"Directional basis; Foreign direct inv. in NZ; By country; Congo, the Democratic Republic of the",0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cï¿½te d'Ivoire,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Equatorial Guinea,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Gabon,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Gambia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Ghana,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Guinea,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Guinea-Bissau,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Liberia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Mali,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Mauritania,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Niger,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Nigeria,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Sao Tome and Principe,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Senegal,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Sierra Leone,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Togo,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Angola,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Botswana,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Burundi,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Comoros,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Djibouti,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Eritrea,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Ethiopia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Kenya,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Lesotho,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Madagascar,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Malawi,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Mauritius,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Mayotte,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Mozambique,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Namibia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Reunion,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Rwanda,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; St Helena,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Seychelles,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Somalia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; South Africa,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Swaziland,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Tanzania,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Uganda,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Zambia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Zimbabwe,0
+2021,Directional basis; NZ's direct inv. abroad total,29454
+ ,Directional basis; NZ's direct inv. abroad; By country; Sum of unlisted countries,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Campione,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Madeira,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Australia,15309
+ ,Directional basis; NZ's direct inv. abroad; By country; Norfolk Island,0
+ ,Directional basis; NZ's direct inv. abroad; By country; New Caledonia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Papua New Guinea,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Solomon Islands,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Vanuatu,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Guam,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Kiribati,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Marshall Islands,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Nauru,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Northern Mariana Islands,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Palau,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Cook Islands,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Fiji,32
+ ,Directional basis; NZ's direct inv. abroad; By country; French Polynesia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Niue,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Samoa,..
+ ,"Directional basis; NZ's direct inv. abroad; By country; Samoa, American",..
+ ,Directional basis; NZ's direct inv. abroad; By country; Tokelau,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Tonga,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Tuvalu,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Wallis and Futuna,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Pitcairn Island,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Antarctica,0
+ ,Directional basis; NZ's direct inv. abroad; By country; United Kingdom,958
+ ,Directional basis; NZ's direct inv. abroad; By country; Channel Islands,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Isle of Man,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Ireland,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Austria,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Belgium,..
+ ,Directional basis; NZ's direct inv. abroad; By country; France,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Germany,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Liechtenstein,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Luxembourg,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Monaco,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Netherlands,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Switzerland,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Denmark,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Faeroe Islands,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Finland,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Greenland,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Iceland,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Norway,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Sweden,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Andorra,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Gibraltar,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Vatican City State,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Italy,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Malta,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Portugal,0
+ ,Directional basis; NZ's direct inv. abroad; By country; San Marino,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Spain,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Albania,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Bosnia and Herzegovina,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Bulgaria,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Croatia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Cyprus,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Greece,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Moldova,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Romania,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Slovenia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Montenegro,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Serbia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Kosovo,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Belarus,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Czech Republic,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Estonia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Hungary,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Latvia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Lithuania,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Poland,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Russia,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Slovakia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Ukraine,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Algeria,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Egypt,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Libya,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Morocco,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Sudan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Tunisia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; South Sudan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Bahrain,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Iran,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Iraq,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Israel,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Jordan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Kuwait,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Lebanon,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Oman,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Qatar,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Saudi Arabia,22
+ ,Directional basis; NZ's direct inv. abroad; By country; Syria,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Turkey,..
+ ,Directional basis; NZ's direct inv. abroad; By country; United Arab Emirates,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Yemen,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Burma (Myanmar),0
+ ,Directional basis; NZ's direct inv. abroad; By country; Cambodia,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Laos,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Thailand,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Viet Nam,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Brunei Darussalam,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Indonesia,23
+ ,Directional basis; NZ's direct inv. abroad; By country; Malaysia,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Philippines,43
+ ,Directional basis; NZ's direct inv. abroad; By country; Singapore,494
+ ,Directional basis; NZ's direct inv. abroad; By country; Timor-Leste,0
+ ,"Directional basis; NZ's direct inv. abroad; By country; China, People's Republic of",94
+ ,Directional basis; NZ's direct inv. abroad; By country; Hong Kong (SAR),1597
+ ,Directional basis; NZ's direct inv. abroad; By country; Japan,61
+ ,"Directional basis; NZ's direct inv. abroad; By country; Korea, Democratic People's Republic of",0
+ ,"Directional basis; NZ's direct inv. abroad; By country; Korea, Republic of",..
+ ,Directional basis; NZ's direct inv. abroad; By country; Macau (SAR),0
+ ,Directional basis; NZ's direct inv. abroad; By country; Mongolia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Taiwan,21
+ ,Directional basis; NZ's direct inv. abroad; By country; Bangladesh,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Bhutan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; India,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Maldives,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Nepal,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Pakistan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Sri Lanka,97
+ ,Directional basis; NZ's direct inv. abroad; By country; Afghanistan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Armenia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Azerbaijan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Georgia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Kazakhstan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Kyrgyzstan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Tajikistan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Turkmenistan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Uzbekistan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Bermuda,932
+ ,Directional basis; NZ's direct inv. abroad; By country; Canada,388
+ ,Directional basis; NZ's direct inv. abroad; By country; St Pierre and Miquelon,0
+ ,Directional basis; NZ's direct inv. abroad; By country; United States of America,6973
+ ,Directional basis; NZ's direct inv. abroad; By country; Argentina,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Bolivia,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Brazil,21
+ ,Directional basis; NZ's direct inv. abroad; By country; Chile,28
+ ,Directional basis; NZ's direct inv. abroad; By country; Colombia,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Ecuador,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Falkland Islands,0
+ ,Directional basis; NZ's direct inv. abroad; By country; French Guiana,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Guyana,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Paraguay,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Peru,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Suriname,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Uruguay,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Venezuela,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Belize,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Costa Rica,0
+ ,Directional basis; NZ's direct inv. abroad; By country; El Salvador,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Guatemala,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Honduras,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Mexico,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Nicaragua,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Panama,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Anguilla,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Antigua and Barbuda,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Aruba,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Bahamas,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Barbados,-5
+ ,Directional basis; NZ's direct inv. abroad; By country; Cayman Islands,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Cuba,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Dominica,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Dominican Republic,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Grenada,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Guadeloupe,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Haiti,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Jamaica,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Martinique,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Montserrat,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Netherlands Antilles,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Puerto Rico,0
+ ,Directional basis; NZ's direct inv. abroad; By country; St Kitts and Nevis,0
+ ,Directional basis; NZ's direct inv. abroad; By country; St Lucia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; St Vincent and the Grenadines,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Trinidad and Tobago,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Turks and Caicos Islands,0
+ ,"Directional basis; NZ's direct inv. abroad; By country; Virgin Islands, British",0
+ ,"Directional basis; NZ's direct inv. abroad; By country; Virgin Islands, United States",0
+ ,Directional basis; NZ's direct inv. abroad; By country; Curacao,0
+ ,Directional basis; NZ's direct inv. abroad; By country; St Maarten (Dutch Part),0
+ ,Directional basis; NZ's direct inv. abroad; By country; Benin,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Burkina Faso,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Cameroon,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Cabo Verde (Cape Verde),0
+ ,Directional basis; NZ's direct inv. abroad; By country; Chad,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Congo,0
+ ,"Directional basis; NZ's direct inv. abroad; By country; Congo, the Democratic Republic of the",0
+ ,Directional basis; NZ's direct inv. abroad; By country; Cï¿½te d'Ivoire,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Equatorial Guinea,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Gabon,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Gambia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Ghana,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Guinea,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Guinea-Bissau,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Liberia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Mali,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Mauritania,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Niger,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Nigeria,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Sao Tome and Principe,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Senegal,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Sierra Leone,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Togo,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Angola,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Botswana,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Burundi,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Comoros,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Djibouti,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Eritrea,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Ethiopia,2
+ ,Directional basis; NZ's direct inv. abroad; By country; Kenya,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Lesotho,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Madagascar,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Malawi,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Mauritius,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Mayotte,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Mozambique,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Namibia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Reunion,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Rwanda,0
+ ,Directional basis; NZ's direct inv. abroad; By country; St Helena,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Seychelles,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Somalia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; South Africa,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Swaziland,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Tanzania,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Uganda,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Zambia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Zimbabwe,0
+ ,Directional basis; Foreign direct inv. in NZ total,131795
+ ,Directional basis; Foreign direct inv. in NZ; By country; Sum of unlisted countries,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Campione,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Madeira,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Australia,67252
+ ,Directional basis; Foreign direct inv. in NZ; By country; Norfolk Island,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; New Caledonia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Papua New Guinea,-1
+ ,Directional basis; Foreign direct inv. in NZ; By country; Solomon Islands,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Vanuatu,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Guam,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Kiribati,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Marshall Islands,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Nauru,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Northern Mariana Islands,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Palau,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cook Islands,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Fiji,-7
+ ,Directional basis; Foreign direct inv. in NZ; By country; French Polynesia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Niue,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Samoa,..
+ ,"Directional basis; Foreign direct inv. in NZ; By country; Samoa, American",0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Tokelau,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Tonga,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Tuvalu,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Wallis and Futuna,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Pitcairn Island,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Antarctica,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; United Kingdom,5763
+ ,Directional basis; Foreign direct inv. in NZ; By country; Channel Islands,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Isle of Man,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Ireland,-287
+ ,Directional basis; Foreign direct inv. in NZ; By country; Austria,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Belgium,187
+ ,Directional basis; Foreign direct inv. in NZ; By country; France,116
+ ,Directional basis; Foreign direct inv. in NZ; By country; Germany,649
+ ,Directional basis; Foreign direct inv. in NZ; By country; Liechtenstein,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Luxembourg,642
+ ,Directional basis; Foreign direct inv. in NZ; By country; Monaco,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Netherlands,4057
+ ,Directional basis; Foreign direct inv. in NZ; By country; Switzerland,1842
+ ,Directional basis; Foreign direct inv. in NZ; By country; Denmark,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Faeroe Islands,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Finland,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Greenland,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Iceland,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Norway,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Sweden,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Andorra,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Gibraltar,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Vatican City State,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Italy,3
+ ,Directional basis; Foreign direct inv. in NZ; By country; Malta,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Portugal,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; San Marino,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Spain,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Albania,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bosnia and Herzegovina,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bulgaria,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Croatia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cyprus,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Greece,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Moldova,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Romania,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Slovenia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Montenegro,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Serbia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Kosovo,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Belarus,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Czech Republic,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Estonia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Hungary,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Latvia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Lithuania,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Poland,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Russia,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Slovakia,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Ukraine,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Algeria,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Egypt,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Libya,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Morocco,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Sudan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Tunisia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; South Sudan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bahrain,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Iran,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Iraq,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Israel,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Jordan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Kuwait,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Lebanon,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Oman,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Qatar,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Saudi Arabia,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Syria,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Turkey,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; United Arab Emirates,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Yemen,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Burma (Myanmar),0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cambodia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Laos,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Thailand,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Viet Nam,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Brunei Darussalam,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Indonesia,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Malaysia,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Philippines,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Singapore,7321
+ ,Directional basis; Foreign direct inv. in NZ; By country; Timor-Leste,0
+ ,"Directional basis; Foreign direct inv. in NZ; By country; China, People's Republic of",1692
+ ,Directional basis; Foreign direct inv. in NZ; By country; Hong Kong (SAR),9578
+ ,Directional basis; Foreign direct inv. in NZ; By country; Japan,6732
+ ,"Directional basis; Foreign direct inv. in NZ; By country; Korea, Democratic People's Republic of",0
+ ,"Directional basis; Foreign direct inv. in NZ; By country; Korea, Republic of",..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Macau (SAR),0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Mongolia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Taiwan,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bangladesh,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bhutan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; India,176
+ ,Directional basis; Foreign direct inv. in NZ; By country; Maldives,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Nepal,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Pakistan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Sri Lanka,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Afghanistan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Armenia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Azerbaijan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Georgia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Kazakhstan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Kyrgyzstan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Tajikistan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Turkmenistan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Uzbekistan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bermuda,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Canada,4551
+ ,Directional basis; Foreign direct inv. in NZ; By country; St Pierre and Miquelon,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; United States of America,8699
+ ,Directional basis; Foreign direct inv. in NZ; By country; Argentina,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bolivia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Brazil,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Chile,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Colombia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Ecuador,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Falkland Islands,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; French Guiana,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Guyana,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Paraguay,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Peru,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Suriname,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Uruguay,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Venezuela,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Belize,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Costa Rica,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; El Salvador,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Guatemala,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Honduras,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Mexico,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Nicaragua,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Panama,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Anguilla,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Antigua and Barbuda,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Aruba,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bahamas,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Barbados,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cayman Islands,2455
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cuba,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Dominica,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Dominican Republic,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Grenada,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Guadeloupe,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Haiti,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Jamaica,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Martinique,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Montserrat,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Netherlands Antilles,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Puerto Rico,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; St Kitts and Nevis,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; St Lucia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; St Vincent and the Grenadines,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Trinidad and Tobago,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Turks and Caicos Islands,0
+ ,"Directional basis; Foreign direct inv. in NZ; By country; Virgin Islands, British",1684
+ ,"Directional basis; Foreign direct inv. in NZ; By country; Virgin Islands, United States",0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Curacao,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; St Maarten (Dutch Part),0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Benin,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Burkina Faso,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cameroon,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cabo Verde (Cape Verde),0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Chad,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Congo,0
+ ,"Directional basis; Foreign direct inv. in NZ; By country; Congo, the Democratic Republic of the",0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cï¿½te d'Ivoire,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Equatorial Guinea,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Gabon,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Gambia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Ghana,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Guinea,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Guinea-Bissau,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Liberia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Mali,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Mauritania,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Niger,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Nigeria,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Sao Tome and Principe,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Senegal,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Sierra Leone,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Togo,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Angola,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Botswana,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Burundi,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Comoros,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Djibouti,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Eritrea,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Ethiopia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Kenya,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Lesotho,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Madagascar,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Malawi,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Mauritius,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Mayotte,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Mozambique,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Namibia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Reunion,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Rwanda,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; St Helena,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Seychelles,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Somalia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; South Africa,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Swaziland,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Tanzania,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Uganda,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Zambia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Zimbabwe,0
+2022,Directional basis; NZ's direct inv. abroad total,27660
+ ,Directional basis; NZ's direct inv. abroad; By country; Sum of unlisted countries,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Campione,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Madeira,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Australia,13604
+ ,Directional basis; NZ's direct inv. abroad; By country; Norfolk Island,0
+ ,Directional basis; NZ's direct inv. abroad; By country; New Caledonia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Papua New Guinea,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Solomon Islands,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Vanuatu,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Guam,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Kiribati,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Marshall Islands,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Nauru,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Northern Mariana Islands,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Palau,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Cook Islands,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Fiji,..
+ ,Directional basis; NZ's direct inv. abroad; By country; French Polynesia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Niue,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Samoa,..
+ ,"Directional basis; NZ's direct inv. abroad; By country; Samoa, American",..
+ ,Directional basis; NZ's direct inv. abroad; By country; Tokelau,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Tonga,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Tuvalu,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Wallis and Futuna,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Pitcairn Island,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Antarctica,0
+ ,Directional basis; NZ's direct inv. abroad; By country; United Kingdom,903
+ ,Directional basis; NZ's direct inv. abroad; By country; Channel Islands,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Isle of Man,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Ireland,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Austria,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Belgium,..
+ ,Directional basis; NZ's direct inv. abroad; By country; France,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Germany,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Liechtenstein,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Luxembourg,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Monaco,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Netherlands,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Switzerland,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Denmark,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Faeroe Islands,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Finland,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Greenland,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Iceland,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Norway,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Sweden,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Andorra,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Gibraltar,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Vatican City State,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Italy,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Malta,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Portugal,0
+ ,Directional basis; NZ's direct inv. abroad; By country; San Marino,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Spain,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Albania,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Bosnia and Herzegovina,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Bulgaria,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Croatia,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Cyprus,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Greece,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Moldova,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Romania,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Slovenia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Montenegro,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Serbia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Kosovo,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Belarus,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Czech Republic,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Estonia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Hungary,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Latvia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Lithuania,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Poland,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Russia,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Slovakia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Ukraine,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Algeria,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Egypt,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Libya,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Morocco,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Sudan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Tunisia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; South Sudan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Bahrain,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Iran,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Iraq,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Israel,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Jordan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Kuwait,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Lebanon,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Oman,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Qatar,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Saudi Arabia,41
+ ,Directional basis; NZ's direct inv. abroad; By country; Syria,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Turkey,..
+ ,Directional basis; NZ's direct inv. abroad; By country; United Arab Emirates,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Yemen,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Burma (Myanmar),0
+ ,Directional basis; NZ's direct inv. abroad; By country; Cambodia,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Laos,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Thailand,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Viet Nam,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Brunei Darussalam,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Indonesia,46
+ ,Directional basis; NZ's direct inv. abroad; By country; Malaysia,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Philippines,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Singapore,1419
+ ,Directional basis; NZ's direct inv. abroad; By country; Timor-Leste,0
+ ,"Directional basis; NZ's direct inv. abroad; By country; China, People's Republic of",104
+ ,Directional basis; NZ's direct inv. abroad; By country; Hong Kong (SAR),98
+ ,Directional basis; NZ's direct inv. abroad; By country; Japan,89
+ ,"Directional basis; NZ's direct inv. abroad; By country; Korea, Democratic People's Republic of",0
+ ,"Directional basis; NZ's direct inv. abroad; By country; Korea, Republic of",..
+ ,Directional basis; NZ's direct inv. abroad; By country; Macau (SAR),0
+ ,Directional basis; NZ's direct inv. abroad; By country; Mongolia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Taiwan,39
+ ,Directional basis; NZ's direct inv. abroad; By country; Bangladesh,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Bhutan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; India,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Maldives,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Nepal,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Pakistan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Sri Lanka,143
+ ,Directional basis; NZ's direct inv. abroad; By country; Afghanistan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Armenia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Azerbaijan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Georgia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Kazakhstan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Kyrgyzstan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Tajikistan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Turkmenistan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Uzbekistan,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Bermuda,992
+ ,Directional basis; NZ's direct inv. abroad; By country; Canada,356
+ ,Directional basis; NZ's direct inv. abroad; By country; St Pierre and Miquelon,0
+ ,Directional basis; NZ's direct inv. abroad; By country; United States of America,7056
+ ,Directional basis; NZ's direct inv. abroad; By country; Argentina,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Bolivia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Brazil,24
+ ,Directional basis; NZ's direct inv. abroad; By country; Chile,21
+ ,Directional basis; NZ's direct inv. abroad; By country; Colombia,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Ecuador,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Falkland Islands,0
+ ,Directional basis; NZ's direct inv. abroad; By country; French Guiana,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Guyana,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Paraguay,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Peru,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Suriname,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Uruguay,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Venezuela,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Belize,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Costa Rica,0
+ ,Directional basis; NZ's direct inv. abroad; By country; El Salvador,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Guatemala,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Honduras,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Mexico,58
+ ,Directional basis; NZ's direct inv. abroad; By country; Nicaragua,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Panama,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Anguilla,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Antigua and Barbuda,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Aruba,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Bahamas,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Barbados,-7
+ ,Directional basis; NZ's direct inv. abroad; By country; Cayman Islands,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Cuba,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Dominica,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Dominican Republic,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Grenada,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Guadeloupe,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Haiti,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Jamaica,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Martinique,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Montserrat,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Netherlands Antilles,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Puerto Rico,0
+ ,Directional basis; NZ's direct inv. abroad; By country; St Kitts and Nevis,0
+ ,Directional basis; NZ's direct inv. abroad; By country; St Lucia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; St Vincent and the Grenadines,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Trinidad and Tobago,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Turks and Caicos Islands,0
+ ,"Directional basis; NZ's direct inv. abroad; By country; Virgin Islands, British",0
+ ,"Directional basis; NZ's direct inv. abroad; By country; Virgin Islands, United States",0
+ ,Directional basis; NZ's direct inv. abroad; By country; Curacao,0
+ ,Directional basis; NZ's direct inv. abroad; By country; St Maarten (Dutch Part),0
+ ,Directional basis; NZ's direct inv. abroad; By country; Benin,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Burkina Faso,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Cameroon,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Cabo Verde (Cape Verde),0
+ ,Directional basis; NZ's direct inv. abroad; By country; Chad,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Congo,0
+ ,"Directional basis; NZ's direct inv. abroad; By country; Congo, the Democratic Republic of the",0
+ ,Directional basis; NZ's direct inv. abroad; By country; Cï¿½te d'Ivoire,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Equatorial Guinea,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Gabon,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Gambia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Ghana,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Guinea,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Guinea-Bissau,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Liberia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Mali,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Mauritania,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Niger,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Nigeria,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Sao Tome and Principe,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Senegal,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Sierra Leone,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Togo,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Angola,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Botswana,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Burundi,..
+ ,Directional basis; NZ's direct inv. abroad; By country; Comoros,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Djibouti,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Eritrea,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Ethiopia,2
+ ,Directional basis; NZ's direct inv. abroad; By country; Kenya,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Lesotho,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Madagascar,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Malawi,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Mauritius,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Mayotte,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Mozambique,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Namibia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Reunion,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Rwanda,0
+ ,Directional basis; NZ's direct inv. abroad; By country; St Helena,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Seychelles,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Somalia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; South Africa,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Swaziland,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Tanzania,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Uganda,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Zambia,0
+ ,Directional basis; NZ's direct inv. abroad; By country; Zimbabwe,0
+ ,Directional basis; Foreign direct inv. in NZ total,138580
+ ,Directional basis; Foreign direct inv. in NZ; By country; Sum of unlisted countries,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Campione,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Madeira,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Australia,69902
+ ,Directional basis; Foreign direct inv. in NZ; By country; Norfolk Island,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; New Caledonia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Papua New Guinea,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Solomon Islands,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Vanuatu,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Guam,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Kiribati,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Marshall Islands,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Nauru,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Northern Mariana Islands,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Palau,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cook Islands,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Fiji,-4
+ ,Directional basis; Foreign direct inv. in NZ; By country; French Polynesia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Niue,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Samoa,0
+ ,"Directional basis; Foreign direct inv. in NZ; By country; Samoa, American",..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Tokelau,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Tonga,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Tuvalu,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Wallis and Futuna,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Pitcairn Island,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Antarctica,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; United Kingdom,5511
+ ,Directional basis; Foreign direct inv. in NZ; By country; Channel Islands,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Isle of Man,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Ireland,22
+ ,Directional basis; Foreign direct inv. in NZ; By country; Austria,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Belgium,285
+ ,Directional basis; Foreign direct inv. in NZ; By country; France,110
+ ,Directional basis; Foreign direct inv. in NZ; By country; Germany,813
+ ,Directional basis; Foreign direct inv. in NZ; By country; Liechtenstein,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Luxembourg,545
+ ,Directional basis; Foreign direct inv. in NZ; By country; Monaco,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Netherlands,4093
+ ,Directional basis; Foreign direct inv. in NZ; By country; Switzerland,1767
+ ,Directional basis; Foreign direct inv. in NZ; By country; Denmark,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Faeroe Islands,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Finland,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Greenland,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Iceland,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Norway,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Sweden,394
+ ,Directional basis; Foreign direct inv. in NZ; By country; Andorra,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Gibraltar,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Vatican City State,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Italy,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Malta,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Portugal,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; San Marino,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Spain,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Albania,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bosnia and Herzegovina,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bulgaria,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Croatia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cyprus,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Greece,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Moldova,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Romania,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Slovenia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Montenegro,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Serbia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Kosovo,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Belarus,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Czech Republic,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Estonia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Hungary,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Latvia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Lithuania,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Poland,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Russia,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Slovakia,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Ukraine,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Algeria,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Egypt,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Libya,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Morocco,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Sudan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Tunisia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; South Sudan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bahrain,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Iran,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Iraq,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Israel,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Jordan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Kuwait,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Lebanon,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Oman,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Qatar,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Saudi Arabia,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Syria,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Turkey,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; United Arab Emirates,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Yemen,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Burma (Myanmar),0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cambodia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Laos,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Thailand,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Viet Nam,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Brunei Darussalam,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Indonesia,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Malaysia,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Philippines,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Singapore,8868
+ ,Directional basis; Foreign direct inv. in NZ; By country; Timor-Leste,0
+ ,"Directional basis; Foreign direct inv. in NZ; By country; China, People's Republic of",1752
+ ,Directional basis; Foreign direct inv. in NZ; By country; Hong Kong (SAR),9712
+ ,Directional basis; Foreign direct inv. in NZ; By country; Japan,7145
+ ,"Directional basis; Foreign direct inv. in NZ; By country; Korea, Democratic People's Republic of",0
+ ,"Directional basis; Foreign direct inv. in NZ; By country; Korea, Republic of",..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Macau (SAR),0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Mongolia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Taiwan,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bangladesh,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bhutan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; India,183
+ ,Directional basis; Foreign direct inv. in NZ; By country; Maldives,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Nepal,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Pakistan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Sri Lanka,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Afghanistan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Armenia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Azerbaijan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Georgia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Kazakhstan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Kyrgyzstan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Tajikistan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Turkmenistan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Uzbekistan,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bermuda,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Canada,5057
+ ,Directional basis; Foreign direct inv. in NZ; By country; St Pierre and Miquelon,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; United States of America,9485
+ ,Directional basis; Foreign direct inv. in NZ; By country; Argentina,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bolivia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Brazil,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Chile,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Colombia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Ecuador,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Falkland Islands,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; French Guiana,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Guyana,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Paraguay,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Peru,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Suriname,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Uruguay,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Venezuela,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Belize,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Costa Rica,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; El Salvador,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Guatemala,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Honduras,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Mexico,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Nicaragua,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Panama,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Anguilla,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Antigua and Barbuda,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Aruba,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Bahamas,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Barbados,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cayman Islands,2253
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cuba,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Dominica,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Dominican Republic,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Grenada,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Guadeloupe,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Haiti,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Jamaica,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Martinique,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Montserrat,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Netherlands Antilles,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Puerto Rico,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; St Kitts and Nevis,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; St Lucia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; St Vincent and the Grenadines,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Trinidad and Tobago,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Turks and Caicos Islands,0
+ ,"Directional basis; Foreign direct inv. in NZ; By country; Virgin Islands, British",2044
+ ,"Directional basis; Foreign direct inv. in NZ; By country; Virgin Islands, United States",0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Curacao,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; St Maarten (Dutch Part),0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Benin,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Burkina Faso,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cameroon,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cabo Verde (Cape Verde),0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Chad,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Congo,0
+ ,"Directional basis; Foreign direct inv. in NZ; By country; Congo, the Democratic Republic of the",0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Cï¿½te d'Ivoire,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Equatorial Guinea,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Gabon,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Gambia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Ghana,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Guinea,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Guinea-Bissau,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Liberia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Mali,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Mauritania,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Niger,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Nigeria,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Sao Tome and Principe,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Senegal,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Sierra Leone,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Togo,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Angola,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Botswana,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Burundi,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Comoros,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Djibouti,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Eritrea,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Ethiopia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Kenya,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Lesotho,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Madagascar,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Malawi,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Mauritius,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Mayotte,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Mozambique,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Namibia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Reunion,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Rwanda,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; St Helena,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Seychelles,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Somalia,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; South Africa,..
+ ,Directional basis; Foreign direct inv. in NZ; By country; Swaziland,0
+ ,Directional basis; Foreign direct inv. in NZ; By country; Tanzania,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Uganda,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Zambia,0
  ,Directional basis; Foreign direct inv. in NZ; By country; Zimbabwe,0

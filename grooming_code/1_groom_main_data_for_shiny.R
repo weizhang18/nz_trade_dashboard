@@ -125,7 +125,8 @@ dtf_shiny %<>%
 
 ## 6 save data to shiny folder
 #save( dtf_shiny, file = 'shiny/dtf_shiny.rda' )
-save( dtf_shiny, file = 'shiny/data/dtf_shiny.rda' )
+#save( dtf_shiny, file = 'shiny/data/dtf_shiny.rda' )
+save( dtf_shiny, file = paste0( output_folder_shiny,'/dtf_shiny.rda' ) )
 
 ###########################################################################
 ## remove unused objects

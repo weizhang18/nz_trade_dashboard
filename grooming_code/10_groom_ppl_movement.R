@@ -37,6 +37,9 @@
 #                                  "NOT STATED",
 #                                  "OCEANIA") )
 
+##
+load("data_intermediate/dtf_trade_tot.rda")
+
 ## read ppl_in data ----
 dtf_raw_in <-
    read.csv( "data_raw/ppl_in.csv" )
@@ -46,7 +49,8 @@ dtf_raw_in$TimePeriod <-
 
 dtf_raw_in %<>%
    dplyr::rename( Value = `TOTAL.ALL.TRAVEL.PURPOSES` ) %>%
-   mutate( TimePeriod = as.Date(as.yearqtr(as.character(TimePeriod), format = "%YQ%q") , frac = 1))
+   mutate( TimePeriod = as.Date(as.yearqtr(as.character(TimePeriod), format = "%YQ%q") , frac = 1)) %>% 
+   mutate( Value = as.numeric(Value) )
 
 ## read ppl_out data ----
 dtf_raw_out_hist <-
@@ -86,7 +90,7 @@ dtf_in_out <-
    mutate( Year =  YearEnd( TimePeriod, month(max(dtf_trade_tot$TimePeriod)) ),
            Note = paste0('Year ended ', substr( as.yearqtr( max(dtf_trade_tot$TimePeriod)), 6,7 ) ) 
    ) %>%
-   filter( Year <= max(dtf_im_country_yr$Year,na.rm=T),
+   filter( Year <= year(max(dtf_trade_tot$TimePeriod,na.rm=T)),
            Year >= 2007) %>%
    group_by( Year, Type, Country_in_out, Note ) %>%
    dplyr::summarise( Value = sum(Value, na.rm=T) ) %>%
@@ -126,4 +130,13 @@ dtf_in_out %<>%
    filter( Year>=2007 )
 
 ## save data
-save(dtf_in_out, file = 'shiny/dtf_in_out.rda')
+#save(dtf_in_out, file = 'shiny/dtf_in_out.rda')
+save(dtf_in_out, file = paste0(output_folder_shiny, '/dtf_in_out.rda'))
+
+
+###########################################################################
+## remove unused objects
+rm(list=setdiff(ls(), keepers))
+gc()
+###########################################################################
+

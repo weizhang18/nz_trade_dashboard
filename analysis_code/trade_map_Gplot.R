@@ -3,7 +3,7 @@
 #output_name_basic <-  'Arrival_by_POV_basic.html'
 #output_name_basic_pie <- 'Arrival_by_POV_basic_pie.html'
 #output_name_fancy <- 'Arrival_by_POV_fancy_pie.html'
-load("shiny/dtf_shiny_country_gs.rda") ## principle commodity from StatsNZ
+load( paste0(output_folder_shiny,"/dtf_shiny_country_gs.rda")) ## principle commodity from StatsNZ
 output_name_fancy_stylised <- 'Twoway_trade_by_country.html'
 output_path <- 'shiny/www/'
 

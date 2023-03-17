@@ -53,6 +53,9 @@ dtf_trade_tot <-
    dtf_trade_tot_old %>% 
    bind_rows( arrange(dtf_snz_total, TimePeriod) )
 
+
+save(dtf_trade_tot, file = "data_intermediate/dtf_trade_tot.rda")
+
 ## or derive from coutry level data when the most recent update is not available
 # tmp_max_q <- unique(dtf_ex_country_yr$Sector )
 # 

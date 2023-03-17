@@ -20,10 +20,10 @@ options(spinner.color="#006272")
 library(timevis)
 
 ## load data
-load("list_snz_commodity_ex.rda") ## pre-defined commodity list form SNZ
-load("list_snz_commodity_im.rda") ## pre-defined commodity list form SNZ
-load("list_country.rda") ## Country grouped by region
-load("dtf_shiny_commodity_service_ex.rda") ## principle commodity from StatsNZ -- exports
+load("data/list_snz_commodity_ex.rda") ## pre-defined commodity list form SNZ
+load("data/list_snz_commodity_im.rda") ## pre-defined commodity list form SNZ
+load("data/list_country.rda") ## Country grouped by region
+load("data/dtf_shiny_commodity_service_ex.rda") ## principle commodity from StatsNZ -- exports
 
 ## setup global variables
 maxYear <- tolower(paste0(dtf_shiny_commodity_service_ex$Note[1],' ', max(dtf_shiny_commodity_service_ex$Year)))

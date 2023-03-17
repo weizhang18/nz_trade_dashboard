@@ -119,5 +119,11 @@ dtf_fdi_odi %<>%
    filter( Year>=2007 )
 
 ## save data
-save(dtf_fdi_odi, file = 'shiny/dtf_fdi_odi.rda')
+#save(dtf_fdi_odi, file = 'shiny/dtf_fdi_odi.rda')
+save(dtf_fdi_odi, file = paste0(output_folder_shiny,'/dtf_fdi_odi.rda'))
 
+###########################################################################
+## remove unused objects
+rm(list=setdiff(ls(), keepers))
+gc()
+###########################################################################

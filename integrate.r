@@ -17,8 +17,9 @@ source("xxx.Rprofile") # it is necessary to run when start from outside Rstudio,
 Current_qtr <- "2022 Q4"   
 
 output_folder <- paste0("data/", gsub(" ","_", Current_qtr))
+output_folder_shiny <- paste0("data/", gsub(" ","_", Current_qtr), "/shiny")
 dir.create( output_folder )
-
+dir.create(output_folder_shiny )
 ######################################################################
 
 ## membership group --- run this outside .Rprofile because it does not run properly in the file
@@ -77,6 +78,10 @@ source('grooming_code/9_groom_fdi_odi.R')
 source('grooming_code/10_groom_ppl_movement.R')
 #source('grooming_code/11_uncomtrade_country.R')
 
+## copy all shiny files into shiny folder ---
+file.copy(list.files(output_folder_shiny, "*.rda", full.names = T), 
+          "shiny/data")
+
 ###########################################################################
 ## remove unused objects
 rm(list=setdiff(ls(), keepers))
@@ -130,42 +135,3 @@ deploysuffix = "test"
 
 ## ----- test locally ------
 runApp('shiny')
-
-### -------- deploy ---------
-if(!is.null(deploysuffix)){
-   ## Proxy password to get through MBIE firewall
-   if(!exists("creds")){
-      creds <- mbie::AskCreds(Title = "MBIE User Log In Name and Password", startuid = "", returnValOnCancel = "ID_CANCEL")   
-   }
-   options(RCurlOptions = list(proxy = 'http://proxybcw.wd.govt.nz:8080',
-                               proxyusername = creds$uid, 
-                               proxypassword = creds$pwd))
-   
-   
-   if(deploysuffix == "prod"){
-      message("you are about to deploy the production version, please confirm [Y/n] > ", appendLF = FALSE)
-      question <- readLines(n = 1)
-   } else {
-      question <- "y"
-   }
-   
-   if(tolower(question) == "y"){
-      ## To solve slow RStudio start in MBIE enviroment, Eric modified library() so that it load packages
-      ## from MBIE's R pakcage repo. This will impact ppl outside of MBIE to run the code. So the if and else
-      ## code is added. 
-      ## if we are in the MBIE environment, we load packages from MBIE's r package repository
-      ## otherwise, for Jimmy or anyone outside of MBIE to run, just use their own library.
-      # if( file.exists("P:/R/common.Rprofile") ){ ## in MBIE environment
-      #   withr::with_libpaths(
-      #      new = MBIELibPaths,
-      # deployApp(appDir = shinydir,
-      #          appName = paste0("trade_intelligence_", deploysuffix),
-      #          account = "mbienz")
-      #   )
-      # }else{
-      deployApp(appDir = shinydir,
-                appName = paste0("trade_intelligence_", deploysuffix),
-                account = "mbienz")
-      #}
-   }
-}

@@ -1,4 +1,7 @@
 ### groom key commodity and service exports data
+
+load( paste0(output_folder_shiny, "/dtf_shiny.rda") )
+
 ## 2. use SNZ's principle commodity concordance ---------------------------------------
 ## focus on Export merchandise only 
 tmp_dtf_commodity_tot <- 
@@ -146,6 +149,12 @@ dtf_shiny_commodity_service_ex <-
 
 
 ### save for use later
-save( dtf_shiny_commodity_service_ex, file = 'shiny/dtf_shiny_commodity_service_ex.rda' )
+#save( dtf_shiny_commodity_service_ex, file = 'shiny/dtf_shiny_commodity_service_ex.rda' )
+save( dtf_shiny_commodity_service_ex, file = paste0(output_folder_shiny, '/dtf_shiny_commodity_service_ex.rda' ))
 
 
+###########################################################################
+## remove unused objects
+rm(list=setdiff(ls(), keepers))
+gc()
+###########################################################################

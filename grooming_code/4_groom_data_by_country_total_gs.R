@@ -1,3 +1,6 @@
+##
+load( paste0(output_folder_shiny,"/dtf_shiny.rda"))
+
 ##. Derive country level data by total goods and total services ---------------------------------------
 dtf_shiny_country_gs <-
    dtf_shiny %>%
@@ -26,7 +29,8 @@ tmp_country_iso2_latlon <-
 ## keep in enviroment
 keepers <- c(keepers, "concord_country_iso_latlon_raw")
 
-save( concord_country_iso_latlon_raw, file = 'shiny/concord_country_iso_latlon_raw.rda')
+#save( concord_country_iso_latlon_raw, file = 'shiny/concord_country_iso_latlon_raw.rda')
+save( concord_country_iso_latlon_raw, file = 'shiny/data/concord_country_iso_latlon_raw.rda')
 
 ## merge with main data set
 dtf_shiny_country_gs %<>%
@@ -34,6 +38,7 @@ dtf_shiny_country_gs %<>%
 
 
 ## find out about the services data where countries are missed and add them back in
+dtf_trade_country_snz <- read.csv( file_map_goods_services_by_country )
 tmp_year <- unique( dtf_trade_country_snz$Year )
 tmp_dtf_shiny_country_gs_rest <- data.frame()
 tmp_dtf_shiny_rest <- data.frame()
@@ -109,7 +114,16 @@ dtf_shiny %<>%
    bind_rows( tmp_dtf_shiny_rest )
 
 ## save data
-save( dtf_shiny_country_gs, file = 'shiny/dtf_shiny_country_gs.rda' ) 
+#save( dtf_shiny_country_gs, file = 'shiny/dtf_shiny_country_gs.rda' ) 
+save( dtf_shiny_country_gs, file = paste0(output_folder_shiny,'/dtf_shiny_country_gs.rda' ) )
 
 ## save data to shiny folder
-save( dtf_shiny, file = 'shiny/dtf_shiny.rda' )
+#save( dtf_shiny, file = 'shiny/dtf_shiny.rda' )
+save( dtf_shiny, file = paste0( output_folder_shiny ,'/dtf_shiny.rda' ) )
+
+
+###########################################################################
+## remove unused objects
+rm(list=setdiff(ls(), keepers))
+gc()
+###########################################################################
