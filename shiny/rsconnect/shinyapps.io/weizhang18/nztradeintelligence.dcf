@@ -5,10 +5,10 @@ account: weizhang18
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 8539921
-bundleId: 6969754
+bundleId: 6969790
 url: https://weizhang18.shinyapps.io/nztradeintelligence/
-when: 1679031948.80875
-lastSyncTime: 1679031948.80876
+when: 1679032876.89106
+lastSyncTime: 1679032876.89108
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: concord_snz_ig.rda|concord_uncomtrade_country.rda|dtf_country_group.rda|dtf_fdi_odi.rda|dtf_in_out.rda|dtf_shiny.rda|dtf_shiny_commodity_service_ex.rda|dtf_shiny_commodity_service_im.rda|dtf_shiny_country_gs.rda|dtf_shiny_full.rda|flag_table.rda|list_country.rda|list_snz_commodity.rda|list_snz_commodity_ex.rda|list_snz_commodity_im.rda
+ignoredFiles: concord_country.rda|concord_country_group.rda|concord_country_iso_latlon_raw.rda|concord_country_member.rda|concord_eu28.rda|concord_hs24.rda|concord_snz_eg.rda|concord_snz_ig.rda|concord_uncomtrade_country.rda|dtf_country_group.rda|dtf_fdi_odi.rda|dtf_in_out.rda|dtf_shiny.rda|dtf_shiny_commodity_service_ex.rda|dtf_shiny_commodity_service_im.rda|dtf_shiny_country_gs.rda|dtf_shiny_full.rda|flag_table.rda|list_country.rda|list_snz_commodity.rda|list_snz_commodity_ex.rda|list_snz_commodity_im.rda

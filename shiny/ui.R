@@ -309,9 +309,9 @@ body <- dashboardBody(
       tags$script("document.title = 'New Zealand Trade Intelligence Dashboard'"),
       
       ## add google analytics
-      includeScript("ga_tracker.js"),
-      ga_common(),
-      includeScript("gtm.js"),  ## add Google Tag manager suggested by the Web team
+      #includeScript("ga_tracker.js"),
+      #ga_common(),
+      #includeScript("gtm.js"),  ## add Google Tag manager suggested by the Web team
       
       ### include Styles 
       includeCSS("www/trade_intel_style.css") 
@@ -319,12 +319,12 @@ body <- dashboardBody(
 
    
    ## add things to body
-   tags$noscript(
-            tags$iframe( src = "https://www.googletagmanager.com/ns.html?id=GTM-MNWF7H5",
-                         height = "0",
-                         width = "0",
-                         style = "display:none;visibility:hidden")
-    ),
+   #tags$noscript(
+   #         tags$iframe( src = "https://www.googletagmanager.com/ns.html?id=GTM-MNWF7H5",
+   #                      height = "0",
+   #                      width = "0",
+   #                      style = "display:none;visibility:hidden")
+   # ),
          
    ## 3.1 Dashboard body --------------
    tabItems(
