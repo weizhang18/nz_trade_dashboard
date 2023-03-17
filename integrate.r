@@ -53,7 +53,10 @@ source("grooming_code/read_snz_hs_csv/Commodity_Data_Grab_CSV.r")
 source("grooming_code/read_snz_hs_csv/Commodity_Data_Process.r")
 source("grooming_code/read_snz_hs_csv/Groom_Trade_Data.r")
 source("grooming_code/read_snz_hs_csv/Upload_To_TRED.r")
-## if run, run from here-----
+
+## manipulate new snz trade data ----------
+source("grooming_code/xx_groom_stats_nz_intel_trade.R")
+
 #detach("package:plyr", unload=TRUE) ## detach packages ----
 source("grooming_code/read_snz_hs_csv/Put_Service_Good_Data.R")
 

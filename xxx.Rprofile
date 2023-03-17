@@ -107,7 +107,8 @@ concord_hs24 <-
            ) %>%
    dplyr::select( HS_level, HS_codes, HS_description )
 
-save( concord_hs24, file = 'shiny/concord_hs24.rda' )
+#save( concord_hs24, file = 'shiny/concord_hs24.rda' )
+save( concord_hs24, file = 'shiny/data/concord_hs24.rda' )
 
 ## SNZ's principle commodities
 ## exports goods
@@ -117,7 +118,8 @@ concord_snz_eg <-
    mutate_all( as.character() ) %>%
    mutate( HS_codes = gsub("[`]","", HS_codes  ) )
 
-save( concord_snz_eg, file = 'shiny/concord_snz_eg.rda' )
+#save( concord_snz_eg, file = 'shiny/concord_snz_eg.rda' )
+save( concord_snz_eg, file = 'shiny/data/concord_snz_eg.rda' )
 
 ## imports goods
 concord_snz_ig <- 
@@ -126,7 +128,8 @@ concord_snz_ig <-
    mutate_all( as.character() ) %>%
    mutate( HS_codes = gsub("[`]","", HS_codes  ) )
 
-save( concord_snz_ig, file = 'shiny/concord_snz_ig.rda' )
+#save( concord_snz_ig, file = 'shiny/concord_snz_ig.rda' )
+save( concord_snz_ig, file = 'shiny/data/concord_snz_ig.rda' )
 
 ## contry lat and long
 concord_country <-
@@ -134,8 +137,8 @@ concord_country <-
               sheet = 'country_lat_long') %>%
    mutate_all( as.character() )
 
-save( concord_country, file = 'shiny/concord_country.rda' )
-
+#save( concord_country, file = 'shiny/concord_country.rda' )
+save( concord_country, file = 'shiny/data/concord_country.rda' )
 
 ## country group
 concord_country_group <-
@@ -143,8 +146,8 @@ concord_country_group <-
               sheet = 'country_group') %>%
    mutate_all( as.character() )
 
-save( concord_country_group, file = 'shiny/concord_country_group.rda' )
-
+#save( concord_country_group, file = 'shiny/concord_country_group.rda' )
+save( concord_country_group, file = 'shiny/data/concord_country_group.rda' )
 
 ## membership grou
 concord_country_member <-
@@ -152,7 +155,8 @@ concord_country_member <-
               sheet = 'country_membership') %>%
    mutate_all( as.character() )
 
-save( concord_country_member, file = 'shiny/concord_country_member.rda' )
+#save( concord_country_member, file = 'shiny/concord_country_member.rda' )
+save( concord_country_member, file = 'shiny/data/concord_country_member.rda' )
 
 ## EU28 country and ISO3 
 concord_eu28 <- 
@@ -161,7 +165,8 @@ concord_eu28 <-
               sheet = 'EU28') %>%
    mutate_all( as.character() )
 
-save( concord_eu28, file = 'shiny/concord_eu28.rda' )
+#save( concord_eu28, file = 'shiny/concord_eu28.rda' )
+save( concord_eu28, file = 'shiny/data/concord_eu28.rda' )
 
 
 ## map between HS2 code and commodity definted by Coriolos and NZTE, provided by Andrew McCulumn from Sector Policy

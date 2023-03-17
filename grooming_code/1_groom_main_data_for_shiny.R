@@ -111,11 +111,24 @@ if( nrow(tmp_duplicated)>=1 ){
 dtf_shiny %<>%
    mutate( Country = gsub("East Timor","Timor-Leste", Country),
            Country = gsub("Samoa[,] Western","Samoa", Country),
-           Country = gsub("Cape Verde","Cabo Verde", Country) ) %>%
+           Country = gsub("Cape Verde","Cabo Verde", Country),
+           Country = gsub("Czech Republic","Czechia", Country),
+           Country = gsub("Swaziland","Eswatini", Country),
+           Country = gsub("Cote D'Ivoire","Cote d'Ivoire", Country),
+           ) %>%
+   mutate( Country = case_when(Country == "Macedonia" ~ "North Macedonia", 
+                               TRUE ~ as.character(Country)) 
+           ) %>% 
    group_by( Year, Country, Type_ie,  Type_gs, Commodity, Note ) %>%
    dplyr::summarise( Value = sum(Value, na.rm=T) ) %>%
    ungroup
 
 ## 6 save data to shiny folder
-save( dtf_shiny, file = 'shiny/dtf_shiny.rda' )
+#save( dtf_shiny, file = 'shiny/dtf_shiny.rda' )
+save( dtf_shiny, file = 'shiny/data/dtf_shiny.rda' )
 
+###########################################################################
+## remove unused objects
+rm(list=setdiff(ls(), keepers))
+gc()
+###########################################################################

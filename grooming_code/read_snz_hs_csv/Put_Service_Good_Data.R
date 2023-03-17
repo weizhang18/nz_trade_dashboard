@@ -1,5 +1,10 @@
 #### download service data from inforshare ---------
 
+## the new Stats NZ trade data, groomed to be year ended by quater data
+load("data_intermediate/dtf_snz_service_country_year_end_qtr.rda")
+
+#load("data_intermediate/dtf_concord_country_join.rda")
+
 # ##### ------------------ Services ( Credit as exports and Debt as imports)
 # var_name <- 'BPM6 Services by country, year ended in quarter (Qrtly-Mar/Jun/Sep/Dec)'
  ValueName_ex <- 'New Zealand Goods and Services Exports by Country'
@@ -8,7 +13,7 @@
 # ##### 
 # dtf_raw <- ImportTS2(TRED, var_name, GroupCountries= FALSE )
 
-#### read data
+#### read data 'BPM6 Services by country, year ended in quarter (Qrtly-Mar/Jun/Sep/Dec)'
 dtf_raw_csv1 <- read.csv( file_service_by_country_hist1)
 dtf_raw_csv2 <- read.csv( file_service_by_country_hist2)
 dtf_raw_csv_new <- read.csv( file_service_by_country )
@@ -17,7 +22,7 @@ dtf_raw_csv_new <- read.csv( file_service_by_country )
 dtf_raw_csv <- 
    dtf_raw_csv1 %>%
    bind_rows( dtf_raw_csv2) %>%
-   bind_rows( dtf_raw_csv_new )
+   bind_rows( dtf_raw_csv_new ) 
 
 #dtf_raw_csv <- read.csv( "data_raw/service_by_country/service_imports_exports_by_country.csv" )
 
@@ -52,6 +57,23 @@ dtf_raw_new <-
 
 dtf_raw <- dtf_raw_new
 
+
+#### merge new Stats trade data with new service trade data ----
+dtf_raw_snz_old <- 
+   dtf_raw %>% 
+   filter( year(TimePeriod) <= 2014 )
+
+dtf_raw_snz_new <- 
+   dtf_snz_service_country_year_end_qtr %>% 
+   filter( year(TimePeriod) >= 2015 )
+
+
+dtf_raw <-
+   dtf_raw_snz_old %>% 
+   bind_rows( dtf_raw_snz_new ) %>% 
+   filter( as.yearqtr(TimePeriod) <= as.yearqtr(Current_qtr) )
+
+## end merge 
 
 ## lastest year_end is
 (maxYear <- max(dtf_raw$TimePeriod))
@@ -133,7 +155,8 @@ load(paste0( output_folder ,"/Exports_By_Country_shiny.rda"))
 
 dtf_ex_raw <- 
    Exports_By_Country %>%
-   dplyr::rename( TimePeriod = Date, CV2 = Harmonised_System_Code, CV1 = Country, CV3 = Measure, Value = value )
+   dplyr::rename( TimePeriod = Date, CV2 = Harmonised_System_Code, CV1 = Country, CV3 = Measure, Value = value ) %>% 
+   filter( as.yearqtr(TimePeriod) <= as.yearqtr(Current_qtr))
 
 ## lastest year_end is
 ( maxYear_g <- max(dtf_ex_raw$TimePeriod) )

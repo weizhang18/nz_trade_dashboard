@@ -141,6 +141,10 @@
             #save(list=Focus[j], file = paste0("data/", Focus[j], ".rda"))
     }
     
+    
+    ###
+    Exports_By_Country$Country[ which(Exports_By_Country$Country %in% c("T\xfcrkiye", "Turkiye")) ] <- "Turkey"
+    Imports_By_Country$Country[ which(Imports_By_Country$Country %in% c("T\xfcrkiye", "Turkiye")) ] <- "Turkey"
    ##
    ##   Done!
    ##
