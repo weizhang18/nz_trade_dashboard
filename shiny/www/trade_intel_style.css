@@ -68,9 +68,53 @@ hr {border-top: 1px solid #000000;}
 .small-box:hover{ border-radius: 10px; box-shadow: 5px 5px 12px 0 #404040; }
       
 /* show more message style */
+/*
 #btn_show_more{ padding-top:3px; padding-bottom:3px;padding-left:5px;padding-right:5px;font-size:150%; color: white ;background-color:#FF6900; border:none; border-radius: 5px; box-shadow: 1.5px 1.5px 4px 0 #404040; }
 
 #btn_show_more:hover{ padding-top:3px; padding-bottom:3px;padding-left:5px;padding-right:5px;font-size:150%; color: white !important; background-color:#97D700; border:none; border-radius: 5px; box-shadow: 3px 3px 8px 0 #404040; }
+*/
+
+#btn_show_more{ padding-top:3px; padding-bottom:3px;padding-left:5px;padding-right:5px;font-size:130%; border:none; border-radius: 5px; box-shadow: 1.5px 1.5px 4px 0 #FF6900;
+   color: white ; 
+   background: linear-gradient(to bottom, #97D700 50%, #FF6900 50%);  
+   background-position: 0% -100%;
+   background-size: 100% 200%;
+   transition: 0.214s ease-out;}
+
+#btn_show_more:hover{ 
+    /*padding-top:3px; padding-bottom:3px;padding-left:5px;padding-right:5px;font-size:140%;color: white !important;*/
+    border:none; border-radius: 5px; box-shadow: 3px 3px 8px 0 #97D700;
+    background-position: 0% -200%;}
+
+/*    
+#btn_show_more:hover .fa-chevron-circle-down,
+#btn_show_more .fa-chevron-circle-down {
+    display: none;
+}
+
+#btn_show_more:hover .fa-chevron-circle-down {
+    display: inline;
+}
+
+#btn_show_more:hover .fa-chevron-circle-right {
+    display: none;
+}
+*/
+
+#btn_show_more:hover .fa-circle-chevron-down,
+#btn_show_more .fa-circle-chevron-down {
+    display: none;
+}
+
+#btn_show_more:hover .fa-circle-chevron-down {
+    display: inline;
+}
+
+#btn_show_more:hover .fa-circle-chevron-right {
+    display: none;
+}
+
+
       
 /* style for text box for the dashboad decomission message */
 .glow {   color: #fff;

@@ -387,10 +387,14 @@ body <- dashboardBody(
                     tags$hr(),
                     tags$h3( "Click on the 'Show more details' button to display addtional information on free trade agreements, and imports/exports by commodities and markets." ),
                     actionButton("btn_show_more",
-                                 paste0(' Show more details'),
-                                 icon = icon('chevron-circle-down') #,
-                                 #style='padding-top:3px; padding-bottom:3px;padding-left:5px;padding-right:5px;font-size:150%; color: white !important;background-color:#006272; border:none; border-radius: 5px; box-shadow: 3px 3px 8px 0 #404040;'
+                                 div(icon('chevron-circle-right'),icon('chevron-circle-down'),paste0(' Show more details')) #,
+                                 #icon = icon('chevron-circle-down')
                     ) 
+                    #actionButton("btn_show_more",
+                     #            paste0(' Show more details'),
+                     #            icon = icon('chevron-circle-down') #,
+                                 #style='padding-top:3px; padding-bottom:3px;padding-left:5px;padding-right:5px;font-size:150%; color: white !important;background-color:#006272; border:none; border-radius: 5px; box-shadow: 3px 3px 8px 0 #404040;'
+                    #) 
                     ),
                
                div( id = "show_more_detail" ) ,
