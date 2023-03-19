@@ -105,7 +105,8 @@ concord_hs24 <-
                                       as.character(6) )
                               ) 
            ) %>%
-   dplyr::select( HS_level, HS_codes, HS_description )
+   dplyr::select( HS_level, HS_codes, HS_description ) %>% 
+   filter( nchar(HS_codes) <= 6 )
 
 #save( concord_hs24, file = 'shiny/concord_hs24.rda' )
 save( concord_hs24, file = 'shiny/data/concord_hs24.rda' )

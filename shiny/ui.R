@@ -1,5 +1,6 @@
 ####
 library(shinydashboard)
+#library(shinydashboardPlus)
 library(shiny)
 library(dplyr)
 library(tidyr)
@@ -57,10 +58,10 @@ header <-
                     dropdownMenuCustom( type = 'message',
                                         customSentence = customSentence,
                                   messageItem(
-                                     from = "info@mbie.govt.nz",#'Feedback and suggestions',
+                                     from = "https://github.com/weizhang18/nz_trade_dashboard/issues",#'Feedback and suggestions',
                                      message =  "",#paste0("TR_SharedMailbox@mbie.govt.nz" ),
                                      icon = icon("envelope"),
-                                     href = "info@mbie.govt.nz"
+                                     href = "https://github.com/weizhang18/nz_trade_dashboard/issues"
                                   ),
                                   icon = icon('comment')
                                  ),
@@ -71,51 +72,53 @@ header <-
                                      from = 'Twitter',
                                      message = "",
                                      icon = icon("twitter"),
-                                     href = "https://twitter.com/intent/tweet?url=http%3A%2F%2Ftradeintelligence.mbie.govt.nz&text=New%20Zealand%20Trade%20Intelligence%20Dashboard"
+                                     href = "https://twitter.com/intent/tweet?url=http%3A%2F%2Fwzhanganalytics.shinyapps.io/nztradeintelligence&text=New%20Zealand%20Trade%20Intelligence%20Dashboard"
                                   ),
                                   messageItem(
                                      from = 'Facebook',
                                      message = "",
                                      icon = icon("facebook"),
-                                     href = "https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftradeintelligence.mbie.govt.nz"
+                                     href = "https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwzhanganalytics.shinyapps.io/nztradeintelligence"
                                   ),
                                   messageItem(
                                      from = 'Google+',
                                      message = "",
                                      icon = icon("google-plus"),
-                                     href = "https://plus.google.com/share?url=http%3A%2F%2Ftradeintelligence.mbie.govt.nz"
+                                     href = "https://plus.google.com/share?url=http%3A%2F%2Fwzhanganalytics.shinyapps.io/nztradeintelligence"
                                   ),
                                   messageItem(
                                      from = 'Sina Weibo',
                                      message = "",
                                      icon = icon("weibo"),
-                                     href = "http://service.weibo.com/share/share.php?url=http://example.com&appkey=&title=New%20Zealand%20Trade%20Intelligence%20Dashboard%20http%3A%2F%2Ftradeintelligence.mbie.govt.nz&pic=&ralateUid=&language=zh_cn"
+                                     href = "http://service.weibo.com/share/share.php?url=http://example.com&appkey=&title=New%20Zealand%20Trade%20Intelligence%20Dashboard%20http%3A%2F%2Fwzhanganalytics.shinyapps.io/nztradeintelligence&pic=&ralateUid=&language=zh_cn"
                                   ),
                                   messageItem(
                                      from = 'Pinterest',
                                      message = "",
                                      icon = icon("pinterest-p"),
-                                     href = "http://pinterest.com/pin/create/button/?url=http%3A%2F%2Ftradeintelligence.mbie.govt.nz&media=&description=New%20Zealand%20Trade%20Intelligence%20Dashboard"
+                                     href = "http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwzhanganalytics.shinyapps.io/nztradeintelligence&media=&description=New%20Zealand%20Trade%20Intelligence%20Dashboard"
                                   ),
                                   messageItem(
                                      from = 'LinkedIn',
                                      message = "",
                                      icon = icon("linkedin"),
-                                     href = "http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Ftradeintelligence.mbie.govt.nz&title=New%20Zealand%20Trade%20Intelligence%20Dashboard"
+                                     href = "http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fwzhanganalytics.shinyapps.io/nztradeintelligence&title=New%20Zealand%20Trade%20Intelligence%20Dashboard"
                                   ),
                                   messageItem(
                                      from = 'Tumblr',
                                      message = "",
                                      icon = icon("tumblr"),
-                                     href = "http://www.tumblr.com/share?v=3&u=http%3A%2F%2Ftradeintelligence.mbie.govt.nz&t=New%20Zealand%20Trade%20Intelligence%20Dashboard"
+                                     href = "http://www.tumblr.com/share?v=3&u=http%3A%2F%2Fwzhanganalytics.shinyapps.io/nztradeintelligence&t=New%20Zealand%20Trade%20Intelligence%20Dashboard"
                                   )
                                   )
                     
    )
 
 header$children[[2]]$children[[2]] <- header$children[[2]]$children[[1]]
-header$children[[2]]$children[[1]] <- tags$a(href='http://www.mbie.govt.nz',
-                                             tags$img(src='MBIELogo/logo_reserve_small_corp1.png'),
+header$children[[2]]$children[[1]] <- tags$a(id = "dblogo",
+                                             href='https://nzprimarysectortrade.wordpress.com/', #http://www.mbie.govt.nz
+                                             tags$img(src='wzLogo/wz-logo_svg_black.svg',
+                                                      width="240", height="40", padding = "0, 0, 0, 0"),  #MBIELogo/logo_reserve_small_corp1.png
                                              target = '_blank') #,height='67',width='228.6', align = 'left'
 # header$children[[3]]$children[[4]]  <- header$children[[3]]$children[[3]]
 # header$children[[3]]$children[[3]] <- HTML('<span class="logo" style = "width:310px" > New Zealand Trade Intelligence</span>')

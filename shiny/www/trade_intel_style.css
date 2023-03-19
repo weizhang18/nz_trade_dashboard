@@ -7,6 +7,7 @@
 .fa { font-size: 35px; }
 .glyphicon { font-size: 33px; }  /* use glyphicon package*/
 .fa-dashboard { font-size: 20px; }
+.fa-gauge { font-size: 20px; }
 .fa-globe { font-size: 20px; }
 .fa-barcode { font-size: 20px; }
 .tab-content { padding-left: 20px; padding-right: 30px; }
@@ -66,6 +67,11 @@ hr {border-top: 1px solid #000000;}
 /* valubox style */
 .small-box{ border-radius: 10px; box-shadow: 2.5px 2.5px 6px 0 #404040; }
 .small-box:hover{ border-radius: 10px; box-shadow: 5px 5px 12px 0 #404040; }
+
+
+#dblogo {margin-left: -100px;
+         margin-right: -10px;
+         margin-top: 20px;}
       
 /* show more message style */
 /*
