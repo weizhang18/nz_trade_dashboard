@@ -1472,12 +1472,14 @@ sankey_uncomtrade <-
       }
       
       ## 2. download eu export data
-      print("-------------- Download EU28 Export data -----------")
+      print("-------------- Download EU27 Export data -----------")
+      
+      tmp_eu_search_term <- "EU-28"
       
       tmp_ex_eu_extra_raw_try <- try(
          tmp_ex_eu_extra_raw <- 
             #get.Comtrade( r = '97', p ='0' , rg = 2 , cc = cc , fmt = 'csv', ps = max_year)$data
-             m_ct_search( reporters = "EU-28", partners = 'World', trade_direction = c( "exports"), freq = "annual",
+             m_ct_search( reporters = tmp_eu_search_term , partners = 'World', trade_direction = c( "exports"), freq = "annual",
                          commod_codes = cc,
                          start_date = max_year,
                          end_date = max_year )  %>%
@@ -1499,19 +1501,19 @@ sankey_uncomtrade <-
       
       ## meesage
       if( class(tmp_ex_eu_extra_raw_try ) == 'try-error' ){
-         print("-------------- Download EU28 Export data ERROR!! -----------")
+         print("-------------- Download EU27 Export data ERROR!! -----------")
          stop("Cannot download data from UN Com Trade!")
       }else{
-         print("-------------- FINISH Download EU28 Export data -----------")
+         print("-------------- FINISH Download EU27 Export data -----------")
       }
       
       ## if no EU data
       if( #!tmp_ex_eu_extra_raw$Classification %in% c('H1',"H2", "H4","H6")
           is.na(tmp_ex_eu_extra_raw$`Trade.Value..US..`) ){
-         print("------------- EU28 export data NOT available ----------------")
+         print("------------- EU27 export data NOT available ----------------")
          tmp_ex_eu_extra_raw$Year <- unique(tmp_ex_tot_raw$Year )
          tmp_ex_eu_extra_raw$Trade.Flow <- unique(tmp_ex_tot_raw$Trade.Flow)
-         tmp_ex_eu_extra_raw$Reporter <- "EU-28"
+         tmp_ex_eu_extra_raw$Reporter <- "EU-27"
          tmp_ex_eu_extra_raw$Reporter.ISO <- "EU2"
          tmp_ex_eu_extra_raw$Reporter.Code <- 97
          tmp_ex_eu_extra_raw$Partner <- "World"
@@ -1540,11 +1542,11 @@ sankey_uncomtrade <-
          !is.na(tmp_ex_eu_extra_raw$`Trade.Value..US..`)  ){
          tmp_ex_tot_withEU <- 
             tmp_ex_tot %>%
-            mutate( Reporter = ifelse( Reporter.ISO %in% concord_eu28$ISO3, "EU-28", Reporter ) ) %>%
-            mutate( Reporter.ISO = ifelse( Reporter == "EU-28", "EU2" , Reporter.ISO )  ) %>%
-            mutate( Reporter.Code = ifelse( Reporter == "EU-28", 97 , Reporter.Code )   ) %>%
-            mutate( Partner = ifelse( Reporter == "EU-28", "World" , Partner )   ) %>%
-            mutate( Partner.ISO = ifelse( Reporter == "EU-28", "WLD" , Partner.ISO )   ) %>%
+            mutate( Reporter = ifelse( Reporter.ISO %in% concord_eu27$ISO3, "EU-27", Reporter ) ) %>%
+            mutate( Reporter.ISO = ifelse( Reporter == "EU-27", "EU2" , Reporter.ISO )  ) %>%
+            mutate( Reporter.Code = ifelse( Reporter == "EU-27", 97 , Reporter.Code )   ) %>%
+            mutate( Partner = ifelse( Reporter == "EU-27", "World" , Partner )   ) %>%
+            mutate( Partner.ISO = ifelse( Reporter == "EU-27", "WLD" , Partner.ISO )   ) %>%
             #group_by(  Year, Reporter,Reporter.ISO,Reporter.Code, Partner,Partner.ISO, Commodity.Code, Commodity ,Trade.Flow, Qty.Unit ) %>%
             group_by(  Year, Reporter,Reporter.ISO,Reporter.Code, Partner,Partner.ISO, Commodity.Code, Commodity ,Trade.Flow ) %>%
             summarise(  Alt.Qty.Unit = sum( as.numeric(Alt.Qty.Unit), na.rm=T),
@@ -1555,7 +1557,7 @@ sankey_uncomtrade <-
          tmp_ex_tot_withEU <- 
             tmp_ex_tot 
          # %>%
-         #    mutate( Reporter = ifelse( Reporter.ISO %in% concord_eu28$ISO3, "EU-28", Reporter ) ) %>%
+         #    mutate( Reporter = ifelse( Reporter.ISO %in% concord_eu27$ISO3, "EU-28", Reporter ) ) %>%
          #    mutate( Reporter.ISO = ifelse( Reporter == "EU-28", "EU2" , Reporter.ISO )  ) %>%
          #    mutate( Reporter.Code = ifelse( Reporter == "EU-28", 97 , Reporter.Code )   ) %>%
          #    mutate( Partner = ifelse( Reporter == "EU-28", "World" , Partner )   ) %>%
@@ -1573,12 +1575,12 @@ sankey_uncomtrade <-
          tmp_ex_eu_extra_raw %>%
          #dplyr::select( Year ,Trade.Flow, Reporter, Reporter.ISO,Reporter.Code, Partner,Partner.ISO,Commodity.Code, Commodity, Qty.Unit, Alt.Qty.Unit, `Trade.Value..US..`  )
          dplyr::select( Year ,Trade.Flow, Reporter, Reporter.ISO,Reporter.Code, Partner,Partner.ISO,Commodity.Code, Commodity, Alt.Qty.Unit, `Trade.Value..US..`  ) %>% 
-         mutate( Reporter = "EU-28" )
+         mutate( Reporter = "EU-27" )
       
       ## 6. Split EU exporto WLD and Intra-EU
       tmp_ex_eu_all <- 
          tmp_ex_tot_withEU %>%
-         filter( Reporter == "EU-28" )
+         filter( Reporter == "EU-27" )
       
       ## 7. split into eu intra trade and extra trade
       tmp_ex_eu_intra <- 
@@ -1591,7 +1593,7 @@ sankey_uncomtrade <-
                  `Trade.Value..US..` =  `Trade.Value..US...x` - `Trade.Value..US...y` ) %>%
          dplyr::select( -Alt.Qty.Unit.x, -Alt.Qty.Unit.y, 
                         -`Trade.Value..US...x`,  -`Trade.Value..US...y`) %>%
-         mutate( Partner = "EU-28", 
+         mutate( Partner = "EU-27", 
                  Partner.ISO = "EU2")
       
       ## 8. Eu export now splited into Extra-EU (to the world) and Intra-EU (within EU)
@@ -1602,11 +1604,11 @@ sankey_uncomtrade <-
       
       ## 9. Replace the Eu total export by the EU trade splited
       tmp_ex_tot_withEU %<>%
-         filter( Reporter != 'EU-28' ) %>%
+         filter( Reporter != 'EU-27' ) %>%
          bind_rows( tmp_ex_eu_split ) %>%
          mutate( Share = as.numeric(`Trade.Value..US..`)/ sum( as.numeric(`Trade.Value..US..`), na.rm= T ) ) %>%
-         mutate( Share_noIntraEU = as.numeric(`Trade.Value..US..`)/ sum( as.numeric(`Trade.Value..US..`[Partner!='EU-28']), na.rm= T )  ) %>%
-         mutate( Share_noIntraEU = ifelse( Partner=='EU-28', NA, Share_noIntraEU ) ) %>%
+         mutate( Share_noIntraEU = as.numeric(`Trade.Value..US..`)/ sum( as.numeric(`Trade.Value..US..`[Partner!='EU-27']), na.rm= T )  ) %>%
+         mutate( Share_noIntraEU = ifelse( Partner=='EU-27', NA, Share_noIntraEU ) ) %>%
          arrange( -Share )
       
       
@@ -1615,10 +1617,11 @@ sankey_uncomtrade <-
       tmp_country_i <- 0
       while( tmp_target_share <= global_coverage ){
          tmp_country_i <- tmp_country_i + 1
-         tmp_target_share  <- sum(tmp_ex_tot_withEU[ which(tmp_ex_tot_withEU$Partner != 'EU-28'),]$Share_noIntraEU[1:tmp_country_i], na.rm=T)
+         tmp_target_share  <- sum(tmp_ex_tot_withEU[ which(tmp_ex_tot_withEU$Partner != 'EU-27'),]$Share_noIntraEU[1:tmp_country_i], na.rm=T)
       }
       
       tmp_target_exporter <- unique(tmp_ex_tot_withEU$Reporter[1:tmp_country_i])
+      tmp_target_exporter[ tmp_target_exporter == "EU-27" ] <- tmp_eu_search_term ### make sure the UNcomtrade search term is right
       tmp_target_exporter_code <- unique(tmp_ex_tot_withEU$Reporter.Code[1:tmp_country_i])
       
       
@@ -1629,6 +1632,9 @@ sankey_uncomtrade <-
          lapply( as.character(tmp_target_exporter_code),
                  function(i_country_code) {
                     i_country <- unique(tmp_ex_tot_withEU$Reporter[which(tmp_ex_tot_withEU$Reporter.Code == i_country_code)] )
+                    
+                    i_country <- ifelse(i_country == "EU-27", tmp_eu_search_term, i_country) ## make sure EU serch term is right
+                    
                     print( paste0("----- Extracting data for ", i_country , " -----") )
                     tmp_fail <- 
                        try(
@@ -1663,7 +1669,7 @@ sankey_uncomtrade <-
       
       tmp_dtf_ex_by_country  <-
          do.call( rbind, tmp_list_ex_by_country  ) %>% 
-         mutate(Reporter = case_when( Reporter == "EU" ~ "EU-28",
+         mutate(Reporter = case_when( Reporter == "EU" ~ "EU-27",
                                       TRUE ~ as.character(Reporter)))
       
       ## 12. create a datafrme where EU28 interal trade is not counted
@@ -1677,8 +1683,8 @@ sankey_uncomtrade <-
                  Partner = as.character( Partner ),
                  Partner.ISO = as.character( Partner.ISO )
          ) %>%
-         mutate( Partner = ifelse( Partner.ISO %in% concord_eu28$ISO3, 'EU-28', Partner ),
-                 Partner.ISO = ifelse( Partner == 'EU-28', "EU2" ,Partner.ISO )) %>%
+         mutate( Partner = ifelse( Partner.ISO %in% concord_eu27$ISO3, 'EU-27', Partner ),
+                 Partner.ISO = ifelse( Partner == 'EU-27', "EU2" ,Partner.ISO )) %>%
          #group_by( Year ,Trade.Flow, Reporter, Reporter.ISO,Reporter.Code, Partner,Partner.ISO, Commodity.Code, Commodity, Qty.Unit ) %>%
          group_by( Year ,Trade.Flow, Reporter, Reporter.ISO,Reporter.Code, Partner,Partner.ISO, Commodity.Code, Commodity ) %>%
          summarise(  Alt.Qty.Unit = sum( as.numeric(Alt.Qty.Unit), na.rm=T),
@@ -1848,12 +1854,14 @@ get_data_sankey_uncomtrade <-
       }
       
       ## 2. download eu export data
-      print("-------------- Download EU28 Export data -----------")
+      print("-------------- Download EU27 Export data -----------")
+      
+      tmp_eu_search_term <- "EU-28"
       
       tmp_ex_eu_extra_raw_try <- try(
          tmp_ex_eu_extra_raw <-
             #get.Comtrade( r = '97', p ='0' , rg = 2 , cc = cc , fmt = 'csv', ps = max_year)$data
-            m_ct_search( reporters = "EU-28", partners = 'World', trade_direction = c( "exports"), freq = "annual",
+            m_ct_search( reporters = tmp_eu_search_term, partners = 'World', trade_direction = c( "exports"), freq = "annual",
                          commod_codes = cc,
                          start_date = max_year,
                          end_date = max_year ) %>%
@@ -1896,19 +1904,19 @@ get_data_sankey_uncomtrade <-
       
       ## meesage
       if( class(tmp_ex_eu_extra_raw_try ) == 'try-error' ){
-         print("-------------- Download EU28 Export data ERROR!! -----------")
+         print("-------------- Download EU27 Export data ERROR!! -----------")
          stop("Cannot download data from UN Com Trade!")
       }else{
-         print("-------------- FINISH Download EU28 Export data -----------")
+         print("-------------- FINISH Download EU27 Export data -----------")
       }
       
       ## if no EU data
       if( #!tmp_ex_eu_extra_raw$Classification %in% c('H1',"H2", "H4","H6")
          is.na(tmp_ex_eu_extra_raw$`Trade.Value..US..`) ){
-         print("------------- EU28 export data NOT available ----------------")
+         print("------------- EU27 export data NOT available ----------------")
          tmp_ex_eu_extra_raw$Year <- unique(tmp_ex_tot_raw$Year )
          tmp_ex_eu_extra_raw$Trade.Flow <- unique(tmp_ex_tot_raw$Trade.Flow)
-         tmp_ex_eu_extra_raw$Reporter <- "EU-28"
+         tmp_ex_eu_extra_raw$Reporter <- "EU-27"
          tmp_ex_eu_extra_raw$Reporter.ISO <- "EU2"
          tmp_ex_eu_extra_raw$Reporter.Code <- 97
          tmp_ex_eu_extra_raw$Partner <- "World"
@@ -1938,11 +1946,11 @@ get_data_sankey_uncomtrade <-
          !is.na(tmp_ex_eu_extra_raw$`Trade.Value..US..`)  ){
          tmp_ex_tot_withEU <- 
             tmp_ex_tot %>%
-            mutate( Reporter = ifelse( Reporter.ISO %in% concord_eu28$ISO3, "EU-28", Reporter ) ) %>%
-            mutate( Reporter.ISO = ifelse( Reporter == "EU-28", "EU2" , Reporter.ISO )  ) %>%
-            mutate( Reporter.Code = ifelse( Reporter == "EU-28", 97 , Reporter.Code )   ) %>%
-            mutate( Partner = ifelse( Reporter == "EU-28", "World" , Partner )   ) %>%
-            mutate( Partner.ISO = ifelse( Reporter == "EU-28", "WLD" , Partner.ISO )   ) %>%
+            mutate( Reporter = ifelse( Reporter.ISO %in% concord_eu27$ISO3, "EU-27", Reporter ) ) %>%
+            mutate( Reporter.ISO = ifelse( Reporter == "EU-27", "EU2" , Reporter.ISO )  ) %>%
+            mutate( Reporter.Code = ifelse( Reporter == "EU-27", 97 , Reporter.Code )   ) %>%
+            mutate( Partner = ifelse( Reporter == "EU-27", "World" , Partner )   ) %>%
+            mutate( Partner.ISO = ifelse( Reporter == "EU-27", "WLD" , Partner.ISO )   ) %>%
             #group_by(  Year, Reporter,Reporter.ISO,Reporter.Code, Partner,Partner.ISO, Commodity.Code, Commodity ,Trade.Flow, Qty.Unit ) %>%
             group_by(  Year, Reporter,Reporter.ISO,Reporter.Code, Partner,Partner.ISO, Commodity.Code, Commodity ,Trade.Flow  ) %>%
             summarise(  Alt.Qty.Unit = sum( as.numeric(Alt.Qty.Unit), na.rm=T),
@@ -1953,7 +1961,7 @@ get_data_sankey_uncomtrade <-
          tmp_ex_tot_withEU <- 
             tmp_ex_tot 
          # %>%
-         #    mutate( Reporter = ifelse( Reporter.ISO %in% concord_eu28$ISO3, "EU-28", Reporter ) ) %>%
+         #    mutate( Reporter = ifelse( Reporter.ISO %in% concord_eu27$ISO3, "EU-28", Reporter ) ) %>%
          #    mutate( Reporter.ISO = ifelse( Reporter == "EU-28", "EU2" , Reporter.ISO )  ) %>%
          #    mutate( Reporter.Code = ifelse( Reporter == "EU-28", 97 , Reporter.Code )   ) %>%
          #    mutate( Partner = ifelse( Reporter == "EU-28", "World" , Partner )   ) %>%
@@ -1971,12 +1979,12 @@ get_data_sankey_uncomtrade <-
          tmp_ex_eu_extra_raw %>%
          #dplyr::select( Year ,Trade.Flow, Reporter, Reporter.ISO,Reporter.Code, Partner,Partner.ISO,Commodity.Code, Commodity, Qty.Unit, Alt.Qty.Unit, `Trade.Value..US..`  )
          dplyr::select( Year ,Trade.Flow, Reporter, Reporter.ISO,Reporter.Code, Partner,Partner.ISO,Commodity.Code, Commodity,  Alt.Qty.Unit, `Trade.Value..US..`  )  %>% 
-         mutate( Reporter = "EU-28" )
+         mutate( Reporter = "EU-27" )
       
       ## 6. Split EU exporto WLD and Intra-EU
       tmp_ex_eu_all <- 
          tmp_ex_tot_withEU %>%
-         filter( Reporter == "EU-28" )
+         filter( Reporter == "EU-27" )
       
       ## 7. split into eu intra trade and extra trade
       tmp_ex_eu_intra <- 
@@ -1989,7 +1997,7 @@ get_data_sankey_uncomtrade <-
                  `Trade.Value..US..` =  `Trade.Value..US...x` - `Trade.Value..US...y` ) %>%
          dplyr::select( -Alt.Qty.Unit.x, -Alt.Qty.Unit.y, 
                         -`Trade.Value..US...x`,  -`Trade.Value..US...y`) %>%
-         mutate( Partner = "EU-28", 
+         mutate( Partner = "EU-27", 
                  Partner.ISO = "EU2")
       
       ## 8. Eu export now splited into Extra-EU (to the world) and Intra-EU (within EU)
@@ -2000,11 +2008,11 @@ get_data_sankey_uncomtrade <-
       
       ## 9. Replace the Eu total export by the EU trade splited
       tmp_ex_tot_withEU %<>%
-         filter( Reporter != 'EU-28' ) %>%
+         filter( Reporter != 'EU-27' ) %>%
          bind_rows( tmp_ex_eu_split ) %>%
          mutate( Share = as.numeric(`Trade.Value..US..`)/ sum( as.numeric(`Trade.Value..US..`), na.rm= T ) ) %>%
          mutate( Share_noIntraEU = as.numeric(`Trade.Value..US..`)/ sum( as.numeric(`Trade.Value..US..`[Partner!='EU-28']), na.rm= T )  ) %>%
-         mutate( Share_noIntraEU = ifelse( Partner=='EU-28', NA, Share_noIntraEU ) ) %>%
+         mutate( Share_noIntraEU = ifelse( Partner=='EU-27', NA, Share_noIntraEU ) ) %>%
          arrange( -Share )
       
       
@@ -2013,10 +2021,11 @@ get_data_sankey_uncomtrade <-
       tmp_country_i <- 0
       while( tmp_target_share <= global_coverage ){
          tmp_country_i <- tmp_country_i + 1
-         tmp_target_share  <- sum(tmp_ex_tot_withEU[ which(tmp_ex_tot_withEU$Partner != 'EU-28'),]$Share_noIntraEU[1:tmp_country_i], na.rm=T)
+         tmp_target_share  <- sum(tmp_ex_tot_withEU[ which(tmp_ex_tot_withEU$Partner != 'EU-27'),]$Share_noIntraEU[1:tmp_country_i], na.rm=T)
       }
       
       tmp_target_exporter <- unique(tmp_ex_tot_withEU$Reporter[1:tmp_country_i])
+      tmp_target_exporter[ tmp_target_exporter == "EU-27" ] <- tmp_eu_search_term ### make sure the UNcomtrade search term is right
       tmp_target_exporter_code <- unique(tmp_ex_tot_withEU$Reporter.Code[1:tmp_country_i])
       
       
@@ -2027,6 +2036,9 @@ get_data_sankey_uncomtrade <-
          lapply( as.character(tmp_target_exporter_code),
                  function(i_country_code) {
                     i_country <- unique(tmp_ex_tot_withEU$Reporter[which(tmp_ex_tot_withEU$Reporter.Code == i_country_code)] )
+                    
+                    i_country <- ifelse(i_country == "EU-27", tmp_eu_search_term, i_country) ## make sure EU serch term is right
+                    
                     print( paste0("----- Extracting data for ", i_country , " -----") )
                     tmp_fail <- 
                        try(
@@ -2082,7 +2094,7 @@ get_data_sankey_uncomtrade <-
       
       tmp_dtf_ex_by_country  <-
          do.call( rbind, tmp_list_ex_by_country  ) %>% 
-         mutate(Reporter = case_when( Reporter == "EU" ~ "EU-28",
+         mutate(Reporter = case_when( Reporter == "EU" ~ "EU-27",
                                       TRUE ~ as.character(Reporter)))
       
       ## 12. create a datafrme where EU28 interal trade is (not) counted
@@ -2096,8 +2108,8 @@ get_data_sankey_uncomtrade <-
                  Partner = as.character( Partner ),
                  Partner.ISO = as.character( Partner.ISO )
          ) %>%
-         mutate( Partner = ifelse( Partner.ISO %in% concord_eu28$ISO3, 'EU-28', Partner ),
-                 Partner.ISO = ifelse( Partner == 'EU-28', "EU2" ,Partner.ISO )) %>%
+         mutate( Partner = ifelse( Partner.ISO %in% concord_eu27$ISO3, 'EU-27', Partner ),
+                 Partner.ISO = ifelse( Partner == 'EU-27', "EU2" ,Partner.ISO )) %>%
          #group_by( Year ,Trade.Flow, Reporter, Reporter.ISO,Reporter.Code, Partner,Partner.ISO, Commodity.Code, Commodity, Qty.Unit ) %>%
          group_by( Year ,Trade.Flow, Reporter, Reporter.ISO,Reporter.Code, Partner,Partner.ISO, Commodity.Code, Commodity ) %>%
          summarise(  Alt.Qty.Unit = sum( as.numeric(Alt.Qty.Unit), na.rm=T),

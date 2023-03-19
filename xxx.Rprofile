@@ -160,14 +160,24 @@ concord_country_member <-
 save( concord_country_member, file = 'shiny/data/concord_country_member.rda' )
 
 ## EU28 country and ISO3 
-concord_eu28 <- 
-   concord_country_member <-
-   read_excel('data_raw/concordances/Concordance.xlsx',
-              sheet = 'EU28') %>%
-   mutate_all( as.character() )
+#concord_eu28 <- 
+#   concord_country_member <-
+#   read_excel('data_raw/concordances/Concordance.xlsx',
+#              sheet = 'EU28') %>%
+#   mutate_all( as.character() )
 
 #save( concord_eu28, file = 'shiny/concord_eu28.rda' )
-save( concord_eu28, file = 'shiny/data/concord_eu28.rda' )
+#save( concord_eu28, file = 'shiny/data/concord_eu28.rda' )
+
+
+## EU27 country and ISO3 since GB is not part of EU
+concord_eu27 <- 
+   concord_country_member <-
+   read_excel('data_raw/concordances/Concordance.xlsx',
+              sheet = 'EU27') %>%
+   mutate_all( as.character() )
+
+save( concord_eu27, file = 'shiny/data/concord_eu27.rda' )
 
 
 ## map between HS2 code and commodity definted by Coriolos and NZTE, provided by Andrew McCulumn from Sector Policy

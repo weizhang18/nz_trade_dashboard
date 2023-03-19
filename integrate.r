@@ -73,14 +73,15 @@ source('grooming_code/3_groom_data_by_key_imports_goods_services.R')
 source('grooming_code/5_groom_data_country_group.R')
 source('grooming_code/6_groom_data_pre-defined_commodity_SNZ.R')
 source('grooming_code/7_groom_data_full_HS_levels_country.R')
-source('grooming_code/8_groom_get_country_flag.R')
+#source('grooming_code/8_groom_get_country_flag.R')
 source('grooming_code/9_groom_fdi_odi.R')
 source('grooming_code/10_groom_ppl_movement.R')
 #source('grooming_code/11_uncomtrade_country.R')
 
 ## copy all shiny files into shiny folder ---
-file.copy(list.files(output_folder_shiny, "*.rda", full.names = T), 
-          "shiny/data")
+file.copy(from = list.files(output_folder_shiny, "*.rda", full.names = T), 
+          to = "shiny/data", 
+          overwrite = T)
 
 ###########################################################################
 ## remove unused objects

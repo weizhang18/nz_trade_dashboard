@@ -45,8 +45,8 @@ load('data/concord_country_group.rda')
 load('data/concord_country_member.rda')
 load('data/concord_country_iso_latlon_raw.rda')
 load('data/flag_table.rda')
-load('data/concord_eu28.rda')
-
+#load('data/concord_eu28.rda')
+load('data/concord_eu27.rda')
 
 ## load data
 load("data/dtf_shiny_full.rda")

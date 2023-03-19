@@ -2942,13 +2942,13 @@ server <-
                                 ## 1.1 formate data -- get Eu28 intra and extra trade for later use in table ------
                                 rv_pre_define_ex$tmp_eu_trade_all <- 
                                    rv_pre_define_ex$tmp_global_by_country %>%
-                                   filter( Reporter.ISO %in% concord_eu28$ISO3 ) %>%
+                                   filter( Reporter.ISO %in% concord_eu27$ISO3 ) %>%
                                    #group_by( Year , `Trade.Flow`, Partner, `Qty.Unit` ) %>%
                                    group_by( Year , `Trade.Flow`, Partner ) %>%
                                    summarise(  `Alt.Qty.Unit` = sum( as.numeric(`Alt.Qty.Unit`), na.rm=T ),
                                                `Trade.Value..US..` = sum( as.numeric(`Trade.Value..US..`), na.rm=T ) ) %>%
                                    ungroup %>%
-                                   mutate( Reporter = "EU-28", Reporter.ISO = 'EU2'   )
+                                   mutate( Reporter = "EU-27", Reporter.ISO = 'EU2'   )
                                 
                                 ## derive EU trade intra
                                 rv_pre_define_ex$tmp_eu_trade_intra_raw <-
@@ -2975,7 +2975,7 @@ server <-
                                 ## join EU intra and extra back
                                 rv_pre_define_ex$tmp_global_by_country_and_eu <-
                                    rv_pre_define_ex$tmp_global_by_country_raw %>%
-                                   filter( !Reporter.ISO %in% concord_eu28$ISO3 ) %>%
+                                   filter( !Reporter.ISO %in% concord_eu27$ISO3 ) %>%
                                    dplyr::select( Year,`Commodity.Code` , `Trade.Flow`, Reporter, `Reporter.ISO`, Partner, `Qty.Unit`, `Alt.Qty.Unit`, `Trade.Value..US..`) %>%
                                    #group_by(Year, `Trade.Flow`, Reporter, `Reporter.ISO`, Partner, `Qty.Unit`) %>%
                                    group_by(Year, `Trade.Flow`, Reporter, `Reporter.ISO`, Partner) %>%
@@ -4932,13 +4932,13 @@ server <-
                                       ## 1.1 formate data -- get Eu28 intra and extra trade for later use in table ------
                                       rv_self_define_ex$tmp_eu_trade_all <- 
                                          rv_self_define_ex$tmp_global_by_country %>%
-                                         filter( Reporter.ISO %in% concord_eu28$ISO3 ) %>%
+                                         filter( Reporter.ISO %in% concord_eu27$ISO3 ) %>%
                                          #group_by( Year , `Trade.Flow`, Partner, `Qty.Unit` ) %>%
                                          group_by( Year , `Trade.Flow`, Partner) %>%
                                          summarise(  `Alt.Qty.Unit` = sum( as.numeric(`Alt.Qty.Unit`), na.rm=T ),
                                                      `Trade.Value..US..` = sum( as.numeric(`Trade.Value..US..`), na.rm=T ) ) %>%
                                          ungroup %>%
-                                         mutate( Reporter = "EU-28", Reporter.ISO = 'EU2'   )
+                                         mutate( Reporter = "EU-27", Reporter.ISO = 'EU2'   )
                                       
                                       ## derive EU trade intra
                                       rv_self_define_ex$tmp_eu_trade_intra_raw <-
@@ -4956,16 +4956,16 @@ server <-
                                       ### formate data
                                       rv_self_define_ex$tmp_eu_trade_intra <- 
                                          rv_self_define_ex$tmp_eu_trade_intra_raw %>%
-                                         mutate( Reporter = 'EU-28-Intra', Reporter.ISO = 'EU2-intra' )
+                                         mutate( Reporter = 'EU-27-Intra', Reporter.ISO = 'EU2-intra' )
                                       
                                       rv_self_define_ex$tmp_eu_trade_extra <- 
                                          rv_self_define_ex$tmp_eu_trade_extra_raw %>%
-                                         mutate( Reporter = 'EU-28-Extra', Reporter.ISO = 'EU2-extra' )
+                                         mutate( Reporter = 'EU-27-Extra', Reporter.ISO = 'EU2-extra' )
                                       
                                       ## join EU intra and extra back
                                       rv_self_define_ex$tmp_global_by_country_and_eu <-
                                          rv_self_define_ex$tmp_global_by_country_raw %>%
-                                         filter( !Reporter.ISO %in% concord_eu28$ISO3 ) %>%
+                                         filter( !Reporter.ISO %in% concord_eu27$ISO3 ) %>%
                                          dplyr::select( Year,`Commodity.Code` , `Trade.Flow`, Reporter, `Reporter.ISO`, Partner, `Qty.Unit`, `Alt.Qty.Unit`, `Trade.Value..US..`) %>%
                                          #group_by(Year, `Trade.Flow`, Reporter, `Reporter.ISO`, Partner, `Qty.Unit`) %>%
                                          group_by(Year, `Trade.Flow`, Reporter, `Reporter.ISO`, Partner) %>%
@@ -7299,7 +7299,7 @@ server <-
                                id = 'country_name_single_or_multiple',
                                conditionalPanel( "input.select_country.length == 1 &&
                                                  input.select_country.valueOf() != 'APEC' &&
-                                                 input.select_country.valueOf() != 'EU28' &&
+                                                 input.select_country.valueOf() != 'EU27' &&
                                                  input.select_country.valueOf() != 'CPTPP' &&
                                                  input.select_country.valueOf() != 'GCC' &&
                                                  input.select_country.valueOf() != 'Pacific Islands Forum' &&
@@ -7328,7 +7328,7 @@ server <-
                                
                                conditionalPanel( "input.select_country.length > 1 || 
                                               input.select_country.valueOf() == 'APEC' || 
-                                              input.select_country.valueOf() == 'EU28'||
+                                              input.select_country.valueOf() == 'EU27'||
                                               input.select_country.valueOf() == 'CPTPP' ||
                                               input.select_country.valueOf() == 'GCC' ||
                                                  input.select_country.valueOf() == 'Pacific Islands Forum' ||
@@ -7707,7 +7707,7 @@ server <-
                          })
                          
                          ## III.4 Line graph two-way trade CountryTwowayTradeGraphTotal ----------------------
-                         print("------------------  Line graphs -------------------------")
+                         print("------------------  Line graphs: two way trade  -------------------------")
                          tmp_dtf_twoway_line <-
                             dtf_shiny_country_gs %>%
                             filter( Year >=2007, Country %in% tmp_selected_countries ) %>%
@@ -7746,7 +7746,10 @@ server <-
                                               #visible = c(T,rep(F,length(tmp_top_g_ex)-1))
                                )
                          })
+                         
                          ## III.5 Line graph trade balance CountryTradeBalanceGraphTotal ----------------------
+                         print("------------------  Line graphs: trade balance  -------------------------")
+                         
                          tmp_dtf_balance_line <-
                             dtf_shiny_country_gs %>%
                             filter( Year >=2007, Country %in% tmp_selected_countries ) %>%
@@ -7873,6 +7876,8 @@ server <-
                          
                          
                          ## III.6 Line graph Exports CountryExportsGraphTotal ----------------------
+                         print("------------------  Line graphs: export   -------------------------")
+                         
                          tmp_dtf_ex_line <-
                             dtf_shiny_country_gs %>%
                             filter( Year >=2007, Country %in% tmp_selected_countries,
@@ -7925,6 +7930,8 @@ server <-
                                   )
                             })
                          ## III.7 Line graph Exports CountryExportsGraphTotalPercent ----------------------
+                         print("------------------  Line graphs: export as percent  -------------------------")
+                         
                          tmp_dtf_ex_line_world <-
                             dtf_shiny_country_gs %>%
                             filter( Year >=2007, Country %in% 'World',
@@ -7984,6 +7991,8 @@ server <-
                             })
 
                          ## III.8 Line graph Imports CountryImportsGraphTotal ----------------------
+                         print("------------------  Line graphs: imports  -------------------------")
+                         
                          tmp_dtf_im_line <-
                             dtf_shiny_country_gs %>%
                             filter( Year >=2007, Country %in% tmp_selected_countries,
@@ -8035,7 +8044,9 @@ server <-
                                                  #visible = c(T,rep(F,length(tmp_top_g_ex)-1))
                                   )
                             })
+                         
                          ## III.9 Line graph Imports CountryImportsGraphTotalPercent ----------------------
+                         print("------------------  Line graphs: imporpts as percent  -------------------------")
                          tmp_dtf_im_line_world <-
                             dtf_shiny_country_gs %>%
                             filter( Year >=2007, Country %in% 'World',
@@ -8093,7 +8104,11 @@ server <-
                                                  #visible = c(T,rep(F,length(tmp_top_g_ex)-1))
                                   )
                             })
+                         
+                         
                          ## III.9.1 Line graph Investment position CountryInvestmentGraphTotal ----------------------
+                         print("------------------  Line graphs: investment  -------------------------")
+                         
                          tmp_dtf_invest_line <-
                             dtf_fdi_odi %>%
                             filter( Year >=2007, 
@@ -8108,19 +8123,22 @@ server <-
                                                    "Overseas direct investment") ) %>%
                             dplyr::select( -Type )
                          
-                         tmp_dtf_invest_line %<>%
-                            bind_rows( tmp_dtf_invest_line %>%
-                                          group_by( Year ) %>%
-                                          do( Value = sum(.$Value, na.rm=T) ) %>%
-                                          ungroup %>%
-                                          mutate( Value = as.numeric(Value) ) %>%
-                                          mutate(Name = 'Two-way direct investment')
-                            ) %>%
-                            mutate( Country = 'The selected markets' ) %>%
-                            mutate( Name = factor(Name, levels = c('Two-way direct investment',
-                                                                   'Foreign direct investment',
-                                                                   'Overseas direct investment')) 
-                                    )
+                         if( nrow( tmp_dtf_invest_line) >0 ){
+                            tmp_dtf_invest_line %<>%
+                               bind_rows( tmp_dtf_invest_line %>%
+                                             group_by( Year ) %>%
+                                             do( Value = sum(.$Value, na.rm=T) ) %>%
+                                             ungroup %>%
+                                             mutate( Value = as.numeric(Value) ) %>%
+                                             mutate(Name = 'Two-way direct investment')
+                               ) %>%
+                               mutate( Country = 'The selected markets' ) %>%
+                               mutate( Name = factor(Name, levels = c('Two-way direct investment',
+                                                                      'Foreign direct investment',
+                                                                      'Overseas direct investment')) 
+                               )
+                         }
+                         
                          
                          output$CountryInvestmentGraphTotal <-
                             renderHighchart({
@@ -8153,6 +8171,8 @@ server <-
                             })
                          
                          ## III.9.2 Line graph Investment CountryInvestmentGraphTotalPercent ----------------------
+                         print("------------------  Line graphs: investment  percent -------------------------")
+                         
                          tmp_dtf_invest_line_world <-
                             dtf_fdi_odi %>%
                             filter( Year >=2007, 
@@ -8181,14 +8201,20 @@ server <-
                                                                    'Foreign direct investment',
                                                                    'Overseas direct investment') ) )
                          
-                         tmp_dtf_invest_line_percent <-
-                            tmp_dtf_invest_line %>%
-                            bind_rows( tmp_dtf_invest_line_world ) %>%
-                            group_by( Year, Name ) %>%
-                            do( Share = .$Value/.$Value[.$Country=='World'] ) %>%
-                            ungroup %>%
-                            rowwise %>%
-                            mutate( Value = ifelse( length(unlist(Share))==2, unlist(Share)[1]*100, NA) )
+                         if( nrow(tmp_dtf_invest_line) > 0 ){
+                            tmp_dtf_invest_line_percent <-
+                               tmp_dtf_invest_line %>%
+                               bind_rows( tmp_dtf_invest_line_world ) %>%
+                               group_by( Year, Name ) %>%
+                               do( Share = .$Value/.$Value[.$Country=='World'] ) %>%
+                               ungroup %>%
+                               rowwise %>%
+                               mutate( Value = ifelse( length(unlist(Share))==2, unlist(Share)[1]*100, NA) )
+                         }else{
+                            tmp_dtf_invest_line_percent <-
+                               tmp_dtf_invest_line
+                         }
+                         
                          
                          output$CountryInvestmentGraphTotalPercent <-
                             renderHighchart({
@@ -8218,6 +8244,8 @@ server <-
                             })
                          
                          ## III.9.3 Line graph Ppl Movement CountryPplMovementGraphTotal ----------------------
+                         print("------------------  Line graphs: ppl movement  -------------------------")
+                         
                          tmp_dtf_pplmove_line <-
                             dtf_in_out %>%
                             filter( Year >=2007, 
@@ -8275,6 +8303,8 @@ server <-
                             })
                          
                          ## III.9.4 Line graph ppl movement CountryPplMovementGraphTotalPercent ----------------------
+                         print("------------------  Line graphs: ppl movement as percent -------------------------")
+                         
                          tmp_dtf_pplmove_line_world <-
                             dtf_in_out %>%
                             filter( Year >=2007, 
@@ -9141,7 +9171,7 @@ server <-
                                ui = div( id = "country_trade_summary_appendix",
                                          conditionalPanel( "input.select_country.length > 1 || 
                                                             input.select_country.valueOf() == 'APEC' || 
-                                                           input.select_country.valueOf() == 'EU28'||
+                                                           input.select_country.valueOf() == 'EU27'||
                                                            input.select_country.valueOf() == 'CPTPP' ||
                                                            input.select_country.valueOf() == 'GCC' ||
                                                            input.select_country.valueOf() == 'Pacific Islands Forum' ||
@@ -9693,13 +9723,13 @@ server <-
             print("-------------- 1.1 Format uncomtrade eu data  ------------------")
             rv_intelHS$tmp_eu_trade_all <- 
                rv_intelHS$tmp_global_by_country %>%
-               filter( Reporter.ISO %in% concord_eu28$ISO3 ) %>%
+               filter( Reporter.ISO %in% concord_eu27$ISO3 ) %>%
                #group_by( Year , `Trade.Flow`, Partner, `Qty.Unit` ) %>%
                group_by( Year , `Trade.Flow`, Partner ) %>%
                summarise(  `Alt.Qty.Unit` = sum( as.numeric(`Alt.Qty.Unit`), na.rm=T ),
                            `Trade.Value..US..` = sum( as.numeric(`Trade.Value..US..`), na.rm=T ) ) %>%
                ungroup %>%
-               mutate( Reporter = "EU-28", Reporter.ISO = 'EU2'   )
+               mutate( Reporter = "EU-27", Reporter.ISO = 'EU2'   )
             
             ## derive EU trade intra
             print("-------------- 1.1.2 derive EU trade intra  ------------------")
@@ -9729,7 +9759,7 @@ server <-
             print("-------------- 1.1.4 join EU intra and extra back  ------------------")
             rv_intelHS$tmp_global_by_country_and_eu <-
                rv_intelHS$tmp_global_by_country_raw %>%
-               filter( !Reporter.ISO %in% concord_eu28$ISO3 ) %>%
+               filter( !Reporter.ISO %in% concord_eu27$ISO3 ) %>%
                dplyr::select( Year,`Commodity.Code` , `Trade.Flow`, Reporter, `Reporter.ISO`, Partner, `Qty.Unit`, `Alt.Qty.Unit`, `Trade.Value..US..`) %>%
                #group_by(Year, `Trade.Flow`, Reporter, `Reporter.ISO`, Partner, `Qty.Unit`) %>%
                group_by(Year, `Trade.Flow`, Reporter, `Reporter.ISO`, Partner) %>%
