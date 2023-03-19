@@ -489,9 +489,10 @@ body <- dashboardBody(
                      #tags$hr(),
                      #tags$h3( "Click on the 'Show more details' button to display addtional information on free trade agreements, and imports/exports by commodities and markets." ),
                      actionButton("action_bnt_ClearTable",
-                                  paste0(' Clear all selections'),
-                                  icon = icon('refresh'),
-                                  style='padding-top:3px; padding-bottom:3px;padding-left:5px;padding-right:5px;font-size:120% '
+                                  #paste0(' Clear all selections'),
+                                  #icon = icon('refresh'),
+                                  div(icon('rotate-right'), icon('arrows-rotate') ,paste0(' Clear all selections')) #,
+                                  #style='padding-top:3px; padding-bottom:3px;padding-left:5px;padding-right:5px;font-size:120% '
                      ) 
                )
                ,shinyjs::hidden( div( id = "ci_intel_hs_loading_message",

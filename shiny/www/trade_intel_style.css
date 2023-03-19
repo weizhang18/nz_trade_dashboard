@@ -121,6 +121,35 @@ hr {border-top: 1px solid #000000;}
 }
 
 
+/*Clear selection button*/
+
+#action_bnt_ClearTable{ padding-top:3px; padding-bottom:3px;padding-left:5px;padding-right:5px;font-size:130%; border:none; border-radius: 5px; box-shadow: 1.5px 1.5px 4px 0 #FF6900;
+   color: white ; 
+   background: linear-gradient(to bottom, #97D700 50%, #FF6900 50%);  
+   background-position: 0% -100%;
+   background-size: 100% 200%;
+   transition: 0.214s ease-out;}
+
+#action_bnt_ClearTable:hover{ 
+    /*padding-top:3px; padding-bottom:3px;padding-left:5px;padding-right:5px;font-size:140%;color: white !important;*/
+    border:none; border-radius: 5px; box-shadow: 3px 3px 8px 0 #97D700;
+    background-position: 0% -200%;}
+
+
+#action_bnt_ClearTable:hover .fa-arrows-rotate,
+#action_bnt_ClearTable .fa-arrows-rotate {
+    display: none;
+}
+
+#action_bnt_ClearTable:hover .fa-arrows-rotate {
+    display: inline;
+}
+
+#action_bnt_ClearTable:hover .fa-rotate-right {
+    display: none;
+}
+
+
       
 /* style for text box for the dashboad decomission message */
 .glow {   color: #fff;
