@@ -209,7 +209,7 @@ tmp_data_pie <- cbind.data.frame(tmp_data_pie[ sector.exp1 ],
 #write.csv(NZ_Total_Primary_Export,"I:/FCS/POLICY ADVICE/Sector Development/Information Analysis/NZ primary sector exports by markets/Output/NZ export by country sector kpm.csv")
 
 ### Sources
-tmp_data_pie$Source <- paste("<em> MBIE and Statistics New Zealand </em>")
+tmp_data_pie$Source <- paste("<em> W.Zhang Analytics and Statistics New Zealand </em>")
 colnames(tmp_data_pie)[which(colnames(tmp_data_pie)=="Source")] <- "<strong> Source </strong>"
 
 ## Notes
@@ -403,8 +403,10 @@ webpage <- readLines( paste0( output_path,output_name_fancy_stylised) )
 ##map_canvas {min-height: 100%;
 #height:auto; }
 
-webpage[7:10] <- ''
-webpage[7] <- 
+#webpage[7:10] <- ''
+webpage[6:8] <- ''
+
+webpage[6] <- 
    " html { height: 100% } 
  body { height: 100%; 
 margin: 0px; 
@@ -457,14 +459,14 @@ top:0px;
 background:rgba(255,255,255,0.5); opacity:0.89;
 font-size: 70%;
 background:-color:rgba(255,255,255,0.5); opacity:0.90;
-} "
+} </style>"
 
 #.legend td{text-align:left;background-color:rgba(255,255,255,0.5); opacity:0.89; background:transparent}
 
 ## Get rid of commas
 webpage <- gsub( ": <img", "<img", webpage )
-webpage <- gsub( "</tr> : <tr>", "</tr>  <tr>", webpage )
-webpage <- gsub( "</th> : <th>", "</th> <th>", webpage )
+webpage <- gsub( "</tr>: <tr>", "</tr>  <tr>", webpage )
+webpage <- gsub( "</th>: <th>", "</th> <th>", webpage )
 
 ## change open map up center
 #webpage <- gsub( "-75.250973,-177.156097", "-35.46066995149529,38.671875", webpage )
@@ -475,21 +477,25 @@ webpage <- gsub( " 71.706936,179.414413", " 69.03714171275197,-70", webpage )
 ## format legend
 webpage[ ( grep('LEGEND', webpage)[1] ):( grep('LEGEND', webpage)[1]+4 ) ] <- ''  
 
-webpage <- gsub( "<b>tmpxdataxpie<b>", '<b> Two way trade <br> (Show/hide labels) <br> (Click on labels to show<br>country level information) <b>', webpage )
-webpage <- gsub( '<table border="0">', "<table border='0' class='legend'>", webpage )
+webpage <- gsub( "<b>tmpxdataxpie</b>", '<b> Two way trade <br> (Show/hide labels) <br> (Click on labels to show<br>country level information) </b>', webpage )
+#webpage <- gsub( '<table border="0">', "<table border='0' class='legend'>", webpage )
+webpage <- gsub( '<table style="border-collapse:collapse; width:100%;">', "<table border='0' class='legend'>", webpage )
 #webpage <- gsub( '<b> tmp_data_pie_sector_positive<b>', 'Markets with trade <b> <font color="#00CD00"> SURPLUS </font> <b> <br> <b> <font color="#008B00">Exports </font> and <font color="#ADFF2F">imports </font> <br> (Show/hide piecharts) <b>', webpage )
 #webpage <- gsub( '<b> tmp_data_pie_sector_negative<b>', 'Markets with trade <b> <font color="#FF0000"> DEFICIT </font> <b> <br> <b> <font color="#8B2323">Exports </font> and <font color="#FF4040">imports </font> <br> (Show/hide piecharts) <b>', webpage )
-webpage <- gsub( '<b> tmp_data_pie_sector<b>', '<b> Exports and imports by markets <b> <br> (Show/hide piecharts) <br> <br> Markets with trade <b> <font color="#00CD00"> SURPLUS </font> <b> <br> <b> <font color="#008B00">Exports </font> and <font color="#ADFF2F">imports </font> <br>  <b>  <br> Markets with trade <b> <font color="#FF0000"> DEFICIT </font> <b> <br> <b> <font color="#8B2323">Exports </font> and <font color="#FF4040">imports </font>  <b>', webpage )
+webpage <- gsub( '<b>tmp_data_pie_sector</b>', '<b> Exports and imports by markets <b> <br> (Show/hide piecharts) <br> <br> Markets with trade <b> <font color="#00CD00"> SURPLUS </font> <b> <br> <b> <font color="#008B00">Exports </font> and <font color="#ADFF2F">imports </font> <br>  <b>  <br> Markets with trade <b> <font color="#FF0000"> DEFICIT </font> <b> <br> <b> <font color="#8B2323">Exports </font> and <font color="#FF4040">imports </font>  </b>', webpage )
 webpage <- gsub( 'LEGEND', "Legend", webpage )
-webpage <- gsub( '<tr> <td>ExportsImports</td></tr>', "", webpage )
+webpage <- gsub( '<tr> <td>Exports, Imports</td></tr>', "", webpage )
 
 
 ## unchecked the label first
-tmp_pos_checkbox <- which(grepl('type="checkbox"', webpage) )[1] ## the first one is for lable
-tmp_target_box <- strsplit(strsplit(webpage[tmp_pos_checkbox], " ")[[1]][4], '"')[[1]][2]
-tmp_pos_checkbox <- which(grepl( tmp_target_box, webpage))[1]
-webpage[tmp_pos_checkbox] <- gsub( "showO", 'hideO', webpage[tmp_pos_checkbox] )
+#tmp_pos_checkbox <- which(grepl('type="checkbox"', webpage) )[1] ## the first one is for lable
+#tmp_target_box <- strsplit(strsplit(webpage[tmp_pos_checkbox], " ")[[1]][4], '"')[[1]][2]
+#tmp_pos_checkbox <- which(grepl( tmp_target_box, webpage))[1]
+#webpage[tmp_pos_checkbox] <- gsub( "showO", 'hideO', webpage[tmp_pos_checkbox] )
 
+## unchech boxes -- no in use at the moment
+#webpage <- gsub("showO[(]mark", "hideO(mark", webpage)
+#webpage <- gsub("showO[(]poly", "hideO[(]poly", webpage)
 
 ## get rid of legend since it does not work in shiny dashboard
 tmp_pos_legend <- which(grepl('boxLegend', webpage))
@@ -532,8 +538,8 @@ styles: [
    }"
 
 ## find myOption parameter
-tmp_pos <- which( grepl( 'streetViewControl: false' ,webpage) )
-webpage[tmp_pos] <- paste0( 'streetViewControl: false',
+tmp_pos <- which( grepl( 'streetViewControl:false' ,webpage) )
+webpage[tmp_pos] <- paste0( 'streetViewControl:false',
                                style)   
 
 ## Save results back
