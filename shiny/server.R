@@ -9,6 +9,13 @@ tmp_un_comtrade_max_year <- year(Sys.time()) - 2 # 2 years of lag
 ## build server.R
 server <- 
    function(input, output, session) {
+      
+      ### 0.0 Make dummy loading -----------------
+      output$Loading <- 
+         renderText({
+            ""
+         })
+      
       ## I. Main dashboard -----------------------------
       i_prog <- 1
       tot_step <- 25
@@ -354,10 +361,8 @@ server <-
             formatCurrency( columns = c('Value'), mark = " ", digits = 0)
       })
 
-
-      ## remove the waiting message -- 
-      removeUI( selector = '#main_wait_message' )
       
+
       # 7.10  Show more button --------------------
       observeEvent( input$btn_show_more,
                     {
@@ -1920,7 +1925,7 @@ server <-
                        shinyjs::hide( id = "load_more_message" )
                     })
       
-      
+
       ## II. Commodity intelligence ----------------------
       ### 1.2 Exports ------ when press the Build Report button ------------------
       observeEvent( input$btn_build_commodity_report_ex,
@@ -11348,6 +11353,15 @@ server <-
                frameborder = 0,
                height="800", width="100%")
          })
+      
+      ### 00.00 loading page hide ------------------
+      #shinyjs::hide(id = 'main_body_open_loading')
+      ## remove the waiting message ----------
+      #removeUI( selector = '#main_wait_message' )
+      shinyjs::hide( selector = '#main_wait_message' )
+      Sys.sleep(0)
+      shinyjs::show(id = 'main_body_info')
+
    }
 
 

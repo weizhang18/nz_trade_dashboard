@@ -94,7 +94,7 @@ source("R/utility.R")
 
 ### read concordance
 ## read HS2 and HS4 concordance 
-## This is down load from Stats nz (http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/cvaxEKAnGBFJWdsK)
+## This is down load from Stats nz (https://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/OxzbYZz5P3nhzIZD)
 concord_hs24 <-
    read_excel('data_raw/concordances/Concordance.xlsx',
               sheet = 'HS_l2_l4') %>%

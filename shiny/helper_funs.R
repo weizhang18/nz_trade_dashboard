@@ -115,9 +115,9 @@ howto_hs_finder <- function(){
 contact <- function(){
    fluidRow(
       h2( "Contact" ),
-      tags$p("Your suggestions, feedback, complaints or compliments are highly valued and will guide us to improve the dashboard continuously. Please email them to ", 
-             tags$a( href="mailto:info@mbie.govt.nz",
-                     "info@mbie.govt.nz",
+      tags$p("Your suggestions, feedback, complaints or compliments are highly valued and will guide us to improve the dashboard continuously. Please raise issues on Github ", 
+             tags$a( href="https://github.com/weizhang18/nz_trade_dashboard/issues",
+                     "Raise issues on Github",
                      target = '_blank'),
              "."
       )
@@ -129,28 +129,28 @@ data_source <- function(){
    fluidRow(
       h2(paste0('What are the data sources?')),
       #tags$ol(
-         tags$li( "Total goods and services exports and imports are sourced from ", 
-                  tags$a(tags$i("BPM6 Quarterly, Balance of payments major components (Qrtly-Mar/Jun/Sep/Dec)"),
-                         href = "http://archive.stats.govt.nz/infoshare/SelectVariables.aspx?pxID=aa7f4009-2651-404c-b3b6-e24ea781d803",
-                         target = "_blank"), 
-                  ", a table under Economic indicators and Balance of Payments - BOP from Inforshare Statistics New Zealand."
+         tags$li( "Total goods and services exports and imports, as well as services exports and imports by country are sourced from ", 
+                  tags$a(tags$i("the zipped data released under the quarterly information release such as International trade: December 2022 quarter."),
+                         href = "https://www.stats.govt.nz/information-releases/international-trade-december-2022-quarter",
+                         target = "_blank") #, 
+                  #", a table under Economic indicators and Balance of Payments - BOP from Inforshare Statistics New Zealand."
          ),
-         tags$li("Goods exports and imports by country and commodity are sourced and compiled from ",
+         tags$li("Goods exports and imports by country and commodity (HS level 6) are sourced and compiled from ",
                  tags$a("the overseas merchiandise trade datasets",
-                        href = "http://archive.stats.govt.nz/browse_for_stats/industry_sectors/imports_and_exports/overseas-merchandise-trade/HS10-by-country.aspx",
+                        href = "https://stats.govt.nz/large-datasets/csv-files-for-download/overseas-merchandise-trade-datasets/",
                         target = "_blank"),
                  " from Statistics New Zealand."
          ),
-         tags$li("Services exports and imports by country are sourced from ",
-                 tags$a(tags$i("BPM6 Services by country, year ended in quarter (Qrtly-Mar/Jun/Sep/Dec)") ,
-                        href = "http://archive.stats.govt.nz/infoshare/SelectVariables.aspx?pxID=e17bdb70-8fff-4f11-baf1-eb732a963099",
-                        target = "_blank"),
-                 ", a table under Economic indicators and Balance of Payments - BOP from Inforshare Statistics New Zealand. For countries whose data are not available from this source, ",
-                 tags$a( tags$i("Goods and services trade by country: Year ended Qtr Year map data CSV"),
-                         href = "https://www.stats.govt.nz/information-releases/goods-and-services-trade-by-country-year-ended-june-2018",
-                         target = "_blank" ),
-                 "is then used."
-                 ),
+         # tags$li("Services exports and imports by country are sourced from ",
+         #         tags$a(tags$i("BPM6 Services by country, year ended in quarter (Qrtly-Mar/Jun/Sep/Dec)") ,
+         #                href = "http://archive.stats.govt.nz/infoshare/SelectVariables.aspx?pxID=e17bdb70-8fff-4f11-baf1-eb732a963099",
+         #                target = "_blank"),
+         #         ", a table under Economic indicators and Balance of Payments - BOP from Inforshare Statistics New Zealand. For countries whose data are not available from this source, ",
+         #         tags$a( tags$i("Goods and services trade by country: Year ended Qtr Year map data CSV"),
+         #                 href = "https://www.stats.govt.nz/information-releases/goods-and-services-trade-by-country-year-ended-june-2018",
+         #                 target = "_blank" ),
+         #         "is then used."
+         #         ),
       tags$li("Data used in the global trade analysis are sourced from ",
               tags$a(tags$i("UN Comtrade, International Trade Statistics Database") ,
                      href = "https://comtrade.un.org/",
@@ -167,17 +167,17 @@ data_source <- function(){
               ),
       tags$li("Directional basis stock of direct investment are sourced from ",
               tags$a(tags$i("BPM6 Annual, Directional basis stock of direct investment by country (Annual-Mar)") ,
-                     href = "http://archive.stats.govt.nz/infoshare/SelectVariables.aspx?pxID=e17bdb70-8fff-4f11-baf1-eb732a963099",
+                     href = "https://infoshare.stats.govt.nz/SelectVariables.aspx?pxID=beefbc01-d19b-41fa-a44a-caf0b0ec22db",
                      target = "_blank"),
               ", a table under Economic indicators and International Investment Position - IIP from Inforshare Statistics New Zealand."),
-      tags$li("New Zealand visitor travelling overseas data is sourced from ",
+      tags$li("New Zealand visitor travelling overseas data is used to be sourced from ",
               tags$a(tags$i("NZ-resident traveller departures by EVERY country of main dest and purpose (Qrtly-Mar/Jun/Sep/Dec)") ,
-                     href = "http://archive.stats.govt.nz/infoshare/SelectVariables.aspx?pxID=e17bdb70-8fff-4f11-baf1-eb732a963099",
+                     href = "https://infoshare.stats.govt.nz/",
                      target = "_blank"),
-              ", a table under Tourism and International Travel and Migration - ITM from Inforshare Statistics New Zealand."),
+              ", a table under Tourism and International Travel and Migration - ITM from Inforshare Statistics New Zealand. But this data is currently suspended."),
       tags$li("Foreign visitor travelling to New Zealand data is sourced from ",
               tags$a(tags$i("Visitor arrivals by EVERY country of residence and purpose (Qrtly-Mar/Jun/Sep/Dec)") ,
-                     href = "http://archive.stats.govt.nz/infoshare/SelectVariables.aspx?pxID=e17bdb70-8fff-4f11-baf1-eb732a963099",
+                     href = "https://infoshare.stats.govt.nz/SelectVariables.aspx?pxID=890ef5b7-91af-4da6-972a-9e63321d7171",
                      target = "_blank"),
               ", a table under Tourism and International Travel and Migration - ITM from Inforshare Statistics New Zealand.")
       #)
@@ -203,7 +203,7 @@ hs_code_explain <- function() {
          "The Harmonized Commodity Description and Coding System, also known as the Harmonized System (HS) of tariff nomenclature is an internationally standardized system of names and numbers to classify traded products. It came into effect in 1988 and has since been developed and maintained by the World Customs Organization (WCO) (formerly the Customs Co-operation Council), an independent intergovernmental organization based in Brussels, Belgium, with over 200 member countries."
          ),
       tags$p("More information on New Zealand harmonised system classification can be found ", 
-             tags$a( href="http://archive.stats.govt.nz/browse_for_stats/industry_sectors/imports_and_exports/overseas-merchandise-trade/HS2017.aspx",
+             tags$a( href="https://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/OxzbYZz5P3nhzIZD",
                      "here.",
                      target = '_blank') 
              ),
@@ -235,11 +235,11 @@ confidential_trade_data <- function(){
       h2(paste0('What is confidential data?')),
       tags$p(
          "International Merchandise Trade Statistics confidentiality policy can be found ",
-         tags$a( href="http://archive.stats.govt.nz/about_us/legisln-policies-protocols/trade-confidentiality/international-merchandise-trade-confidentiality-policy.aspx",
+         tags$a( href="https://www.stats.govt.nz/about-us/legislation-policies-and-guidelines/international-trade-statistics-confidentiality-policy",
                  "here. ",
                  target = '_blank') ,
          "Confidential items in overseas trade and cargo statistics can be found ",
-          tags$a( href="http://archive.stats.govt.nz/about_us/legisln-policies-protocols/trade-confidentiality.aspx",
+          tags$a( href="https://stats.govt.nz/about-us/legislation-policies-and-guidelines/trade-confidentiality/#:~:text=Confidential%20items%20in%20overseas%20trade%20and%20cargo%20statistics,-Stats%20NZ%20has&text=Aggregated%20data%20that%20discloses%20individual,discretion%20of%20the%20Government%20Statistician.",
                  "here, ",
                  target = '_blank'),
          "where you also find the confidential items for both exports and imports."

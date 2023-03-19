@@ -58,7 +58,7 @@ header <-
                     dropdownMenuCustom( type = 'message',
                                         customSentence = customSentence,
                                   messageItem(
-                                     from = "https://github.com/weizhang18/nz_trade_dashboard/issues",#'Feedback and suggestions',
+                                     from = "Raise issues on Github",#'Feedback and suggestions',
                                      message =  "",#paste0("TR_SharedMailbox@mbie.govt.nz" ),
                                      icon = icon("envelope"),
                                      href = "https://github.com/weizhang18/nz_trade_dashboard/issues"
@@ -335,9 +335,10 @@ body <- dashboardBody(
       tabItem( tabName = 'dashboard',
                ## contents for the dashboard tab
                div(id = 'main_wait_message',
-                   h1('Note, initial load may take up to 10 seconds.',
+                   h1('Please note the initial load may take up to 10 seconds.',
                       style = "color:darkblue;" , align = "center" ) ,
-                   tags$hr()
+                    textOutput("Loading") %>% withSpinner(type=4) 
+                   #tags$hr()
                    ),
                
                ## 0.0 Decommission message ----
@@ -349,59 +350,68 @@ body <- dashboardBody(
                #div(class = 'scroller_anchor'),
                #div(class = 'scroller', ) ,
                
-               h1(paste0("New Zealand trade for the ", maxYear)) ,
-               fluidRow(
-                  valueBoxOutput("ExTotBox") %>% withSpinner(type=4),
-                  valueBoxOutput("ImTotBox"),
-                  valueBoxOutput("BlTotBox")
-               ),
-
-               h2(paste0("Goods")),
-               fluidRow(
-                  valueBoxOutput("ExGBox") ,
-                  valueBoxOutput("ImGBox") ,
-                  valueBoxOutput("BlGBox")
+               #div( id = "main_body_open_loading",
+               #     textOutput("Loading") %>% withSpinner(type=4) 
+               #),
+               
+               shinyjs::hidden(
+                  div(
+                  id = "main_body_info",
+                  h1(paste0("New Zealand trade intelligence for the ", maxYear)) ,
+                  fluidRow(
+                     valueBoxOutput("ExTotBox"), #%>% withSpinner(type=4),
+                     valueBoxOutput("ImTotBox"),
+                     valueBoxOutput("BlTotBox")
                   ),
-
-               h2(paste0("Services")),
-               fluidRow(
-                  valueBoxOutput("ExSBox") ,
-                  valueBoxOutput("ImSBox") ,
-                  valueBoxOutput("BlSBox")
+                  
+                  h2(paste0("Goods")),
+                  fluidRow(
+                     valueBoxOutput("ExGBox") ,
+                     valueBoxOutput("ImGBox") ,
+                     valueBoxOutput("BlGBox")
+                  ),
+                  
+                  h2(paste0("Services")),
+                  fluidRow(
+                     valueBoxOutput("ExSBox") ,
+                     valueBoxOutput("ImSBox") ,
+                     valueBoxOutput("BlSBox")
                   ) ,
-
-               ## 1.2 Time serise plot ----------------------------------------
-               h2(paste0("New Zealand trade over the past 20 years")),
-               fluidRow( column( width = 6,h4("Goods and services trade", align = 'center'), highchartOutput('IEGSLineHc') ),
-                         column( width = 6,h4("Trade balance", align = 'center'), highchartOutput('GSTotalBalanceLineHc') )
-                         ),
+                  
+                  ## 1.2 Time serise plot ----------------------------------------
+                  h2(paste0("New Zealand trade over the past 20 years")),
+                  fluidRow( column( width = 6,h4("Goods and services trade", align = 'center'), highchartOutput('IEGSLineHc') ),
+                            column( width = 6,h4("Trade balance", align = 'center'), highchartOutput('GSTotalBalanceLineHc') )
+                  ),
+                  
+                  
+                  
+                  
+                  ## 1.3 Table shows growth rate ---------------------------------
+                  h2(paste0("Short, medium, and long term growth")),
+                  p("Compound annual growth rate (CAGR) for the past 1, 5, 10 and 20 years") ,
+                  #fluidRow( h2(paste0("Short, medium, and long term growth")),
+                  #          p("Compound annual growth rate (CAGR) for the past 1, 5, 10 and 20 years") ),
+                  fluidRow( dataTableOutput('GrowthTab')  ),
+                  
+                  div( id = 'message_to_show_more',
+                       tags$hr(),
+                       tags$h3( "Click on the 'Show more details' button to display addtional information on free trade agreements, and imports/exports by commodities and markets." ),
+                       actionButton("btn_show_more",
+                                    div(icon('chevron-circle-right'),icon('chevron-circle-down'),paste0(' Show more details')) #,
+                                    #icon = icon('chevron-circle-down')
+                       ) 
+                       #actionButton("btn_show_more",
+                       #            paste0(' Show more details'),
+                       #            icon = icon('chevron-circle-down') #,
+                       #style='padding-top:3px; padding-bottom:3px;padding-left:5px;padding-right:5px;font-size:150%; color: white !important;background-color:#006272; border:none; border-radius: 5px; box-shadow: 3px 3px 8px 0 #404040;'
+                       #) 
+                  ),
+                  
+                  div( id = "show_more_detail" ) 
+               )),
                
-               
-      
-
-               ## 1.3 Table shows growth rate ---------------------------------
-               h2(paste0("Short, medium, and long term growth")),
-               p("Compound annual growth rate (CAGR) for the past 1, 5, 10 and 20 years") ,
-               #fluidRow( h2(paste0("Short, medium, and long term growth")),
-               #          p("Compound annual growth rate (CAGR) for the past 1, 5, 10 and 20 years") ),
-               fluidRow( dataTableOutput('GrowthTab')  ),
-               
-               div( id = 'message_to_show_more',
-                    tags$hr(),
-                    tags$h3( "Click on the 'Show more details' button to display addtional information on free trade agreements, and imports/exports by commodities and markets." ),
-                    actionButton("btn_show_more",
-                                 div(icon('chevron-circle-right'),icon('chevron-circle-down'),paste0(' Show more details')) #,
-                                 #icon = icon('chevron-circle-down')
-                    ) 
-                    #actionButton("btn_show_more",
-                     #            paste0(' Show more details'),
-                     #            icon = icon('chevron-circle-down') #,
-                                 #style='padding-top:3px; padding-bottom:3px;padding-left:5px;padding-right:5px;font-size:150%; color: white !important;background-color:#006272; border:none; border-radius: 5px; box-shadow: 3px 3px 8px 0 #404040;'
-                    #) 
-                    ),
-               
-               div( id = "show_more_detail" ) ,
-               
+            
                shinyjs::hidden( div( id = "load_more_message",
                                      tags$hr(),
                                      tags$h1("Loading...", align = "center")  )
@@ -545,10 +555,10 @@ body <- dashboardBody(
                     trade_terms() ),
                
                div( id = 'help_confidential_data',
-                    confidential_trade_data() ),
+                    confidential_trade_data() ) #,
                
-               div( id = 'help_urgent_update',
-                    urgent_updates() )
+               #div( id = 'help_urgent_update',
+               #     urgent_updates() )
                ) ,
       
       ## 3.6 Monthly update from Stats NZ --------------
