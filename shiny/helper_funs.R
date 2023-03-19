@@ -1612,6 +1612,9 @@ sankey_uncomtrade <-
          arrange( -Share )
       
       
+      print("-------------- FINISH manipulate EU27 to world and internal trade data -----------")
+      
+      
       ## 10. find out how many countries cover 90% share
       tmp_target_share <- 0
       tmp_country_i <- 0
@@ -1624,9 +1627,14 @@ sankey_uncomtrade <-
       tmp_target_exporter[ tmp_target_exporter == "EU-27" ] <- tmp_eu_search_term ### make sure the UNcomtrade search term is right
       tmp_target_exporter_code <- unique(tmp_ex_tot_withEU$Reporter.Code[1:tmp_country_i])
       
+      print("-------------- FINISH identify key exporters -----------")
+      print(tmp_target_exporter)
+      
       
       ## 11. loop to donwload
       print("-------------- Download Export data by key exporters -----------")
+
+      
       tmp_list_ex_by_country <- NULL
       tmp_list_ex_by_country <- 
          lapply( as.character(tmp_target_exporter_code),
@@ -2011,9 +2019,11 @@ get_data_sankey_uncomtrade <-
          filter( Reporter != 'EU-27' ) %>%
          bind_rows( tmp_ex_eu_split ) %>%
          mutate( Share = as.numeric(`Trade.Value..US..`)/ sum( as.numeric(`Trade.Value..US..`), na.rm= T ) ) %>%
-         mutate( Share_noIntraEU = as.numeric(`Trade.Value..US..`)/ sum( as.numeric(`Trade.Value..US..`[Partner!='EU-28']), na.rm= T )  ) %>%
+         mutate( Share_noIntraEU = as.numeric(`Trade.Value..US..`)/ sum( as.numeric(`Trade.Value..US..`[Partner!='EU-27']), na.rm= T )  ) %>%
          mutate( Share_noIntraEU = ifelse( Partner=='EU-27', NA, Share_noIntraEU ) ) %>%
          arrange( -Share )
+      
+      print("-------------- FINISH manipulate EU27 to world and internal trade data -----------")
       
       
       ## 10. find out how many countries cover 90% share
@@ -2022,6 +2032,7 @@ get_data_sankey_uncomtrade <-
       while( tmp_target_share <= global_coverage ){
          tmp_country_i <- tmp_country_i + 1
          tmp_target_share  <- sum(tmp_ex_tot_withEU[ which(tmp_ex_tot_withEU$Partner != 'EU-27'),]$Share_noIntraEU[1:tmp_country_i], na.rm=T)
+         #tmp_target_share  <- sum(tmp_ex_tot_withEU[ which(tmp_ex_tot_withEU$Partner != 'EU-27'),]$Share[1:tmp_country_i], na.rm=T)
       }
       
       tmp_target_exporter <- unique(tmp_ex_tot_withEU$Reporter[1:tmp_country_i])
@@ -2029,8 +2040,14 @@ get_data_sankey_uncomtrade <-
       tmp_target_exporter_code <- unique(tmp_ex_tot_withEU$Reporter.Code[1:tmp_country_i])
       
       
+      print("-------------- FINISH identify key exporters -----------")
+      print(tmp_target_exporter)
+      
+      
       ## 11. loop to donwload
       print("-------------- Download Export data by key exporters -----------")
+      
+      
       tmp_list_ex_by_country <- NULL
       tmp_list_ex_by_country <- 
          lapply( as.character(tmp_target_exporter_code),
