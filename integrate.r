@@ -28,7 +28,7 @@ concord_country_member <-
               sheet = 'country_membership') %>%
    mutate_all( as.character() )
 
-save( concord_country_member, file = 'shiny/concord_country_member.rda' )
+save( concord_country_member, file = 'shiny/data/concord_country_member.rda' )
 
 ## list of raw files -- need to mannually download from inforshare website
 file_service_by_country_hist1 <- "data_raw/service_by_country/service_imports_exports_by_country_2007_2012.csv"

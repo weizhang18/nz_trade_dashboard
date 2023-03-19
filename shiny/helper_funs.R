@@ -1493,7 +1493,8 @@ sankey_uncomtrade <-
                     `Partner.ISO` = partner_iso,
                     `Qty.Unit` = qty_unit,
                     `Alt.Qty.Unit` = qty,
-                    `Trade.Value..US..` = trade_value_usd )
+                    `Trade.Value..US..` = trade_value_usd ) #%>% 
+            #mutate( Reporter = "EU-28" )
       )
       
       ## meesage
@@ -1571,7 +1572,8 @@ sankey_uncomtrade <-
       tmp_ex_eu_extra <-
          tmp_ex_eu_extra_raw %>%
          #dplyr::select( Year ,Trade.Flow, Reporter, Reporter.ISO,Reporter.Code, Partner,Partner.ISO,Commodity.Code, Commodity, Qty.Unit, Alt.Qty.Unit, `Trade.Value..US..`  )
-         dplyr::select( Year ,Trade.Flow, Reporter, Reporter.ISO,Reporter.Code, Partner,Partner.ISO,Commodity.Code, Commodity, Alt.Qty.Unit, `Trade.Value..US..`  )
+         dplyr::select( Year ,Trade.Flow, Reporter, Reporter.ISO,Reporter.Code, Partner,Partner.ISO,Commodity.Code, Commodity, Alt.Qty.Unit, `Trade.Value..US..`  ) %>% 
+         mutate( Reporter = "EU-28" )
       
       ## 6. Split EU exporto WLD and Intra-EU
       tmp_ex_eu_all <- 
@@ -1660,7 +1662,9 @@ sankey_uncomtrade <-
                  })
       
       tmp_dtf_ex_by_country  <-
-         do.call( rbind, tmp_list_ex_by_country  )
+         do.call( rbind, tmp_list_ex_by_country  ) %>% 
+         mutate(Reporter = case_when( Reporter == "EU" ~ "EU-28",
+                                      TRUE ~ as.character(Reporter)))
       
       ## 12. create a datafrme where EU28 interal trade is not counted
       tmp_dtf_ex_by_country_withEU <-
@@ -1865,7 +1869,8 @@ get_data_sankey_uncomtrade <-
                     `Partner.ISO` = partner_iso,
                     `Qty.Unit` = qty_unit,
                     `Alt.Qty.Unit` = qty,
-                    `Trade.Value..US..` = trade_value_usd )
+                    `Trade.Value..US..` = trade_value_usd ) #%>% 
+            #mutate( Reporter = "EU-28" )
          
          # tmp_ex_eu_extra_raw <- 
          #    value(future({
@@ -1965,7 +1970,8 @@ get_data_sankey_uncomtrade <-
       tmp_ex_eu_extra <-
          tmp_ex_eu_extra_raw %>%
          #dplyr::select( Year ,Trade.Flow, Reporter, Reporter.ISO,Reporter.Code, Partner,Partner.ISO,Commodity.Code, Commodity, Qty.Unit, Alt.Qty.Unit, `Trade.Value..US..`  )
-         dplyr::select( Year ,Trade.Flow, Reporter, Reporter.ISO,Reporter.Code, Partner,Partner.ISO,Commodity.Code, Commodity,  Alt.Qty.Unit, `Trade.Value..US..`  )
+         dplyr::select( Year ,Trade.Flow, Reporter, Reporter.ISO,Reporter.Code, Partner,Partner.ISO,Commodity.Code, Commodity,  Alt.Qty.Unit, `Trade.Value..US..`  )  %>% 
+         mutate( Reporter = "EU-28" )
       
       ## 6. Split EU exporto WLD and Intra-EU
       tmp_ex_eu_all <- 
@@ -2075,7 +2081,9 @@ get_data_sankey_uncomtrade <-
                  })
       
       tmp_dtf_ex_by_country  <-
-         do.call( rbind, tmp_list_ex_by_country  )
+         do.call( rbind, tmp_list_ex_by_country  ) %>% 
+         mutate(Reporter = case_when( Reporter == "EU" ~ "EU-28",
+                                      TRUE ~ as.character(Reporter)))
       
       ## 12. create a datafrme where EU28 interal trade is (not) counted
       tmp_dtf_ex_by_country_withEU <-

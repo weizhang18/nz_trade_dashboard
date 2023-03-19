@@ -16,10 +16,12 @@
 .fa-search { font-size: 15px; }
 .fa-comment { font-size: 20px; }
 .fa-share-alt { font-size: 20px; }
+.fa-share-nodes { font-size: 20px; }
 .fa-envelope { font-size: 20px; }
 .fa-question-circle { font-size: 20px; }
+.fa-circle-question { font-size: 20px; }
 .fa-chevron-circle-down { font-size: 20px; } /*15px*/
-.fa-bell { font-size: 17px; }
+.fa-bell { font-size: 20px; }
 .fa-check { font-size: 14px; }
 .fa-times { font-size: 14px; }
 .fa-scale-balanced{ font-size: 33px;  }

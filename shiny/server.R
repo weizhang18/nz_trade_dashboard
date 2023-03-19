@@ -354,7 +354,8 @@ server <-
                background = styleColorBar( c(0,max(c(tmp_tab$CAGR1,tmp_tab$CAGR5, tmp_tab$CAGR10, tmp_tab$CAGR20))*2) , 'lightblue'),
                backgroundSize = '100% 90%',
                backgroundRepeat = 'no-repeat',
-               backgroundPosition = 'center'
+               backgroundPosition = 'center',
+               color = JS("value < 0 ? 'darkred' : value > 0 ? 'darkgreen' : 'black'")
             ) %>%
             formatPercentage( c('CAGR1', 'CAGR5', 'CAGR10', 'CAGR20'),digit = 1 ) %>%
             formatStyle( columns = c('Name','Value','CAGR1', 'CAGR5', 'CAGR10', 'CAGR20'), `font-size`= '115%' ) %>%
@@ -11351,7 +11352,7 @@ server <-
                src = SNZ_link,
                seamless = "seamless",
                frameborder = 0,
-               height="800", width="100%")
+               height="1500", width="100%")
          })
       
       ### 00.00 loading page hide ------------------
