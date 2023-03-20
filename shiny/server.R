@@ -1961,6 +1961,16 @@ server <-
                           shinyjs::disable("select_comodity_ex")
                           shinyjs::disable("rbtn_prebuilt_diy_ex")
                           
+                          ## make loading icon ---------
+                          output$Loading_ci_ex <- 
+                             renderText({
+                                ""
+                             })
+                          
+                          output$Loading_ci_ex_intl <- 
+                             renderText({
+                                ""
+                             })
                           
                           ### work on Data noW!!!!!!!
                           tmp_selected_service <- setdiff( input$select_comodity_ex , list_snz_commodity_ex[['Goods']] )
@@ -3882,6 +3892,17 @@ server <-
                                 ## disable the upload button ---
                                 shinyjs::disable("file_comodity_ex")
                                 shinyjs::disable("rbtn_prebuilt_diy_ex")
+                                
+                                ## make loading icon ---------
+                                output$Loading_ci_ex <- 
+                                   renderText({
+                                      ""
+                                   })
+                                
+                                output$Loading_ci_ex_intl_self_defined <- 
+                                   renderText({
+                                      ""
+                                   })
                                 
                                 ## now To build report if checks are all good ----------------
                                 ## make sure the HS codes become characters and HS 1 has 01 format
@@ -5835,6 +5856,13 @@ server <-
                           shinyjs::disable("select_comodity_im")
                           shinyjs::disable("rbtn_prebuilt_diy_im")
                           
+                          
+                          ## make loading icon ---------
+                          output$Loading_ci_im <- 
+                             renderText({
+                                ""
+                             })
+                          
                           ## first both checked not passed
                           checked_pre_defined_im <- checked_self_defined_im <- TRUE
                           
@@ -6553,6 +6581,11 @@ server <-
                                 shinyjs::disable("file_comodity_im")
                                 shinyjs::disable("rbtn_prebuilt_diy_im")
                                 
+                                ## make loading icon ---------
+                                output$Loading_ci_im <- 
+                                   renderText({
+                                      ""
+                                   })
                                 
                                 ## make sure the HS codes become characters and HS 1 has 01 format
                                 ## standerdise column names
@@ -7283,6 +7316,13 @@ server <-
 
                       ### work on next only when the inputs are correct!!!
                       if( tmp_execution ){
+                         
+                         ## make loading icon ---------
+                         output$Loading_country_intel <- 
+                            renderText({
+                               ""
+                            })
+                         
                          ## hide howto ----
                          shinyjs::hide(id = 'country_howto')
                          ## show wait message ----
@@ -7550,7 +7590,7 @@ server <-
                                   hc_legend( enabled=FALSE ) %>%
                                   hc_tooltip( enabled = F) %>%
                                   hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
-                                  hc_mapNavigation(enabled = TRUE)
+                                  hc_mapNavigation(enabled = TRUE) 
 
                                if( length(input$CountryTable_rows_selected)==0 ){
                                   base_selected_country_map
@@ -7568,7 +7608,7 @@ server <-
                                                     #minSize = 0,
                                                     name=""#,
                                                     #maxSize = 9
-                                     )
+                                     ) 
 
                                   update_selected_country_map
                                }

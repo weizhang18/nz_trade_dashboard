@@ -428,7 +428,8 @@ body <- dashboardBody(
                ## 3... wait message ------
                hidden(
                   div( id = 'wait_message_ci_ex',
-                       h2( "I am preparing the report now and only for you ....." )
+                       h2( "I am preparing the report now and only for you ....." ),
+                       textOutput("Loading_ci_ex") %>% withSpinner(type=4)  
                   )),
                
                ## divs for pre-defined commodity groups ----------------- 
@@ -436,7 +437,8 @@ body <- dashboardBody(
                tags$div(id = 'body_growth_ex') ,
                shinyjs::hidden( div( id = "body_ci_market_loading_message",
                                      tags$hr(),
-                                     tags$h1("Generating reports...", align = "center")  )
+                                     tags$h1("Generating reports...", align = "center") ,
+                                     textOutput("Loading_ci_ex_intl") %>% withSpinner(type=4)  )
                ),
                tags$div(id = 'body_ci_markets_ex'), 
                
@@ -446,7 +448,8 @@ body <- dashboardBody(
                tags$div(id = 'body_growth_ex_self_defined') ,
                shinyjs::hidden( div( id = "body_ci_market_loading_message_self_define",
                                      tags$hr(),
-                                     tags$h1("Generating reports...", align = "center")  )
+                                     tags$h1("Generating reports...", align = "center"),
+                                     textOutput("Loading_ci_ex_intl_self_defined") %>% withSpinner(type=4)  )
                ),
                tags$div(id = 'body_ci_markets_ex_self_defined')
                
@@ -461,7 +464,8 @@ body <- dashboardBody(
                ## 3... wait message ------
                hidden(
                   div( id = 'wait_message_ci_im',
-                       h2( "I am preparing the report now and only for you ....." )
+                       h2( "I am preparing the report now and only for you ....." ),
+                       textOutput("Loading_ci_im") %>% withSpinner(type=4)
                   )),
                
                ## 3.1 div for pre-defined HS group reports ----------------------
@@ -497,12 +501,14 @@ body <- dashboardBody(
                )
                ,shinyjs::hidden( div( id = "ci_intel_hs_loading_message",
                                      tags$hr(),
-                                     tags$h1("Generating reports...", align = "center")  )
+                                     tags$h1("Generating reports...", align = "center"),
+                                     textOutput("Loading_ci_intel_hs") %>% withSpinner(type=4)  )
                )
                ,tags$div( id = "ci_intel_by_hs_toadd" )
                ,shinyjs::hidden( div( id = "ci_intel_hs_loading_message_intl",
                                       tags$hr(),
-                                      tags$h1("Generating reports...", align = "center")  )
+                                      tags$h1("Generating reports...", align = "center"),
+                                      textOutput("Loading_ci_intel_hs_intl") %>% withSpinner(type=4)   )
                )
                ,tags$div( id = "ci_intel_by_hs_toadd_intl" )
       ),
@@ -516,7 +522,8 @@ body <- dashboardBody(
                ## 3... wait message ------
                hidden(
                   div( id = 'wait_message_country_intel',
-                    h2( "I am preparing the report now and only for you ....." )
+                    h2( "I am preparing the report now and only for you ....." ),
+                    textOutput("Loading_country_intel") %>% withSpinner(type=4)  
                     )),
                
                ## 3... div to holder created UIs ------

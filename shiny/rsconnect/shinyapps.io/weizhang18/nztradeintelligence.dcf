@@ -5,9 +5,9 @@ account: weizhang18
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 8539921
-bundleId: 6980705
+bundleId: 6981021
 url: https://wzhanganalytics.shinyapps.io/nztradeintelligence/
-when: 1679291452.42169
-lastSyncTime: 1679291452.42172
+when: 1679298395.42479
+lastSyncTime: 1679298395.4248
 asMultiple: FALSE
 asStatic: FALSE
