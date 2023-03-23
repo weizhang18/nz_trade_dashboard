@@ -901,13 +901,13 @@ server <-
                                                  "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/pacer-plus/' target = '_blank'> PACER Plus </a>",
                                                  "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/nz-china-free-trade-agreement/' target = '_blank'> NZ-China FTA </a>",
                                                  "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/nz-australia-closer-economic-relations-cer/' target = '_blank'> NZ-Australia CER </a>",
-                                                 "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/aanzfta-asean-australia-new-zealand-fta/' target = '_blank'> AANZFTA </a>",
-                                                 "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/hong-kong-fta/' target = '_blank'> NZ-Hong Kong, China CEP </a>",
-                                                 "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/malaysia-fta/' target = '_blank'> NZ-Malaysia FTA </a>",
-                                                 "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/singapore/' target = '_blank'> NZ-Singapore CEP </a>",
-                                                 "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/thailand/' target = '_blank'> NZ-Thailand CEP </a>",
-                                                 "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/p4/' target = '_blank'> P4 </a>",
-                                                 "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/nz-korea-free-trade-agreement/' target = '_blank'> NZ-Korea FTA </a>",
+                                                 "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/asean-australia-new-zealand-free-trade-agreement-aanzfta/' target = '_blank'> AANZFTA </a>",
+                                                 "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/nz-hong-kong-china-closer-economic-partnership/' target = '_blank'> NZ-Hong Kong, China CEP </a>",
+                                                 "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/nz-malaysia-free-trade-agreement/' target = '_blank'> NZ-Malaysia FTA </a>",
+                                                 "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/nz-singapore-closer-economic-partnership/' target = '_blank'> NZ-Singapore CEP </a>",
+                                                 "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/nz-thailand-closer-economic-partnership/' target = '_blank'> NZ-Thailand CEP </a>",
+                                                 "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/trans-pacific-strategic-economic-partnership-p4/' target = '_blank'> P4 </a>",
+                                                 "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/korea-new-zealand-free-trade-agreement/' target = '_blank'> NZ-Korea FTA </a>",
                                                  "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/cptpp/' target = '_blank'> CPTPP </a>")
                           )
                        
@@ -7346,7 +7346,6 @@ server <-
                                                  input.select_country.valueOf() != 'Five Eyes' &&
                                                  input.select_country.valueOf() != 'Latin America' &&
                                                  input.select_country.valueOf() != 'OPEC' &&
-                                                 input.select_country.valueOf() != 'FTA in force' &&
                                                  input.select_country.valueOf() != 'Middle East' && 
                                                  input.select_country.valueOf() != 'Northern Africa' && 
                                                  input.select_country.valueOf() != 'Eastern Africa' && 
@@ -7360,7 +7359,20 @@ server <-
                                                  input.select_country.valueOf() != 'Southern African Development Community' &&
                                                  input.select_country.valueOf() != 'G7' &&
                                                  input.select_country.valueOf() != 'BRI countries' &&
-                                                 input.select_country.valueOf() != 'RCEP' " ,
+                                                 input.select_country.valueOf() != 'FTA in force - RCEP' && 
+                                                 input.select_country.valueOf() != 'FTA in force - DEPA' &&
+                                                 input.select_country.valueOf() != 'FTA in force - PACER Plus' &&
+                                                 input.select_country.valueOf() != 'FTA in force - NZAUS CER' &&
+                                                 input.select_country.valueOf() != 'FTA in force - AANZFTA' &&
+                                                 input.select_country.valueOf() != 'FTA in force - NZ-Hong Kong CEP' &&
+                                                 input.select_country.valueOf() != 'FTA in force - NZ-Malaysia FTA' &&
+                                                 input.select_country.valueOf() != 'FTA in force - NZ-Thailand CEP' &&
+                                                 input.select_country.valueOf() != 'FTA in force - P4' &&
+                                                 input.select_country.valueOf() != 'FTA in force - Korea-NZ FTA' &&
+                                                 input.select_country.valueOf() != 'FTA in force - NZ-China FTA' &&
+                                                 input.select_country.valueOf() != 'FTA in force - NZ-Singapore CEP' &&
+                                                 input.select_country.valueOf() != 'FTA in force - CPTPP' &&
+                                                 input.select_country.valueOf() != 'FTA in force - All' " ,
                                                  fluidRow( shiny::span(h1( HTML(paste0(textOutput("SelectedMarketSingle"))), align = "center" ), style = "color:darkblue" ) )
                                ),
                                
@@ -7375,7 +7387,6 @@ server <-
                                                  input.select_country.valueOf() == 'Five Eyes' ||
                                                  input.select_country.valueOf() == 'Latin America' ||
                                                  input.select_country.valueOf() == 'OPEC' ||
-                                                 input.select_country.valueOf() == 'FTA in force' ||
                                                  input.select_country.valueOf() == 'Middle East' || 
                                                  input.select_country.valueOf() == 'Northern Africa' || 
                                                  input.select_country.valueOf() == 'Eastern Africa' || 
@@ -7389,7 +7400,20 @@ server <-
                                                  input.select_country.valueOf() == 'Southern African Development Community' ||
                                                  input.select_country.valueOf() == 'G7' ||
                                                  input.select_country.valueOf() == 'BRI countries' ||
-                                                 input.select_country.valueOf() == 'RCEP' ",
+                                                 input.select_country.valueOf() == 'FTA in force - RCEP' || 
+                                                 input.select_country.valueOf() == 'FTA in force - DEPA' ||
+                                                 input.select_country.valueOf() == 'FTA in force - PACER Plus' ||
+                                                 input.select_country.valueOf() == 'FTA in force - NZAUS CER' ||
+                                                 input.select_country.valueOf() == 'FTA in force - AANZFTA' ||
+                                                 input.select_country.valueOf() == 'FTA in force - NZ-Hong Kong CEP' ||
+                                                 input.select_country.valueOf() == 'FTA in force - NZ-Malaysia FTA' ||
+                                                 input.select_country.valueOf() == 'FTA in force - NZ-Thailand CEP' ||
+                                                 input.select_country.valueOf() == 'FTA in force - P4' ||
+                                                 input.select_country.valueOf() == 'FTA in force - Korea-NZ FTA' ||
+                                                 input.select_country.valueOf() == 'FTA in force - NZ-China FTA' ||
+                                                 input.select_country.valueOf() == 'FTA in force - NZ-Singapore CEP' ||
+                                                 input.select_country.valueOf() == 'FTA in force - CPTPP' ||
+                                                 input.select_country.valueOf() == 'FTA in force - All' ",
                                                fluidRow( shiny::span(h1( HTML(paste0(textOutput("SelectedMarketMultiple"))), align = "center" ), style = "color:darkblue" ) )
 
                                )
@@ -9218,7 +9242,6 @@ server <-
                                                            input.select_country.valueOf() == 'Five Eyes' ||
                                                            input.select_country.valueOf() == 'Latin America'||
                                                            input.select_country.valueOf() == 'OPEC' ||
-                                                           input.select_country.valueOf() == 'FTA in force' ||
                                                            input.select_country.valueOf() == 'Middle East' || 
                                                            input.select_country.valueOf() == 'Northern Africa' || 
                                                            input.select_country.valueOf() == 'Eastern Africa' || 
@@ -9232,7 +9255,20 @@ server <-
                                                            input.select_country.valueOf() == 'Southern African Development Community' ||
                                                            input.select_country.valueOf() == 'G7' ||
                                                            input.select_country.valueOf() == 'BRI countries' ||
-                                                           input.select_country.valueOf() == 'RCEP' ",
+                                                           input.select_country.valueOf() == 'FTA in force - RCEP' || 
+                                                           input.select_country.valueOf() == 'FTA in force - DEPA' ||
+                                                           input.select_country.valueOf() == 'FTA in force - PACER Plus' ||
+                                                           input.select_country.valueOf() == 'FTA in force - NZAUS CER' ||
+                                                           input.select_country.valueOf() == 'FTA in force - AANZFTA' ||
+                                                           input.select_country.valueOf() == 'FTA in force - NZ-Hong Kong CEP' ||
+                                                           input.select_country.valueOf() == 'FTA in force - NZ-Malaysia FTA' ||
+                                                           input.select_country.valueOf() == 'FTA in force - NZ-Thailand CEP' ||
+                                                           input.select_country.valueOf() == 'FTA in force - P4' ||
+                                                           input.select_country.valueOf() == 'FTA in force - Korea-NZ FTA' ||
+                                                           input.select_country.valueOf() == 'FTA in force - NZ-China FTA' ||
+                                                           input.select_country.valueOf() == 'FTA in force - NZ-Singapore CEP' ||
+                                                           input.select_country.valueOf() == 'FTA in force - CPTPP' ||
+                                                           input.select_country.valueOf() == 'FTA in force - All' ",
                                                            
                                                            ### trade appendix 
                                                            fluidRow( h1("Appendix -- trade, investment, visitor movement statistics for all selected markets") ),
