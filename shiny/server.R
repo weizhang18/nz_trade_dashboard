@@ -886,42 +886,20 @@ server <-
                        })
                        i_prog <- i_prog + 1
                        
-                       ### FTA infomration
-                       # dtf_fta <- 
-                       #    data.frame(
-                       #       id = 1:9,
-                       #       content = c("<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/nz-china-free-trade-agreement/' target = '_blank'> NZ-China FTA </a>",
-                       #                   "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/nz-australia-closer-economic-relations-cer/' target = '_blank'> NZ-Australia CER </a>",
-                       #                   "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/aanzfta-asean-australia-new-zealand-fta/' target = '_blank'> AANZFTA </a>",
-                       #                   "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/hong-kong-fta/' target = '_blank'> NZ-Hong Kong, China CEP </a>",
-                       #                   "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/malaysia-fta/' target = '_blank'> NZ-Malaysia FTA </a>",
-                       #                   "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/singapore/' target = '_blank'> NZ-Singapore CEP </a>",
-                       #                   "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/thailand/' target = '_blank'> NZ-Thailand CEP </a>",
-                       #                   "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/p4/' target = '_blank'> P4 </a>",
-                       #                   "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/nz-korea-free-trade-agreement/' target = '_blank'> NZ-Korea FTA </a>"),
-                       #       ## time when FTAs in forece
-                       #       start = c("2008-04-07",# cn
-                       #                 "1983-01-01",# aus
-                       #                 "2010-01-01",# asean
-                       #                 "2011-01-01",# hk
-                       #                 "2010-08-01", #my
-                       #                 "2001-01-01", #sing
-                       #                 "2005-07-01", # Thai
-                       #                 "2006-01-01", #p4
-                       #                 "2015-12-20"
-                       #       )
-                       #       
-                       #    )
-                       # 
-                       # output$FTATimeLine <- 
-                       #    renderTimevis({ timevis(dtf_fta) })
+
                        
                        ### FTA infomration
                        groups <- 
-                          data.frame( id = c('cn', 'aus', 'asean',
+                          data.frame( id = c('rcep',
+                                             'depa',
+                                             'pacer',
+                                             'cn', 'aus', 'asean',
                                              'hk', 'my', 'sin',
-                                             'thai', 'p4', 'sk'),
-                                      content =c("<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/nz-china-free-trade-agreement/' target = '_blank'> NZ-China FTA </a>",
+                                             'thai', 'p4', 'sk', 'cptpp'),
+                                      content =c("<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/regional-comprehensive-economic-partnership-rcep/' target = '_blank'> RCEP </a>",
+                                                 "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/digital-economy-partnership-agreement-depa/' target = '_blank'> DEPA </a>",
+                                                 "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/pacer-plus/' target = '_blank'> PACER Plus </a>",
+                                                 "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/nz-china-free-trade-agreement/' target = '_blank'> NZ-China FTA </a>",
                                                  "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/nz-australia-closer-economic-relations-cer/' target = '_blank'> NZ-Australia CER </a>",
                                                  "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/aanzfta-asean-australia-new-zealand-fta/' target = '_blank'> AANZFTA </a>",
                                                  "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/hong-kong-fta/' target = '_blank'> NZ-Hong Kong, China CEP </a>",
@@ -929,25 +907,33 @@ server <-
                                                  "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/singapore/' target = '_blank'> NZ-Singapore CEP </a>",
                                                  "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/thailand/' target = '_blank'> NZ-Thailand CEP </a>",
                                                  "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/p4/' target = '_blank'> P4 </a>",
-                                                 "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/nz-korea-free-trade-agreement/' target = '_blank'> NZ-Korea FTA </a>")
+                                                 "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/nz-korea-free-trade-agreement/' target = '_blank'> NZ-Korea FTA </a>",
+                                                 "<a href = 'https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/cptpp/' target = '_blank'> CPTPP </a>")
                           )
                        
                        
                        dtf_fta <- 
                           data.frame(
-                             id = 1:9,
-                             content = c("5 years",
-                                         "3 years",
-                                         "5 years",
-                                         "10 years",
-                                         "5 years",
-                                         "1 year and 4 months",
-                                         "1 year",
-                                         "2 years and 4 months",
-                                         "6 years and 6 months"
+                             id = 1:nrow(groups), #1:9,
+                             content = c("10 years", # rcep
+                                         "1 year and 7 months", #DEPA
+                                         "3 years and 5 months",#pacer plus
+                                         "5 years",  #cn
+                                         "3 years", #aus
+                                         "5 years", # asean
+                                         "10 years", # hk
+                                         "5 years", # my
+                                         "1 year and 4 months", # sin
+                                         "1 year", # thai
+                                         "2 years and 4 months", # p4
+                                         "6 years and 6 months", #sk
+                                         "11 months" #cptpp
                              ) ,
                              ## talk started
-                             start = c("2003-10-01", # cn
+                             start = c("2011-11-14", # RCEP
+                                       "2019-05-16", #DEPA
+                                       "2017-06-14",  #pacer plus
+                                       "2003-10-01", # cn
                                        "1979-12-31", #aus
                                        "2005-03-01", #asean
                                        "2001-01-01", #hk
@@ -955,10 +941,14 @@ server <-
                                        "1999-09-01", #singapore
                                        "2004-06-01", ## thia
                                        "2003-09-01", #p4
-                                       "2009-06-01" #sk
+                                       "2009-06-01" ,#sk
+                                       "2018-01-23" # cptpp
                              ),
                              ## time when FTAs in forece
-                             end = c("2008-10-01",# cn
+                             end = c("2022-01-01", # RCEP
+                                     "2021-01-07", # DEPA
+                                     "2020-12-13",  #pacer plus
+                                     "2008-10-01",# cn
                                      "1983-01-01",# aus
                                      "2010-01-01",# asean
                                      "2011-01-01",# hk
@@ -966,14 +956,21 @@ server <-
                                      "2001-01-01", #sing
                                      "2005-07-01", # Thai
                                      "2006-01-01", #p4
-                                     "2015-12-20" # sk
+                                     "2015-12-20", # sk
+                                     "2018-12-30" # cptpp
                              ),
-                             group = c('cn', 'aus', 'asean',
-                                       'hk', 'my', 'sin',
-                                       'thai', 'p4', 'sk') #,
+                             group = as.character(groups$id) #,
                              #type = 'range'
                              
-                          )
+                          ) %>% 
+                          arrange(desc(end))
+                       
+                       ## range by in force date : most recent to least 
+                       groups %<>% 
+                          left_join(dtf_fta, by = c("id"="group")) %>% 
+                          arrange(desc(end)) %>% 
+                          dplyr::select(id= id, content = content.x)
+                          
                        
                        output$FTATimeLine <-
                           renderTimevis({ timevis(data = dtf_fta, groups = groups, options = list(align = 'left'))  })
@@ -1865,8 +1862,9 @@ server <-
                                             Click on each FTA's name for more information.",
                                             tags$b( "In addition, you can select the 'FTA in force' market group under the Market Intelligence panel to get more insights." )
                                     ),
-                                    tags$p("FTA stands for free trade agreement; CER stands for closer economic relations; CEP stands for closer economic partnership, and P4
-                                           is short for the Trans-pacific Strategic Economic Partnership."),
+                                    tags$p("FTA stands for free trade agreement; CER stands for closer economic relations; CEP stands for closer economic partnership, P4
+                                           is short for the Trans-pacific Strategic Economic Partnership, RCEP stands for Regional Comprehensive Economic Partnership,
+                                           DEPA stands for Digital Economy Partnership Agreement, and PACER Plus stands The Pacific Agreement on Closer Economic Relations."),
                                     fluidRow( timevisOutput("FTATimeLine")   ),
                                     
                                     ## 1.7 Trend of key export markets --------------------
