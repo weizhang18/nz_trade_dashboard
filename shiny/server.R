@@ -1834,7 +1834,7 @@ server <-
                           ui = div( id = 'conents_for_more_detail',
                                     ## 1.4 Treemap on Commodities and services --------------------
                                     h2(paste0('Key commodities and services')),
-                                    tags$a(href = 'http://archive.stats.govt.nz/browse_for_stats/industry_sectors/imports_and_exports.aspx', "Key commodities and services are defined by Stats NZ", target = "_blank"),
+                                    tags$a(href = 'https://docs.google.com/spreadsheets/d/1baPrOkU1mPoGpSoOGQ1XAhYIeOGpBstP/edit?usp=sharing&ouid=106802668711609166582&rtpof=true&sd=true', "Key commodities and services, and HS codes can be found here", target = "_blank"),
                                     fluidRow( highchartOutput('KeyExTM')  ) %>% withSpinner(type=4) ,
                                     fluidRow( highchartOutput('KeyImTM')  ),
                                     
