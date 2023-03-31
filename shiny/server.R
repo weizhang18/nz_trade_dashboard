@@ -2947,7 +2947,7 @@ server <-
                                    ungroup %>%
                                    arrange( `Trade.Flow`, -`Trade.Value..US..`) 
                                 
-                                ## 1.1 formate data -- get Eu28 intra and extra trade for later use in table ------
+                                ## 1.1 formate data -- get Eu27 intra and extra trade for later use in table ------
                                 rv_pre_define_ex$tmp_eu_trade_all <- 
                                    rv_pre_define_ex$tmp_global_by_country %>%
                                    filter( Reporter.ISO %in% concord_eu27$ISO3 ) %>%
@@ -3750,7 +3750,7 @@ server <-
                              renderText({
                                 if(  is.null(rv_pre_define_ex$tmp_global_by_country_raw) )
                                    return(NULL)
-                                paste0("EU-28-Intra means all internal trade among the EU28 countries. EU-28-Extra means trade between EU28 as a whole to the rest of the world. Compound annual growth rate (CAGR) for the past 1, 5, and 10 years. Absolute value change (ABS) for the past 5 and 10 years. Import or export prices will be displayed when quantity of the selected commodity is available.")
+                                paste0("EU-27-Intra means all internal trade among the EU27 countries. EU-27-Extra means trade between EU27 as a whole to the rest of the world. Compound annual growth rate (CAGR) for the past 1, 5, and 10 years. Absolute value change (ABS) for the past 5 and 10 years. Import or export prices will be displayed when quantity of the selected commodity is available.")
                              })
                           
                           
@@ -4948,7 +4948,7 @@ server <-
                                          ungroup %>%
                                          arrange( `Trade.Flow`, -`Trade.Value..US..`) 
                                       
-                                      ## 1.1 formate data -- get Eu28 intra and extra trade for later use in table ------
+                                      ## 1.1 formate data -- get Eu27 intra and extra trade for later use in table ------
                                       rv_self_define_ex$tmp_eu_trade_all <- 
                                          rv_self_define_ex$tmp_global_by_country %>%
                                          filter( Reporter.ISO %in% concord_eu27$ISO3 ) %>%
@@ -9793,7 +9793,7 @@ server <-
                arrange( `Trade.Flow`, -`Trade.Value..US..`) 
             
             
-            ## 1.1 formate data -- get Eu28 intra and extra trade for later use in table ------
+            ## 1.1 formate data -- get Eu27 intra and extra trade for later use in table ------
             print("-------------- 1.1 Format uncomtrade eu data  ------------------")
             rv_intelHS$tmp_eu_trade_all <- 
                rv_intelHS$tmp_global_by_country %>%

@@ -64,7 +64,7 @@ howto_country <- function(){
                   tags$a(href="https://en.wikipedia.org/wiki/East_Africa","Eastern Africa" , target = "_blank"), ", ",  
                   tags$a(href="https://www.eac.int/","Eastern African Community" , target = "_blank"), ", ",  
                   tags$a(href="http://www.ecowas.int/","Economic Community of West African States" , target = "_blank"), ", ",  
-                  tags$a(href="https://europa.eu/european-union/about-eu/countries_en","EU28" , target = "_blank"), ", ",  
+                  tags$a(href="https://europa.eu/european-union/about-eu/countries_en","EU27" , target = "_blank"), ", ",  
                   tags$a(href="https://www.gcsb.govt.nz/about-us/ukusa-allies/","Five Eyes" , target = "_blank"), ", ",  
                   tags$a(href="https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/","FTA in force - All" , target = "_blank"), ", ",  
                   tags$a(href="https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/regional-comprehensive-economic-partnership-rcep/","FTA in force - RCEP" , target = "_blank"), ", ",  
@@ -1550,7 +1550,7 @@ sankey_uncomtrade <-
       tmp_tot_ex_value <- sum( as.numeric( tmp_ex_tot$`Trade.Value..US..`), na.rm=T )
       tmp_tot_ex_qty <- sum(  as.numeric(tmp_ex_tot$Alt.Qty.Unit), na.rm=T )
       
-      ## 4. put all EU28 countries together and later no there will be EU28 internal trade shown
+      ## 4. put all EU27 countries together and later no there will be EU27 internal trade shown
       if( #tmp_ex_eu_extra_raw$Classification %in% c('H1',"H2", "H4","H6")
          !is.na(tmp_ex_eu_extra_raw$`Trade.Value..US..`)  ){
          tmp_ex_tot_withEU <- 
@@ -1693,7 +1693,7 @@ sankey_uncomtrade <-
          mutate(Reporter = case_when( Reporter == "EU" ~ "EU-27",
                                       TRUE ~ as.character(Reporter)))
       
-      ## 12. create a datafrme where EU28 interal trade is not counted
+      ## 12. create a datafrme where EU27 interal trade is not counted
       tmp_dtf_ex_by_country_withEU <-
          tmp_dtf_ex_by_country %>%
          filter( Partner != 'World' ) %>%
@@ -1719,7 +1719,7 @@ sankey_uncomtrade <-
       if( eu_internal %in% c("Yes",'YES', "yes") ){
          tmp_dtf_ex_by_country_withEU %<>%
             bind_rows(tmp_ex_eu_intra ) %>%
-            arrange(  -`Trade.Value..US..`, Reporter  ) #### adding EU28 internal trade
+            arrange(  -`Trade.Value..US..`, Reporter  ) #### adding EU27 internal trade
       }else{
          next;
       })
@@ -1962,7 +1962,7 @@ get_data_sankey_uncomtrade <-
       tmp_tot_ex_value <- sum( as.numeric( tmp_ex_tot$`Trade.Value..US..`), na.rm=T )
       tmp_tot_ex_qty <- sum(  as.numeric(tmp_ex_tot$Alt.Qty.Unit), na.rm=T )
       
-      ## 4. put all EU28 countries together and later no there will be EU28 internal trade shown
+      ## 4. put all EU27 countries together and later no there will be EU27 internal trade shown
       if( #tmp_ex_eu_extra_raw$Classification %in% c('H1',"H2", "H4","H6")
          !is.na(tmp_ex_eu_extra_raw$`Trade.Value..US..`)  ){
          tmp_ex_tot_withEU <- 
@@ -2127,7 +2127,7 @@ get_data_sankey_uncomtrade <-
          mutate(Reporter = case_when( Reporter == "EU" ~ "EU-27",
                                       TRUE ~ as.character(Reporter)))
       
-      ## 12. create a datafrme where EU28 interal trade is (not) counted
+      ## 12. create a datafrme where EU27 interal trade is (not) counted
       tmp_dtf_ex_by_country_withEU <-
          tmp_dtf_ex_by_country %>%
          filter( Partner != 'World' ) %>%
@@ -2153,7 +2153,7 @@ get_data_sankey_uncomtrade <-
       if( eu_internal %in% c("Yes",'YES', "yes") ){
          tmp_dtf_ex_by_country_withEU %<>%
             bind_rows(tmp_ex_eu_intra ) %>%
-            arrange(  -`Trade.Value..US..`, Reporter  ) #### adding EU28 internal trade
+            arrange(  -`Trade.Value..US..`, Reporter  ) #### adding EU27 internal trade
       }else{
          next;
       })
