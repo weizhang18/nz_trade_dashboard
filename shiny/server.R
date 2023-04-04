@@ -2389,7 +2389,7 @@ server <-
                                    ) %>%
                                 hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
                                 hc_legend( enabled=FALSE ) %>% 
-                                hc_mapNavigation(enabled = TRUE) 
+                                hc_mapNavigation(enabled = TRUE) %>%  hc_colorAxis(minColor = "#cceeff", maxColor = "#ff0000") 
                              })
                           
                           ## !!!!! try UI insert ----------- 
@@ -2974,11 +2974,11 @@ server <-
                                 ### formate data
                                 rv_pre_define_ex$tmp_eu_trade_intra <- 
                                    rv_pre_define_ex$tmp_eu_trade_intra_raw %>%
-                                   mutate( Reporter = 'EU-28-Intra', Reporter.ISO = 'EU2-intra' )
+                                   mutate( Reporter = 'EU-27-Intra', Reporter.ISO = 'EU2-intra' )
                                 
                                 rv_pre_define_ex$tmp_eu_trade_extra <- 
                                    rv_pre_define_ex$tmp_eu_trade_extra_raw %>%
-                                   mutate( Reporter = 'EU-28-Extra', Reporter.ISO = 'EU2-extra' )
+                                   mutate( Reporter = 'EU-27-Extra', Reporter.ISO = 'EU2-extra' )
                                  
                                 ## join EU intra and extra back
                                 rv_pre_define_ex$tmp_global_by_country_and_eu <-
@@ -3412,7 +3412,7 @@ server <-
                                    ) %>%
                                    hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
                                    hc_legend( enabled=FALSE ) %>% 
-                                   hc_mapNavigation(enabled = TRUE) 
+                                   hc_mapNavigation(enabled = TRUE) %>%     hc_colorAxis(minColor = "#cceeff", maxColor = "#ff0000") 
                              })
                           
                           ## exporter map
@@ -3445,7 +3445,7 @@ server <-
                                    ) %>%
                                    hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
                                    hc_legend( enabled=FALSE ) %>% 
-                                   hc_mapNavigation(enabled = TRUE) 
+                                   hc_mapNavigation(enabled = TRUE) %>%     hc_colorAxis(minColor = "#cceeff", maxColor = "#ff0000") 
                              })
                           
                           ## !!!!! try UI insert: map of importer / exporters ----------- 
@@ -4396,7 +4396,7 @@ server <-
                                          ) %>%
                                          hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
                                          hc_legend( enabled=FALSE ) %>% 
-                                         hc_mapNavigation(enabled = TRUE) 
+                                         hc_mapNavigation(enabled = TRUE) %>%     hc_colorAxis(minColor = "#cceeff", maxColor = "#ff0000") 
                                    })
                                 
                                 ## !!!!! try UI insert ----------- 
@@ -5412,7 +5412,7 @@ server <-
                                          ) %>%
                                          hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
                                          hc_legend( enabled=FALSE ) %>% 
-                                         hc_mapNavigation(enabled = TRUE) 
+                                         hc_mapNavigation(enabled = TRUE) %>%     hc_colorAxis(minColor = "#cceeff", maxColor = "#ff0000") 
                                    })
                                 
                                 ## exporter map
@@ -5445,7 +5445,7 @@ server <-
                                          ) %>%
                                          hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
                                          hc_legend( enabled=FALSE ) %>% 
-                                         hc_mapNavigation(enabled = TRUE) 
+                                         hc_mapNavigation(enabled = TRUE) %>%     hc_colorAxis(minColor = "#cceeff", maxColor = "#ff0000") 
                                    })
                                 
                                 ## !!!!! try UI insert: map of importer / exporters ----------- 
@@ -6263,7 +6263,7 @@ server <-
                                    ) %>%
                                    hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
                                    hc_legend( enabled=FALSE ) %>% 
-                                   hc_mapNavigation(enabled = TRUE) 
+                                   hc_mapNavigation(enabled = TRUE) %>%     hc_colorAxis(minColor = "#cceeff", maxColor = "#ff0000") 
                              })
 
                           ## !!!!! try UI insert ----------- 
@@ -7008,7 +7008,7 @@ server <-
                                          ) %>%
                                          hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
                                          hc_legend( enabled=FALSE ) %>% 
-                                         hc_mapNavigation(enabled = TRUE) 
+                                         hc_mapNavigation(enabled = TRUE) %>%     hc_colorAxis(minColor = "#cceeff", maxColor = "#ff0000") 
                                    })
                                 
                                 ## !!!!! try UI insert ----------- 
@@ -9823,11 +9823,11 @@ server <-
             print("-------------- 1.1.3 derive EU trade extra  ------------------")
             rv_intelHS$tmp_eu_trade_intra <- 
                rv_intelHS$tmp_eu_trade_intra_raw %>%
-               mutate( Reporter = 'EU-28-Intra', Reporter.ISO = 'EU2-intra' )
+               mutate( Reporter = 'EU-27-Intra', Reporter.ISO = 'EU2-intra' )
             
             rv_intelHS$tmp_eu_trade_extra <- 
                rv_intelHS$tmp_eu_trade_extra_raw %>%
-               mutate( Reporter = 'EU-28-Extra', Reporter.ISO = 'EU2-extra' )
+               mutate( Reporter = 'EU-27-Extra', Reporter.ISO = 'EU2-extra' )
             
             ## join EU intra and extra back
             print("-------------- 1.1.4 join EU intra and extra back  ------------------")
@@ -10396,7 +10396,7 @@ server <-
                ) %>%
                hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
                hc_legend( enabled=FALSE ) %>% 
-               hc_mapNavigation(enabled = TRUE) 
+               hc_mapNavigation(enabled = TRUE) %>%     hc_colorAxis(minColor = "#cceeff", maxColor = "#ff0000") 
          })
       
       ## !!!!! try UI insert: map of importer / exporters ----------- 
@@ -10834,7 +10834,7 @@ server <-
                ) %>%
                hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
                hc_legend( enabled=FALSE ) %>% 
-               hc_mapNavigation(enabled = TRUE) 
+               hc_mapNavigation(enabled = TRUE) %>%     hc_colorAxis(minColor = "#cceeff", maxColor = "#ff0000") 
          })
       
       ## exporter map
@@ -10867,7 +10867,7 @@ server <-
                ) %>%
                hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
                hc_legend( enabled=FALSE ) %>% 
-               hc_mapNavigation(enabled = TRUE) 
+               hc_mapNavigation(enabled = TRUE) %>%     hc_colorAxis(minColor = "#cceeff", maxColor = "#ff0000") 
          })
       
       ## !!!!! try UI insert: map of importer / exporters ----------- 
