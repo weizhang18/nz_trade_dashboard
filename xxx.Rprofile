@@ -16,7 +16,7 @@ Sys.setenv(JAVA_HOME='C:/Program Files/Java/jre1.8.0_361')
 
 ###########################################################################
 ## load R libraries -------------------------------------------------------
-#library(plotGoogleMaps)
+library(plotGoogleMaps)
 #library(plyr)  ## make sure {plyr} is loaded before {dplyr}
 #library(reshape2)
 library(RODBC)
