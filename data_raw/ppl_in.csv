@@ -24540,3 +24540,256 @@ TimePeriod,Country,TOTAL ALL TRAVEL PURPOSES
  ,Zimbabwe,135
  ,NOT STATED,20509
  ,TOTAL ALL COUNTRIES OF RESIDENCE,803133
+2023Q2,OCEANIA,301274
+ ,Antarctica,66
+ ,"Samoa, American",495
+ ,Australia,266051
+ ,Cocos (Keeling) Islands,1
+ ,Cook Islands,2877
+ ,Christmas Island,1
+ ,Fiji,9086
+ ,"Micronesia, Federated States of",18
+ ,Guam,155
+ ,Kiribati,245
+ ,Marshall Islands,38
+ ,Northern Mariana Islands,40
+ ,New Caledonia,2864
+ ,Norfolk Island,81
+ ,Nauru,44
+ ,Niue,576
+ ,New Zealand,2210
+ ,French Polynesia,5130
+ ,Papua New Guinea,566
+ ,Pitcairn,77
+ ,Palau,17
+ ,Solomon Islands,274
+ ,French Southern Territories,0
+ ,Tokelau,69
+ ,Tonga,4100
+ ,Tuvalu,309
+ ,Vanuatu,1431
+ ,Wallis and Futuna,73
+ ,Samoa,4380
+ ,ASIA,125447
+ ,Afghanistan,13
+ ,Armenia,145
+ ,Azerbaijan,15
+ ,Bangladesh,221
+ ,Brunei Darussalam,119
+ ,Bhutan,21
+ ,"China, People's Republic of",28459
+ ,Georgia,15
+ ,Hong Kong (Special Administrative Region),5769
+ ,Indonesia,4122
+ ,India,24582
+ ,Japan,7898
+ ,Kyrgyzstan,29
+ ,Cambodia,682
+ ,"Korea, Democratic People's Republic of",3
+ ,"Korea, Republic of",10413
+ ,Kazakhstan,39
+ ,Laos,178
+ ,Sri Lanka,1082
+ ,Burma (Myanmar),292
+ ,Mongolia,90
+ ,Macau (Special Administrative Region),197
+ ,Maldives,64
+ ,Malaysia,7083
+ ,Nepal,866
+ ,Philippines,7517
+ ,Pakistan,220
+ ,Singapore,11389
+ ,Thailand,5027
+ ,Tajikistan,35
+ ,Timor-Leste,63
+ ,Turkmenistan,6
+ ,Taiwan,6686
+ ,Uzbekistan,23
+ ,Viet Nam,2084
+ ,EUROPE,42974
+ ,Andorra,30
+ ,Albania,106
+ ,Austria,1585
+ ,Bosnia and Herzegovina,36
+ ,Belgium,438
+ ,Bulgaria,106
+ ,Belarus,11
+ ,Switzerland,1429
+ ,Czechoslovakia,..
+ ,Cyprus,67
+ ,Czechia,309
+ ,"Germany, Democratic Republic of",0
+ ,Germany,5251
+ ,Denmark,819
+ ,Estonia,140
+ ,Spain,1392
+ ,Finland,326
+ ,Faeroe Islands,7
+ ,France,3299
+ ,United Kingdom,18039
+ ,Gibraltar,13
+ ,Greenland,7
+ ,Greece,109
+ ,Croatia,67
+ ,Hungary,144
+ ,Ireland,1613
+ ,Iceland,64
+ ,Italy,2130
+ ,Kosovo,3
+ ,Liechtenstein,24
+ ,Lithuania,95
+ ,Luxembourg,53
+ ,Latvia,112
+ ,Monaco,30
+ ,Moldova,10
+ ,Montenegro,9
+ ,North Macedonia,27
+ ,Malta,226
+ ,Netherlands,1713
+ ,Norway,479
+ ,Poland,433
+ ,Portugal,284
+ ,Romania,197
+ ,Serbia,59
+ ,Russia,708
+ ,Sweden,718
+ ,Slovenia,73
+ ,Slovakia,84
+ ,San Marino,10
+ ,Union of Soviet Socialist Republics,0
+ ,Ukraine,87
+ ,Vatican City State,3
+ ,Yugoslavia/Serbia and Montenegro,0
+ ,AMERICAS,65674
+ ,Antigua and Barbuda,270
+ ,Anguilla,307
+ ,Netherlands Antilles,32
+ ,Argentina,1006
+ ,Aruba,84
+ ,Barbados,10
+ ,Bermuda,25
+ ,Bolivia,59
+ ,Brazil,1914
+ ,Bahamas,14
+ ,Belize,12
+ ,Canada,7569
+ ,Chile,1729
+ ,Colombia,341
+ ,Costa Rica,105
+ ,Cuba,93
+ ,Curacao,0
+ ,Dominica,41
+ ,Dominican Republic,25
+ ,Ecuador,88
+ ,Falkland Islands,25
+ ,Grenada,6
+ ,French Guiana,6
+ ,Guadeloupe,8
+ ,South Georgia and the South Sandwich Islands,0
+ ,Guatemala,31
+ ,Guyana,28
+ ,Honduras,23
+ ,Haiti,10
+ ,Jamaica,53
+ ,St Kitts and Nevis,10
+ ,Cayman Islands,53
+ ,St Lucia,13
+ ,Martinique,6
+ ,Montserrat,3
+ ,Mexico,873
+ ,Nicaragua,27
+ ,Panama,95
+ ,Peru,150
+ ,St Pierre and Miquelon,16
+ ,Puerto Rico,28
+ ,Paraguay,20
+ ,Suriname,65
+ ,El Salvador,6
+ ,St Maarten (Dutch Part),3
+ ,Turks and Caicos Islands,19
+ ,Trinidad and Tobago,55
+ ,United States Minor Outlying Islands,18
+ ,United States of America,49970
+ ,Uruguay,275
+ ,St Vincent and the Grenadines,29
+ ,Venezuela,20
+ ,"Virgin Islands, British",4
+ ,"Virgin Islands, United States",2
+ ,AFRICA AND THE MIDDLE EAST,10690
+ ,United Arab Emirates,1721
+ ,Angola,157
+ ,Burkina Faso,8
+ ,Bahrain,121
+ ,Burundi,18
+ ,Benin,61
+ ,Botswana,21
+ ,"Congo, the Democratic Republic of the",8
+ ,Central African Republic,0
+ ,Congo,20
+ ,Cote d'Ivoire,15
+ ,Cameroon,16
+ ,Cabo Verde,1
+ ,Djibouti,32
+ ,Algeria,50
+ ,Egypt,62
+ ,Western Sahara,5
+ ,Eritrea,24
+ ,Ethiopia,42
+ ,Gabon,8
+ ,Ghana,66
+ ,Gambia,15
+ ,Guinea,53
+ ,Equatorial Guinea,11
+ ,Guinea-Bissau,2
+ ,Israel,539
+ ,British Indian Ocean Territory,0
+ ,Iraq,24
+ ,Iran,221
+ ,Jordan,57
+ ,Kenya,62
+ ,Comoros,6
+ ,Kuwait,263
+ ,Lebanon,32
+ ,Liberia,27
+ ,Lesotho,2
+ ,Libya,63
+ ,Morocco,23
+ ,Madagascar,11
+ ,Mali,260
+ ,Mauritania,7
+ ,Mauritius,101
+ ,Malawi,47
+ ,Mozambique,15
+ ,Namibia,66
+ ,Niger,13
+ ,Nigeria,48
+ ,Oman,404
+ ,Gaza Strip/Palestine/West Bank,56
+ ,Qatar,398
+ ,Reunion,35
+ ,Rwanda,25
+ ,Saudi Arabia,575
+ ,Seychelles,14
+ ,Sudan,57
+ ,St Helena,6
+ ,Sierra Leone,2
+ ,Senegal,9
+ ,Somalia,507
+ ,South Sudan,2
+ ,Sao Tome and Principe,0
+ ,Syria,100
+ ,Eswatini,52
+ ,Chad,85
+ ,Togo,27
+ ,Tunisia,109
+ ,Turkiye,183
+ ,Tanzania,95
+ ,Uganda,28
+ ,"Yemen, Democratic",0
+ ,Yemen,39
+ ,Mayotte,0
+ ,South Africa,3302
+ ,Zambia,30
+ ,Zimbabwe,126
+ ,NOT STATED,13973
+ ,TOTAL ALL COUNTRIES OF RESIDENCE,560032
