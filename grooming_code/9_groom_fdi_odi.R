@@ -55,7 +55,8 @@ dtf_raw <-
 dtf_fdi_odi <- 
    dtf_raw %>% 
    dplyr::select( TimePeriod, CV2, Value) %>%
-   mutate( Year = year(as.yearmon(TimePeriod)) , 
+   mutate( #Year = year(as.yearmon(TimePeriod)) , 
+           Year = TimePeriod ,
            CV2 = as.character( CV2 )  )
 
 ## column for FDI or ODI

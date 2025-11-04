@@ -98,26 +98,64 @@
                 isImportTotal <- (str_detect(as.character(Contents[k,1]), "Imports") &  !str_detect(as.character(Contents[k,1]), "by_Country"))
 
                 # Fix column names
-                if( isExportByCountry & "hs" %in% names(X) ){
+                if( isExportByCountry & ( "Harmonised.System.Code" %in% names(X) | "hs" %in% names(X) )  ){
                    names(X) <- c("Month", "Harmonised.System.Code", "Harmonised.System.Description", "Unit.Qty",
                                  "Country", "Exports...NZD.fob.", "Exports.Qty", "Re.exports...NZD.fob.", "Re.exports.Qty",
                                  "Total.Exports...NZD.fob.", "Total.Exports.Qty", "Status")
+                   
+                   ## factor to numeric
+                   X <- 
+                      X %>%
+                      mutate(`Exports...NZD.fob.` = as.character(`Exports...NZD.fob.`),
+                             `Exports.Qty` = as.character(`Exports.Qty`),
+                             `Re.exports...NZD.fob.` = as.character(`Re.exports...NZD.fob.`),
+                             `Re.exports.Qty` = as.character(`Re.exports.Qty`),
+                             `Total.Exports...NZD.fob.` = as.character(`Total.Exports...NZD.fob.`),
+                             `Total.Exports.Qty` = as.character(`Total.Exports.Qty`)
+                             )
                 }
 
-                if( isImportByCountry & "hs" %in% names(X) ){
+                if( isImportByCountry & ( "Harmonised.System.Code" %in% names(X) | "hs" %in% names(X) ) ){
                    names(X)[1:9] <- c("Month", "Harmonised.System.Code", "Harmonised.System.Description", "Unit.Qty",
                                       "Country", "Imports...NZD.vfd.", "Imports...NZD.cif.", "Imports.Qty", "Status")
+                   
+                   ## factor to numeric
+                   X <- 
+                      X %>%
+                      mutate(`Imports...NZD.vfd.` = as.character(`Imports...NZD.vfd.`),
+                             `Imports...NZD.cif.` = as.character(`Imports...NZD.cif.`),
+                             `Imports.Qty` = as.character(`Imports.Qty`)
+                      )
                 }
 
-                if( isImportTotal & "hs" %in% names(X) ){
+                if( isImportTotal & ( "Harmonised.System.Code" %in% names(X) | "hs" %in% names(X) ) ){
                    names(X)[1:8] <- c("Month", "Harmonised.System.Code", "Harmonised.System.Description", "Unit.Qty",
                                       "Imports...NZD.vfd.", "Imports...NZD.cif.", "Imports.Qty", "Status")
+                   
+                   ## factor to numeric
+                   X <- 
+                      X %>%
+                      mutate(`Imports...NZD.vfd.` = as.character(`Imports...NZD.vfd.`),
+                             `Imports...NZD.cif.` = as.character(`Imports...NZD.cif.`),
+                             `Imports.Qty` = as.character(`Imports.Qty`)
+                      )
                 }
 
-                if( isExportTotal & "hs" %in% names(X) ){
+                if( isExportTotal & ( "Harmonised.System.Code" %in% names(X) | "hs" %in% names(X) ) ){
                    names(X)[1:11] <- c("Month", "Harmonised.System.Code", "Harmonised.System.Description", "Unit.Qty",
                                       "Exports...NZD.fob.", "Exports.Qty", "Re.exports...NZD.fob.", "Re.exports.Qty",
                                       "Total.Exports...NZD.fob.", "Total.Exports.Qty", "Status")
+                   
+                   ## factor to numeric
+                   X <- 
+                      X %>%
+                      mutate(`Exports...NZD.fob.` = as.character(`Exports...NZD.fob.`),
+                             `Exports.Qty` = as.character(`Exports.Qty`),
+                             `Re.exports...NZD.fob.` = as.character(`Re.exports...NZD.fob.`),
+                             `Re.exports.Qty` = as.character(`Re.exports.Qty`),
+                             `Total.Exports...NZD.fob.` = as.character(`Total.Exports...NZD.fob.`),
+                             `Total.Exports.Qty` = as.character(`Total.Exports.Qty`)
+                      )
                 }
                 
                 Commodity_Data[[Commodity_Data_Index]] = X

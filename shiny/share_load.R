@@ -23,7 +23,7 @@ options(spinner.color="#006272")
 library(timevis)
 #library(RCurl)
 #library(jsonlite)
-library(comtradr)
+#library(comtradr)
 library(memoise)
 library(networkD3)
 library(promises)
@@ -31,7 +31,7 @@ library(future)
 #plan(multiprocess)
 
 ### use memoise package for ct_search in comtradr ----
-m_ct_search <- memoise::memoise(ct_search)
+#m_ct_search <- memoise::memoise(ct_search)
 
 ## load functions
 source('helper_funs.R')

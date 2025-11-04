@@ -16,6 +16,20 @@ load("data_intermediate/Imports_By_Country_corrected.rda")
       #Exports_By_Country <- Exports_By_Country[((Exports_By_Country$Country == 'Japan') &
       #                                          year(Exports_By_Country$Date ) == 2014), 
       #                                          !(names(Exports_By_Country) %in% c('Harmonised_System_Description','Total_Exports_NZD_fob', 'Total_Exports_Qty', 'Status'))]
+      Exports_By_Country <-
+         distinct(Exports_By_Country,
+                  Harmonised_System_Code,
+                  Harmonised_System_Description,
+                  Unit_Qty,
+                  Country,
+                  Exports_NZD_fob,
+                  Exports_Qty,
+                  Re_exports_NZD_fob,
+                  Re_exports_Qty,
+                  Total_Exports_NZD_fob,
+                  Total_Exports_Qty,
+                  Status,
+                  Date)
       
       Exports_By_Country <- Exports_By_Country[, !(names(Exports_By_Country) %in% c('Harmonised_System_Description','Total_Exports_NZD_fob', 'Total_Exports_Qty', 'Status'))]
       
@@ -68,6 +82,18 @@ load("data_intermediate/Imports_By_Country_corrected.rda")
                                                                  
       
       #load("data\\Imports_By_Country.rda")
+      Imports_By_Country <-
+         distinct(Imports_By_Country,
+                  Harmonised_System_Code,
+                  Harmonised_System_Description,
+                  Unit_Qty,
+                  Country,
+                  Imports_NZD_vfd,
+                  Imports_NZD_cif,
+                  Imports_Qty,
+                  Status,
+                  Date)
+      
       
       Imports_By_Country <- Imports_By_Country[, !(names(Imports_By_Country) %in% c('Harmonised_System_Description', 'Status', "X", "Imports_NZD_cif"))]
       

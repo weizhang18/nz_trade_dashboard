@@ -14,7 +14,7 @@ source("xxx.Rprofile") # it is necessary to run when start from outside Rstudio,
 
 
 ## Change character ---------------------------
-Current_qtr <- "2023 Q2"   
+Current_qtr <- "2025 Q2"   
 
 output_folder <- paste0("data/", gsub(" ","_", Current_qtr))
 output_folder_shiny <- paste0("data/", gsub(" ","_", Current_qtr), "/shiny")
@@ -41,7 +41,8 @@ file_ppl_in <- "data_raw/ppl_in.csv"  ## Q1 2020 updated
 file_ppl_out <- "data_raw/ppl_out.csv" ## Q1 2020 updated
 #file_stats_nz_trade <- "data_raw/intel_trade_data/international-trade-december-2022-quarter.zip"
 #file_stats_nz_trade <- "data_raw/intel_trade_data/international-trade-march-2023-quarter.csv.zip"
-file_stats_nz_trade <- "data_raw/intel_trade_data/international-trade-june-2023-quarter.zip"
+#file_stats_nz_trade <- "data_raw/intel_trade_data/international-trade-june-2023-quarter.zip"
+file_stats_nz_trade <- "data_raw/intel_trade_data/international-trade-june-2025-quarter.zip"
 
 ###########################################################################
 ## create list of objects to be reserved when cleaning workspace ----------
@@ -110,7 +111,7 @@ gc()
 
 ## generate maps etc for shiny
 ## 1. Two way trade map
-source( 'analysis_code/trade_map_Gplot.R' )
+#source( 'analysis_code/trade_map_Gplot.R' )
 
 
 ## --- Shiny app deployment ---------------
@@ -123,7 +124,7 @@ library(shiny)
 library(rsconnect)
 library(packrat)
 options(browser = "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe")
-detach("package:plyr", unload=TRUE) ## detach packages ----
+try(detach("package:plyr", unload=TRUE)) ## detach packages ----
 
 ## Relative path to the shiny app directory
 shinydir = "shiny"
@@ -137,4 +138,4 @@ deploysuffix = "test"
 # deploysuffix = NULL
 
 ## ----- test locally ------
-runApp('shiny')
+#runApp('shiny')

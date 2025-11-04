@@ -15,7 +15,7 @@ load("data_intermediate/links_zip.rda")
    ##
       #Source_Files <- data.frame(links = as.character(h1$links()))
       Source_Files <- data.frame(links = links_zip  )
-      Source_Files <- data.frame(Trade_Data = unique(Source_Files[str_detect(Source_Files$links, regex("zip", ignore.case = TRUE)),]))
+      Source_Files <- data.frame(Trade_Data = unique(Source_Files[str_detect(Source_Files$links, stringr::regex("zip", ignore_case = TRUE)),]))
      
    ##
    ##    Strip out from the last backslash to identify the filename
