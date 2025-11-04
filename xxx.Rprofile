@@ -13,10 +13,13 @@ Sys.setlocale("LC_TIME", "C")
 options(browser = "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe")
 #.libPaths("P:/R/libraries/3.3.2-20170925")
 Sys.setenv(JAVA_HOME='C:/Program Files/Java/jre1.8.0_361')
+.libPaths(c("C:/Users/Wei/Desktop/4.4.2_test",
+            "C:/Users/Public/R/4.4.2"))
+
 
 ###########################################################################
 ## load R libraries -------------------------------------------------------
-library(plotGoogleMaps)
+#library(plotGoogleMaps)
 #library(plyr)  ## make sure {plyr} is loaded before {dplyr}
 #library(reshape2)
 library(RODBC)
@@ -47,11 +50,11 @@ library(DT)
 library(readxl)
 library(highcharter)
 library(leaflet)
-library(leaflet.minicharts)
+#library(leaflet.minicharts)
 library(rvest)
 library(magrittr)
 library(rjson)
-library(comtradr)
+#library(comtradr)
 library(memoise)
 library(networkD3)
 library(promises)
@@ -65,7 +68,7 @@ library(XML)
 #library(ggmap)
 
 ### use memoise package for ct_search in comtradr ----
-m_ct_search <- memoise::memoise(ct_search)
+#m_ct_search <- memoise::memoise(ct_search)
 
 #library(jsonlite)
 #library("RCurl")
