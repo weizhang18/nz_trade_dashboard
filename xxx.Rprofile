@@ -13,13 +13,12 @@ Sys.setlocale("LC_TIME", "C")
 options(browser = "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe")
 #.libPaths("P:/R/libraries/3.3.2-20170925")
 Sys.setenv(JAVA_HOME='C:/Program Files/Java/jre1.8.0_361')
-.libPaths(c("C:/Users/Wei/Desktop/4.4.2_test",
-            "C:/Users/Public/R/4.4.2"))
+.libPaths(c("C:/Users/Public/R/4.4"))
 
 
 ###########################################################################
 ## load R libraries -------------------------------------------------------
-#library(plotGoogleMaps)
+library(plotGoogleMaps)
 #library(plyr)  ## make sure {plyr} is loaded before {dplyr}
 #library(reshape2)
 library(RODBC)
@@ -54,7 +53,8 @@ library(leaflet)
 library(rvest)
 library(magrittr)
 library(rjson)
-#library(comtradr)
+library(comtradr)
+#Sys.setenv('COMTRADE_PRIMARY' = 'xxxxxxxxxxxxxxxxx')
 library(memoise)
 library(networkD3)
 library(promises)

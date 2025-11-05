@@ -111,7 +111,7 @@ gc()
 
 ## generate maps etc for shiny
 ## 1. Two way trade map
-#source( 'analysis_code/trade_map_Gplot.R' )
+source( 'analysis_code/trade_map_Gplot.R' )
 
 
 ## --- Shiny app deployment ---------------
