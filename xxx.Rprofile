@@ -54,7 +54,7 @@ library(rvest)
 library(magrittr)
 library(rjson)
 library(comtradr)
-#Sys.setenv('COMTRADE_PRIMARY' = 'xxxxxxxxxxxxxxxxx')
+Sys.setenv('COMTRADE_PRIMARY' = '4f9ff80032c3401a89512fe55a0f599e')
 library(memoise)
 library(networkD3)
 library(promises)
@@ -68,7 +68,7 @@ library(XML)
 #library(ggmap)
 
 ### use memoise package for ct_search in comtradr ----
-#m_ct_search <- memoise::memoise(ct_search)
+m_ct_get_data <- memoise::memoise(ct_get_data)
 
 #library(jsonlite)
 #library("RCurl")

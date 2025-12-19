@@ -25,23 +25,45 @@ sankey_uncomtrade <-
       tmp_ex_tot_raw_try <- try(
          tmp_ex_tot_raw <- 
             #get.Comtrade( r = 'all', p ='0' , rg = 2 , cc = cc , fmt = 'csv', ps = max_year)$data
-             m_ct_search( reporters = "All", partners = 'World', trade_direction = c( "exports"), freq = "annual",
-                          commod_codes = cc,
-                          start_date = max_year,
-                          end_date = max_year ) %>%
-            dplyr::select( year, commodity, commodity_code, trade_flow, reporter, reporter_iso, reporter_code, partner, partner_iso, qty_unit,  qty, trade_value_usd) %>%
-            rename( Year = year, 
-                    `Commodity` = commodity ,
-                    `Commodity.Code` = commodity_code ,
-                    `Trade.Flow` = trade_flow,
-                     Reporter = reporter,
+            # m_ct_search( reporters = "All", 
+            #              partners = 'World', 
+            #              trade_direction = c( "exports"), freq = "annual",
+            #              commod_codes = cc,
+            #              start_date = max_year,
+            #              end_date = max_year ) %>%
+            m_ct_get_data( reporter = "all_countries", 
+                           partner = 'World', 
+                           flow_direction = c( "export"), 
+                           frequency  = "A",
+                           commodity_code = cc,
+                           start_date = max_year,
+                           end_date = max_year ) %>%
+            #dplyr::select( year, commodity, commodity_code, trade_flow, reporter, reporter_iso, reporter_code, partner, partner_iso, qty_unit,  qty, trade_value_usd) %>%
+            dplyr::select( period, cmd_desc, cmd_code, flow_desc, reporter_desc, reporter_iso, reporter_code, partner_desc, partner_iso, qty_unit_abbr,  qty, primary_value) %>%
+            # rename( Year = year, 
+            #         `Commodity` = commodity ,
+            #         `Commodity.Code` = commodity_code ,
+            #         `Trade.Flow` = trade_flow,
+            #          Reporter = reporter,
+            #         `Reporter.ISO` =  reporter_iso,
+            #         `Reporter.Code` = reporter_code,
+            #          Partner = partner,
+            #         `Partner.ISO` = partner_iso,
+            #         `Qty.Unit` = qty_unit,
+            #         `Alt.Qty.Unit` = qty,
+            #         `Trade.Value..US..` = trade_value_usd )
+            rename( Year = period, 
+                    `Commodity` = cmd_desc ,
+                    `Commodity.Code` = cmd_code ,
+                    `Trade.Flow` = flow_desc,
+                    Reporter = reporter_desc,
                     `Reporter.ISO` =  reporter_iso,
                     `Reporter.Code` = reporter_code,
-                     Partner = partner,
+                    Partner = partner_desc,
                     `Partner.ISO` = partner_iso,
-                    `Qty.Unit` = qty_unit,
+                    `Qty.Unit` = qty_unit_abbr,
                     `Alt.Qty.Unit` = qty,
-                    `Trade.Value..US..` = trade_value_usd )
+                    `Trade.Value..US..` = primary_value )
       )
       
       if( class(tmp_ex_tot_raw_try) == 'try-error' ){
@@ -52,34 +74,54 @@ sankey_uncomtrade <-
       tmp_ex_eu_extra_raw_try <- try(
          tmp_ex_eu_extra_raw <- 
             #get.Comtrade( r = '97', p ='0' , rg = 2 , cc = cc , fmt = 'csv', ps = max_year)$data
-         m_ct_search( reporters = "EU-28", partners = 'World', trade_direction = c( "exports"), freq = "annual",
-                      commod_codes = cc,
-                      start_date = max_year,
-                      end_date = max_year ) %>%
-            dplyr::select( year, commodity, commodity_code, trade_flow, reporter, reporter_iso, reporter_code, partner, partner_iso, qty_unit,  qty, trade_value_usd) %>%
-            rename( Year = year, 
-                    `Commodity` = commodity ,
-                    `Commodity.Code` = commodity_code ,
-                    `Trade.Flow` = trade_flow,
-                    Reporter = reporter,
+            #m_ct_search( reporters = "EU-28", partners = 'World', trade_direction = c( "exports"), freq = "annual",
+            #          commod_codes = cc,
+            #          start_date = max_year,
+            #          end_date = max_year ) %>%
+            m_ct_get_data( reporter = "EUR", 
+                           partner = 'EUR', 
+                           flow_direction = c( "export"), 
+                           frequency  = "A",
+                           commodity_code = cc,
+                           start_date = max_year,
+                           end_date = max_year ) %>%
+            #dplyr::select( year, commodity, commodity_code, trade_flow, reporter, reporter_iso, reporter_code, partner, partner_iso, qty_unit,  qty, trade_value_usd) %>%
+            dplyr::select( period, cmd_desc, cmd_code, flow_desc, reporter_desc, reporter_iso, reporter_code, partner_desc, partner_iso, qty_unit_abbr,  qty, primary_value,classification_code) %>%
+            # rename( Year = year, 
+            #         `Commodity` = commodity ,
+            #         `Commodity.Code` = commodity_code ,
+            #         `Trade.Flow` = trade_flow,
+            #         Reporter = reporter,
+            #         `Reporter.ISO` =  reporter_iso,
+            #         `Reporter.Code` = reporter_code,
+            #         Partner = partner,
+            #         `Partner.ISO` = partner_iso,
+            #         `Qty.Unit` = qty_unit,
+            #         `Alt.Qty.Unit` = qty,
+            #         `Trade.Value..US..` = trade_value_usd ) %>% 
+            rename( Year = period, 
+                    `Commodity` = cmd_desc ,
+                    `Commodity.Code` = cmd_code ,
+                    `Trade.Flow` = flow_desc,
+                    Reporter = reporter_desc,
                     `Reporter.ISO` =  reporter_iso,
                     `Reporter.Code` = reporter_code,
-                    Partner = partner,
+                    Partner = partner_desc,
                     `Partner.ISO` = partner_iso,
-                    `Qty.Unit` = qty_unit,
+                    `Qty.Unit` = qty_unit_abbr,
                     `Alt.Qty.Unit` = qty,
-                    `Trade.Value..US..` = trade_value_usd )
+                    `Trade.Value..US..` = primary_value )
       )
       
-      if( !tmp_ex_eu_extra_raw$Classification %in% c('H1',"H2", "H4","H6") ){
+      if( !tmp_ex_eu_extra_raw$classification_code %in% c('H1',"H2", "H4","H6") ){
          print("------------- EU28 export data NOT available ----------------")
          tmp_ex_eu_extra_raw$Year <- unique(tmp_ex_tot_raw$Year )
          tmp_ex_eu_extra_raw$Trade.Flow <- unique(tmp_ex_tot_raw$Trade.Flow)
-         tmp_ex_eu_extra_raw$Reporter <- "EU-28"
-         tmp_ex_eu_extra_raw$Reporter.ISO <- "EU2"
+         tmp_ex_eu_extra_raw$Reporter <- "European Union"
+         tmp_ex_eu_extra_raw$Reporter.ISO <- "EUR"
          tmp_ex_eu_extra_raw$Reporter.Code <- 97
          tmp_ex_eu_extra_raw$Partner <- "World"
-         tmp_ex_eu_extra_raw$Partner.ISO <- "WLD"
+         tmp_ex_eu_extra_raw$Partner.ISO <- "W00"
          tmp_ex_eu_extra_raw$Commodity.Code <- unique(tmp_ex_tot_raw$Commodity.Code)
          tmp_ex_eu_extra_raw$Commodity <- unique(tmp_ex_tot_raw$Commodity)[1]
          tmp_ex_eu_extra_raw$Qty.Unit <- unique(tmp_ex_tot_raw$Qty.Unit)[1]
@@ -96,14 +138,14 @@ sankey_uncomtrade <-
                 )
       
       ## 4. put all EU28 countries together and later no there will be EU28 internal trade shown
-      if( tmp_ex_eu_extra_raw$Classification %in% c('H1',"H2", "H4","H6")  ){
+      if( tmp_ex_eu_extra_raw$classification_code %in% c('H1',"H2", "H4","H6")  ){
          tmp_ex_tot_withEU <- 
             tmp_ex_tot %>%
-            mutate( Reporter = ifelse( Reporter.ISO %in% concord_eu28$ISO3, "EU-28", Reporter ) ) %>%
-            mutate( Reporter.ISO = ifelse( Reporter == "EU-28", "EU2" , Reporter.ISO )  ) %>%
-            mutate( Reporter.Code = ifelse( Reporter == "EU-28", 97 , Reporter.Code )   ) %>%
-            mutate( Partner = ifelse( Reporter == "EU-28", "World" , Partner )   ) %>%
-            mutate( Partner.ISO = ifelse( Reporter == "EU-28", "WLD" , Partner.ISO )   ) %>%
+            mutate( Reporter = ifelse( Reporter.ISO %in% concord_eu27$ISO3, "European Union", Reporter ) ) %>%
+            mutate( Reporter.ISO = ifelse( Reporter == "European Union", "EUR" , Reporter.ISO )  ) %>%
+            mutate( Reporter.Code = ifelse( Reporter == "European Union", 97 , Reporter.Code )   ) %>%
+            mutate( Partner = ifelse( Reporter == "European Union", "World" , Partner )   ) %>%
+            mutate( Partner.ISO = ifelse( Reporter == "European Union", "WOO" , Partner.ISO )   ) %>%
             group_by(  Year, Reporter,Reporter.ISO,Reporter.Code, Partner,Partner.ISO, Commodity.Code, Commodity ,Trade.Flow, Qty.Unit ) %>%
             summarise(  Alt.Qty.Unit = sum( as.numeric(Alt.Qty.Unit), na.rm=T),
                         `Trade.Value..US..` = sum(  as.numeric(`Trade.Value..US..`), na.rm = T )
@@ -134,7 +176,7 @@ sankey_uncomtrade <-
       ## 6. Split EU exporto WLD and Intra-EU
       tmp_ex_eu_all <- 
          tmp_ex_tot_withEU %>%
-         filter( Reporter == "EU-28" )
+         filter( Reporter == "European Union" )
       
       ## 7. split into eu intra trade and extra trade
       tmp_ex_eu_intra <- 
@@ -146,8 +188,8 @@ sankey_uncomtrade <-
                  `Trade.Value..US..` =  `Trade.Value..US...x` - `Trade.Value..US...y` ) %>%
          dplyr::select( -Alt.Qty.Unit.x, -Alt.Qty.Unit.y, 
                         -`Trade.Value..US...x`,  -`Trade.Value..US...y`) %>%
-         mutate( Partner = "EU-28", 
-                 Partner.ISO = "EU2")
+         mutate( Partner = "European Union", 
+                 Partner.ISO = "EUR")
       
       ## 8. Eu export now splited into Extra-EU (to the world) and Intra-EU (within EU)
       tmp_ex_eu_split <- 
