@@ -8854,3 +8854,256 @@ TimePeriod,Country,TOTAL ALL TRAVEL PURPOSES
 " ","Zimbabwe",259
 " ","NOT STATED",13168
 " ","TOTAL ALL COUNTRIES OF MAIN DESTINATION",733934
+"2025Q3","OCEANIA",486633
+" ","Antarctica",44
+" ","Samoa, American",250
+" ","Australia",336955
+" ","Cocos (Keeling) Islands",2
+" ","Cook Islands",37887
+" ","Christmas Island",3
+" ","Fiji",71948
+" ","Micronesia, Federated States of",45
+" ","Guam",39
+" ","Kiribati",267
+" ","Marshall Islands",29
+" ","Northern Mariana Islands",18
+" ","New Caledonia",748
+" ","Norfolk Island",48
+" ","Nauru",75
+" ","Niue",2594
+" ","New Zealand",0
+" ","French Polynesia",3522
+" ","Papua New Guinea",902
+" ","Pitcairn",3
+" ","Palau",101
+" ","Solomon Islands",554
+" ","French Southern Territories",0
+" ","Tokelau",40
+" ","Tonga",8119
+" ","Tuvalu",134
+" ","Vanuatu",1981
+" ","Wallis and Futuna",8
+" ","Samoa",20317
+" ","ASIA",170484
+" ","Afghanistan",292
+" ","Armenia",27
+" ","Azerbaijan",23
+" ","Bangladesh",332
+" ","Brunei Darussalam",80
+" ","Bhutan",13
+" ","China, People's Republic of",33627
+" ","Georgia",75
+" ","Hong Kong (Special Administrative Region)",3053
+" ","Indonesia",37500
+" ","India",15720
+" ","Japan",17024
+" ","Kyrgyzstan",96
+" ","Cambodia",961
+" ","Korea, Democratic People's Republic of",17
+" ","Korea, Republic of",5326
+" ","Kazakhstan",128
+" ","Laos",113
+" ","Sri Lanka",3705
+" ","Burma (Myanmar)",21
+" ","Mongolia",218
+" ","Macau (Special Administrative Region)",82
+" ","Maldives",305
+" ","Malaysia",6184
+" ","Nepal",416
+" ","Philippines",12911
+" ","Pakistan",397
+" ","Singapore",6279
+" ","Thailand",13530
+" ","Tajikistan",24
+" ","Timor-Leste",50
+" ","Turkmenistan",5
+" ","Taiwan",2504
+" ","Uzbekistan",119
+" ","Viet Nam",9327
+" ","EUROPE",108378
+" ","Andorra",34
+" ","Albania",132
+" ","Austria",889
+" ","Bosnia and Herzegovina",56
+" ","Belgium",628
+" ","Bulgaria",248
+" ","Belarus",25
+" ","Switzerland",1691
+" ","Czechoslovakia",0
+" ","Cyprus",99
+" ","Czechia",986
+" ","Germany, Democratic Republic of",0
+" ","Germany",6701
+" ","Denmark",961
+" ","Estonia",116
+" ","Spain",4881
+" ","Finland",552
+" ","Faeroe Islands",16
+" ","France",9613
+" ","United Kingdom",47299
+" ","Gibraltar",10
+" ","Greenland",32
+" ","Greece",3884
+" ","Croatia",2335
+" ","Hungary",553
+" ","Ireland",3765
+" ","Iceland",233
+" ","Italy",12137
+" ","Kosovo",86
+" ","Liechtenstein",3
+" ","Lithuania",133
+" ","Luxembourg",20
+" ","Latvia",125
+" ","Monaco",21
+" ","Moldova",33
+" ","Montenegro",60
+" ","North Macedonia",154
+" ","Malta",157
+" ","Netherlands",3116
+" ","Norway",1002
+" ","Poland",758
+" ","Portugal",1512
+" ","Romania",441
+" ","Serbia",316
+" ","Russia",915
+" ","Sweden",1170
+" ","Slovenia",203
+" ","Slovakia",204
+" ","San Marino",0
+" ","Union of Soviet Socialist Republics",0
+" ","Ukraine",66
+" ","Vatican City State",7
+" ","Yugoslavia/Serbia and Montenegro",0
+" ","AMERICAS",63441
+" ","Antigua and Barbuda",8
+" ","Anguilla",42
+" ","Netherlands Antilles",0
+" ","Argentina",919
+" ","Aruba",7
+" ","Barbados",27
+" ","Bermuda",37
+" ","Bolivia",55
+" ","Brazil",1643
+" ","Bahamas",26
+" ","Belize",17
+" ","Canada",13234
+" ","Chile",709
+" ","Colombia",479
+" ","Costa Rica",143
+" ","Cuba",8
+" ","Curacao",2
+" ","Dominica",1
+" ","Dominican Republic",21
+" ","Ecuador",146
+" ","Falkland Islands",4
+" ","Grenada",4
+" ","French Guiana",2
+" ","Guadeloupe",1
+" ","South Georgia and the South Sandwich Islands",0
+" ","Guatemala",38
+" ","Guyana",20
+" ","Honduras",8
+" ","Haiti",2
+" ","Jamaica",25
+" ","St Kitts and Nevis",1
+" ","Cayman Islands",51
+" ","St Lucia",3
+" ","Martinique",0
+" ","Montserrat",0
+" ","Mexico",1137
+" ","Nicaragua",27
+" ","Panama",31
+" ","Peru",717
+" ","St Pierre and Miquelon",1
+" ","Puerto Rico",17
+" ","Paraguay",18
+" ","Suriname",3
+" ","El Salvador",37
+" ","St Maarten (Dutch Part)",2
+" ","Turks and Caicos Islands",4
+" ","Trinidad and Tobago",29
+" ","United States Minor Outlying Islands",0
+" ","United States of America",43604
+" ","Uruguay",109
+" ","St Vincent and the Grenadines",5
+" ","Venezuela",8
+" ","Virgin Islands, British",9
+" ","Virgin Islands, United States",0
+" ","AFRICA AND THE MIDDLE EAST",14143
+" ","United Arab Emirates",1480
+" ","Angola",58
+" ","Burkina Faso",13
+" ","Bahrain",32
+" ","Burundi",5
+" ","Benin",6
+" ","Botswana",280
+" ","Congo, the Democratic Republic of the",4
+" ","Central African Republic",39
+" ","Congo",3
+" ","Cote d'Ivoire",10
+" ","Cameroon",4
+" ","Cabo Verde",0
+" ","Djibouti",0
+" ","Algeria",24
+" ","Egypt",479
+" ","Western Sahara",0
+" ","Eritrea",6
+" ","Ethiopia",45
+" ","Gabon",10
+" ","Ghana",58
+" ","Gambia",2
+" ","Guinea",12
+" ","Equatorial Guinea",2
+" ","Guinea-Bissau",0
+" ","Israel",182
+" ","British Indian Ocean Territory",10
+" ","Iraq",198
+" ","Iran",221
+" ","Jordan",252
+" ","Kenya",454
+" ","Comoros",0
+" ","Kuwait",91
+" ","Lebanon",94
+" ","Liberia",2
+" ","Lesotho",1
+" ","Libya",21
+" ","Morocco",262
+" ","Madagascar",49
+" ","Mali",3
+" ","Mauritania",1
+" ","Mauritius",170
+" ","Malawi",26
+" ","Mozambique",8
+" ","Namibia",305
+" ","Niger",3
+" ","Nigeria",66
+" ","Oman",81
+" ","Gaza Strip/Palestine/West Bank",5
+" ","Qatar",172
+" ","Reunion",4
+" ","Rwanda",33
+" ","Saudi Arabia",261
+" ","Seychelles",11
+" ","Sudan",4
+" ","St Helena",1
+" ","Sierra Leone",10
+" ","Senegal",9
+" ","Somalia",22
+" ","South Sudan",23
+" ","Sao Tome and Principe",0
+" ","Syria",91
+" ","Eswatini",10
+" ","Chad",12
+" ","Togo",5
+" ","Tunisia",22
+" ","Turkiye",2374
+" ","Tanzania",460
+" ","Uganda",96
+" ","Yemen, Democratic",0
+" ","Yemen",3
+" ","Mayotte",1
+" ","South Africa",4879
+" ","Zambia",160
+" ","Zimbabwe",403
+" ","NOT STATED",17969
+" ","TOTAL ALL COUNTRIES OF MAIN DESTINATION",861048
