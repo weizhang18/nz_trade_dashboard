@@ -13,6 +13,7 @@ Sys.setlocale("LC_TIME", "C")
 options(browser = "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe")
 #.libPaths("P:/R/libraries/3.3.2-20170925")
 Sys.setenv(JAVA_HOME='C:/Program Files/Java/jre1.8.0_361')
+Sys.setenv(JAVA_HOME='C:/Program Files/Java/jre1.8.0_471')
 .libPaths(c("C:/Users/Public/R/4.4"))
 
 

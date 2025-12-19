@@ -42,7 +42,9 @@ file_ppl_out <- "data_raw/ppl_out.csv" ## Q1 2020 updated
 #file_stats_nz_trade <- "data_raw/intel_trade_data/international-trade-december-2022-quarter.zip"
 #file_stats_nz_trade <- "data_raw/intel_trade_data/international-trade-march-2023-quarter.csv.zip"
 #file_stats_nz_trade <- "data_raw/intel_trade_data/international-trade-june-2023-quarter.zip"
-file_stats_nz_trade <- "data_raw/intel_trade_data/international-trade-june-2025-quarter.zip"
+#file_stats_nz_trade <- "data_raw/intel_trade_data/international-trade-june-2025-quarter.zip"
+file_stats_nz_trade <- "data_raw/intel_trade_data/international-trade-september-2025-quarter.zip"
+
 
 ###########################################################################
 ## create list of objects to be reserved when cleaning workspace ----------
