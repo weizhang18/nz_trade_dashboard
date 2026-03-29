@@ -14,7 +14,7 @@ source("xxx.Rprofile") # it is necessary to run when start from outside Rstudio,
 
 
 ## Change character ---------------------------
-Current_qtr <- "2025 Q3"   
+Current_qtr <- "2025 Q4"   
 
 output_folder <- paste0("data/", gsub(" ","_", Current_qtr))
 output_folder_shiny <- paste0("data/", gsub(" ","_", Current_qtr), "/shiny")
